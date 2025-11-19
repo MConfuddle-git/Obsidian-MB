@@ -60,25 +60,27 @@ $\sqrt[m]{\sqrt[n]{x}}=\sqrt[m\cdot n]{x}$
 $y=f\left(x\right)=mx+b$
 
 Steigung: $m=\frac{y-y_0}{x-x_0}$
-
 ## Quadratische Funktionen
 
 $f\left(x\right)=ax^2+bx+c$
 
-a = Öffnungsparameter
-Für a > 0 ist die Parabel nach oben geöffnet; für a < 0 ist sie nach unten geöffnet. 
+a = Öffnungsparameter, a > 0 ist die Parabel nach oben geöffnet; für a < 0 ist sie nach unten geöffnet. 
 Für |a| > 1 ist die Parabel enger als die Normalparabel; 
 für 0 < |a| < 1 ist sie weiter geöffnet als die Normalparabel.
 $y=f\cdot\left(x-1\right)$ nach rechts verschoben!
 $y=f\cdot\left(x+1\right)$ nach links verschoben!
 
-### Scheitel
-Quadratische Ergänzung:
+Scheitelform: $f\left(x\right)=a\left(x^{}-b\right)^2+c$
+Punkt (b, c) = Scheitel
+a > 0 = globales Minimum 
+a < globales Maximum
 
-Differentialrechnung:
+Scheitel ermitteln mit Differentialrechnung:
+f'(x) nach x auflösen und Ergebnis für x einsetzen.
+Beide Werte in die Scheitelform einsetzen.
 
-### Nullstellen:
-Mitternachtsformel: $x_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
+Nullstellen ermitteln mit der Mitternachtformel:
+$x_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
 Eine quadratische Gleichung hat 0 ($D>0$), 1 ($D=0$) oder 2 ($D<0$) reelle Lösungen, abhängig von der Diskriminante $D=b^2-4ac$ .
 
 # Trigonometrische Funktionen
