@@ -45,7 +45,7 @@ $\left(\sqrt[n]{x}\right)^{m}=\sqrt[n]{x^{m}}^{}$
 >[!cue] Radizieren
 
 $\sqrt[m]{\sqrt[n]{x}}=\sqrt[m\cdot n]{x}$
-# . .Differential- & Integralrechnung
+# Differential- & Integralrechnung
 
 
 # Reelle Funktionen
