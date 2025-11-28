@@ -6,7 +6,7 @@ cssclasses:
 # Potenzgesetze
 $n^5=n\cdot n\cdot n\cdot n\cdot n$
 **Basis** n und der **Exponent** **5**.
-
+ Test
 >[!cue] Multiplikation
 
 $x^{a}\cdot x^{b}=x^{a+b}$ 
