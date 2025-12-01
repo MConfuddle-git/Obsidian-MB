@@ -1,0 +1,35 @@
+- [x] CAD Zeichnungen #project/CAD-1 🛫 2025-10-06 02:00 📅 2026-02-02 01:00 ✅ 2025-11-30
+- [x] Chemie - Übungsaufgaben - Kapitel 1 🛫 2025-11-30 📅 2026-02-01 #project/Physik-1 ✅ 2025-11-30
+- [x] Chemie - Übungsaufgaben - Kapitel 2 🛫 2025-11-30 #project/Physik-1 📅 2026-01-31 ✅ 2025-11-30
+- [/] Chemie - Übungsaufgaben - Kapitel 3 #project/Physik-1 🛫 2025-11-30 📅 2026-01-30
+- [ ] Physik - Formelsammlung #project/Physik-1 🛫 2025-11-30  📅 2026-01-29
+- [x] Physik - Eingangstest A 🛫 2025-11-30 #project/Physik-1 📅 2025-12-14 ✅ 2025-11-30
+- [x] Physik - Eingangstest B 🛫 2025-11-30 #project/Physik-1 📅 2025-12-14 ✅ 2025-11-30
+- [/] Physik - Eingangstest C #project/Physik-1 🛫 2025-11-30 📅 2025-12-14
+- [x] Eingangstest A 🛫 2025-11-30 #project/Mathe-1 📅 2025-12-14 ✅ 2025-11-30
+- [/] Eingangstest B #project/Mathe-1 🛫 2025-11-30 📅 2025-12-14
+- [/] Eingangstest C 🛫 2025-11-30 📅 2025-12-14
+- [/] Formelsammlung #project/Mathe-1 🛫 2025-11-30 📅 2026-02-01
+- [ ] Anmeldung Klausur 🛫 2025-11-16 📅 2025-12-14  🔺 #project/Mathe-1
+- [ ] Klausur 🔺 #project/Mathe-1
+- [ ] Klausur Physik 🔺 #project/Physik-1
+- [ ] Anmeldung Klausur Physik 🛫 2025-11-16 📅 2025-12-14 🔺 #project/Physik-1
+- [ ] Test zu Kapitel 5 📅 2025-12-15 ⏫ #project/Mathe-1
+- [x] Test zu Kapitel 4 16/20 📅 2025-11-24 ⏫ #project/Mathe-1  ✅ 2025-11-30
+- [x] Test zu Kapitel 3 19/20 ⏫ #project/Mathe-1  ✅ 2025-11-30
+- [x] Test zu Kapitel 2 18/20  ⏫ #project/Mathe-1  ✅ 2025-11-30
+- [x] Test zu Kapitel 1 19.5/20   ⏫ #project/Mathe-1  ✅ 2025-11-30
+- [ ] Visualisierung Entwurf #project/CAD-1
+- [x] CAD Modelle #project/CAD-1 🛫 2025-10-06  📅 2026-02-02 
+- [x] CAD Baugruppe #project/CAD-1 🛫 2025-10-06 02:00 📅 2026-02-02 01:00 ✅ 2025-11-30
+- [ ] Formelsammlung #project/TM-1 📅 2026-02-02
+- [ ] Anmeldung Entwurf 📅 2025-12-14 #project/CAD-1
+- [ ] Scheinklausur Chemie #project/Physik-1
+- [ ] Anmeldung Chemie #project/Physik-1 📅 2025-12-14 01:00
+- [ ] Klausur #project/TM-1
+- [ ] Anmeldung Klausur 📅 2025-12-14 #project/TM-1
+- [ ] Zusammenfassung #project/Werkstoffkunde-1
+- [ ] Anmeldung Klausur 🛫 2025-11-16 📅 2025-12-14 🔺 #project/Werkstoffkunde-1
+- [ ] Klausur 🔺 #project/Werkstoffkunde-1
+- [ ] Anmeldung Klausur #project/Konstruktion-1 🔺 🛫 2025-11-16 📅 2025-12-14 
+- [ ] Klausur 🔺 #project/Konstruktion-1
