@@ -131,3 +131,17 @@
 4. Wie verändert sich die elektrische Leitfähigkeit in Abhängigkeit der Temperatur? 
 5. Wie unterscheiden sich Leiter, Halbleiter und Isolatoren? 
 6. Was ist ein Elektronengas?
+## 3 - Zwischenmolekulare Kräfte
+1. Wie unterscheiden sich zwischenmolekulare Kräfte von intermolekularen Kräften? 
+2. Wovon hängt die Stärke von van-der-Waals Kräften ab? 
+3. Was ist ein induzierter Dipol und wie kommt er zustande? 
+4. Welche Voraussetzungen müssen für H-Brückenbindungen erfüllt sein? 
+5. Welche Kräfte wirken bei unpolaren Molekülen? 
+6. Worauf beruht der Grundsatz „Ähnliches löst sich in Ähnlichem“?
+
+## 4 - Chemische Reaktionen und Stöchiometrie
+1. Was besagt das Gesetz zur Erhaltung der Masse? 
+2. Warum sind stöchiometrische Faktoren bei chemischen Reaktionen wichtig und wie werden sie bestimmt? 
+3. Wie hängen Stoffmenge, Masse und molare Masse zusammen? 
+4. Wie unterscheiden sich unterschiedliche Konzentrationsangaben? Welche Angabe ist in der Chemie am wichtigsten und warum? 
+5. Was besagt das ideale Gasgesetz?
