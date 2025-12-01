@@ -111,7 +111,6 @@ Vektor $\overrightarrow{a}$ genau dann ein Einheitsvektor, wenn $\left\vert\over
 Das Skalarprodukt der Vektoren $\overrightarrow{a},\overrightarrow{b}\ne\overrightarrow{0}$ ist definiert als $\overrightarrow{a}\circ\overrightarrow{b}\colon=\left\vert\overrightarrow{a}\right\vert\circ\left\vert\overrightarrow{b}\right\vert\cdot\cos\left(\overrightarrow{a},\overrightarrow{b}\right)$
 $\overrightarrow{a}=\overrightarrow{0}$ oder $\overrightarrow{b}=\overrightarrow{0}$ , setzt man $\overrightarrow{a}\circ\overrightarrow{b}=0$
 
-
 >[!cue] Positivität
 
 $\overrightarrow{a}\circ\overrightarrow{a}>0,falls:\overrightarrow{a}\ne\overrightarrow{0}$
@@ -124,3 +123,5 @@ $\lambda\left(\overrightarrow{a}\circ\overrightarrow{b}\right)=\left(\lambda\cdo
 >[!cue] Distributivgesetz
 
 $\overrightarrow{a}\circ\left(\overrightarrow{b}+\overrightarrow{c}\right)=\overrightarrow{a}\circ\overrightarrow{b}+\overrightarrow{a}\circ\overrightarrow{c}$
+
+![[Pasted image 20251201195949.png]]
