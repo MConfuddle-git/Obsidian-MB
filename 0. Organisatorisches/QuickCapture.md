@@ -30,6 +30,6 @@
 - [x] Anmeldung Klausur 📅 2025-12-14 #project/TM-1 ✅ 2025-12-01
 - [ ] Zusammenfassung #project/Werkstoffkunde-1
 - [x] Anmeldung Klausur 🛫 2025-11-16 📅 2025-12-14 🔺 #project/Werkstoffkunde-1 ✅ 2025-12-01
-- [ ] Klausur 🔺 #project/Werkstoffkunde-1
+- [ ] Klausur (keine Hilfsmittel) 🔺 #project/Werkstoffkunde-1
 - [x] Anmeldung Klausur #project/Konstruktion-1 🔺 🛫 2025-11-16 📅 2025-12-14  ✅ 2025-12-01
 - [ ] Klausur 🔺 #project/Konstruktion-1
