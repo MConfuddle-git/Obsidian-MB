@@ -134,5 +134,17 @@ Hochlegiert heißt,wenn mindestens 1 Legierungselement > 5% vorliegt.
 Edelstahl ≠ hochlegiert Stahl, stattdessen Grad der Verunreinigung (S, P ≤ 0,025%)
 Nichtrostender Stahl, Cr-Anteil > 10,5 - 12% führt zu Bildung einer Passivierungsschicht 
 
-S355J2 + N
-Re ≥ 355N/mm2 
+Einteilung in Grundzügn lernen bsp.
+S355J2 + N 
+S = Structural Steel
+Re ≥ 355N/mm2
+J2 = Kerbschlagarbeit 27J
+N = normalgeglüht 
+
+Nach der Zusammensetzung
+Unlegierter Stahl C15 = C~0,15 (15/100) und Mu < 1%
+Hochlegierter Stahl X5CrNi18-8
+X=Hochlegiert C~0,05% Cr18% Ni8%
+Niedriglegierter Stahl 42CrMo4
+C~0,42% Cr 4/4 ~ 1% (Multiplikationsfaktoren) Mo: Spuren
+(Merksatz: *W*o *si*eht *m*a*n* das *Cr*o*co*dil am *Ni*l es hat 4 Beine.)
