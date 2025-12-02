@@ -125,5 +125,13 @@ Problem: Löslichkeit von N2 und O2 > Temperaturabhängige Löslichkeit der Schm
 Lösung: Hinzufügen von Silicium oder Aluminium > Impfkeime
 
 Unberuhigt vergossener Stahl > Poren bzw. Hohlräume da N2 bzw. O2 entweicht
-Beruhigt vergossener Stahl > Zugabe Al und Si (Impfkeime) > Abbinden von elementaren O2 bzw. N2
+(Voll-)Beruhigt vergossener Stahl > Zugabe Al und Si (Impfkeime) > Abbinden von elementaren O2 bzw. N2
 
+## Einteilung & Bezeichnung der Stähle 
+
+Legierte Stähle
+Hochlegiert heißt,wenn mindestens 1 Legierungselement > 5% vorliegt.
+Edelstahl ≠ hochlegiert Stahl, stattdessen Grad der Verunreinigung (S, P ≤ 0,025%)
+Nichtrostender Stahl, Cr-Anteil > 10,5 - 12% führt zu Bildung einer Passivierungsschicht 
+
+S355
