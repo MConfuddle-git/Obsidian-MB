@@ -108,5 +108,11 @@ Die wichtigsten Eindringhärteprüfverfahren sind:
 
 # 3.1. Aufbau metallischer Werkstoffe
 
+## Stahlwerkstoffe
+
 Hochofenprozess beschreiben
+
+Koks Verwendungszweck 
+
+Edelstahl Begriffsdefinition 
 
