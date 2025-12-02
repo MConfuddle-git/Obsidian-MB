@@ -140,6 +140,11 @@
 6. Worauf beruht der Grundsatz „Ähnliches löst sich in Ähnlichem“?
 
 ## 4 - Chemische Reaktionen und Stöchiometrie
+Edukte > Produkte
+aA(s) + bB(l) > Reaktionsbedingungen (p, T, kat) > cC(s) + dD(s)
+
+
+
 1. Was besagt das Gesetz zur Erhaltung der Masse? 
 2. Warum sind stöchiometrische Faktoren bei chemischen Reaktionen wichtig und wie werden sie bestimmt? 
 3. Wie hängen Stoffmenge, Masse und molare Masse zusammen? 
