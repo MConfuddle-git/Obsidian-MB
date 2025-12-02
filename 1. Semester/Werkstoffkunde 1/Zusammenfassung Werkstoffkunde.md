@@ -121,6 +121,7 @@ Rohstahl > Sekundärmetallurgie (Legierten, Reinheitsgrad erhöhen durch z.B. Va
 Stahl
 
 Vergießen von Stahl
-Problem: Löslichkeit von N2
+Problem: Löslichkeit von N2 und O2 > Temperaturabhängige Löslichkeit der Schmelze
+Lösung: Hinzufügen von Silicium oder Aluminium > Impfkö
 
  Beruhigt / unberuhigt vergossener Stahl
