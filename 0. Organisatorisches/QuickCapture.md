@@ -24,7 +24,7 @@
 - [x] CAD Baugruppe #project/CAD-1 🛫 2025-10-06 02:00 📅 2026-02-02 01:00 ✅ 2025-11-30
 - [ ] Formelsammlung #project/TM-1 📅 2026-02-02
 - [x] Anmeldung Entwurf 📅 2025-12-14 #project/CAD-1 ✅ 2025-12-01
-- [ ] Scheinklausur Chemie (1-2 Formelsammlungen) #project/Physik-1
+- [ ] Scheinklausur Chemie (1-2 SeitenFormelsammlungen) #project/Physik-1
 - [x] Anmeldung Chemie #project/Physik-1 📅 2025-12-14 01:00 ✅ 2025-12-01
 - [ ] Klausur #project/TM-1
 - [x] Anmeldung Klausur 📅 2025-12-14 #project/TM-1 ✅ 2025-12-01
