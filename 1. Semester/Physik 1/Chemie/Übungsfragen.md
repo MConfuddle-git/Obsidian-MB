@@ -146,7 +146,7 @@ aA(s) + bB(l) > Reaktionsbedingungen (p, T, kat) > cC(s) + dD(s)
 Stoffmenge n beschreibt die Anzahl der Teilchen (Atome oder Moleküle) = 1mol
 Molare Masse M gibt die Information bezüglich der Masse eines Mols eines Mols eines Stoffes.
 
-Dreieck einzeichnen
+- [ ] Dreieck einzeichnen
 
 1. Was besagt das Gesetz zur Erhaltung der Masse? 
 2. Warum sind stöchiometrische Faktoren bei chemischen Reaktionen wichtig und wie werden sie bestimmt? 
