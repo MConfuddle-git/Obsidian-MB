@@ -143,7 +143,7 @@
 Edukte > Produkte
 aA(s) + bB(l) > Reaktionsbedingungen (p, T, kat) > cC(s) + dD(s)
 
-
+Stoffmenge n beschreibt die Anzahl der Teilchen = 1mol
 
 1. Was besagt das Gesetz zur Erhaltung der Masse? 
 2. Warum sind stöchiometrische Faktoren bei chemischen Reaktionen wichtig und wie werden sie bestimmt? 
