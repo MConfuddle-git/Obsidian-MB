@@ -124,4 +124,4 @@ Vergießen von Stahl
 Problem: Löslichkeit von N2 und O2 > Temperaturabhängige Löslichkeit der Schmelze
 Lösung: Hinzufügen von Silicium oder Aluminium > Impfkörner
 
- Beruhigt / unberuhigt vergossener Stahl
+ Unberuhigt vergossener Stahl > Poren bzw. Hohlräume da N2
