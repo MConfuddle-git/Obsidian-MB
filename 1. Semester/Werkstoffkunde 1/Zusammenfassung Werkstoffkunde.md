@@ -134,4 +134,5 @@ Hochlegiert heißt,wenn mindestens 1 Legierungselement > 5% vorliegt.
 Edelstahl ≠ hochlegiert Stahl, stattdessen Grad der Verunreinigung (S, P ≤ 0,025%)
 Nichtrostender Stahl, Cr-Anteil > 10,5 - 12% führt zu Bildung einer Passivierungsschicht 
 
-S355
+S355J2 + N
+Re ≥ 3
