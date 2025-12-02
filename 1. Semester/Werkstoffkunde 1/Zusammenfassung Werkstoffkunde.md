@@ -135,4 +135,4 @@ Edelstahl ≠ hochlegiert Stahl, stattdessen Grad der Verunreinigung (S, P ≤ 0
 Nichtrostender Stahl, Cr-Anteil > 10,5 - 12% führt zu Bildung einer Passivierungsschicht 
 
 S355J2 + N
-Re ≥ 3
+Re ≥ 355N/mm2 
