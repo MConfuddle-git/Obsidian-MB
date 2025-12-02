@@ -146,10 +146,17 @@ aA(s) + bB(l) > Reaktionsbedingungen (p, T, kat) > cC(s) + dD(s)
 Stoffmenge n beschreibt die Anzahl der Teilchen (Atome oder Moleküle) = 1mol
 Molare Masse M gibt die Information bezüglich der Masse eines Mols eines Mols eines Stoffes.
 
-Dreieck einzeichnen
+Formeldreieck einzeichnen
 
-1. Was besagt das Gesetz zur Erhaltung der Masse? 
-2. Warum sind stöchiometrische Faktoren bei chemischen Reaktionen wichtig und wie werden sie bestimmt? 
-3. Wie hängen Stoffmenge, Masse und molare Masse zusammen? 
-4. Wie unterscheiden sich unterschiedliche Konzentrationsangaben? Welche Angabe ist in der Chemie am wichtigsten und warum? 
-5. Was besagt das ideale Gasgesetz?
+1. Reaktionsgleichung aufstellen und ausgleichen
+2. Gegeben & Gesucht
+3. Molare Massen 
+4. Stoffmengen & -verhältnisse 
+5. Massebestimmung 
+
+
+6. Was besagt das Gesetz zur Erhaltung der Masse? 
+7. Warum sind stöchiometrische Faktoren bei chemischen Reaktionen wichtig und wie werden sie bestimmt? 
+8. Wie hängen Stoffmenge, Masse und molare Masse zusammen? 
+9. Wie unterscheiden sich unterschiedliche Konzentrationsangaben? Welche Angabe ist in der Chemie am wichtigsten und warum? 
+10. Was besagt das ideale Gasgesetz?
