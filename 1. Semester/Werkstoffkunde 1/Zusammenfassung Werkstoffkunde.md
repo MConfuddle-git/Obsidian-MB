@@ -126,3 +126,4 @@ Lösung: Hinzufügen von Silicium oder Aluminium > Impfkeime
 
 Unberuhigt vergossener Stahl > Poren bzw. Hohlräume da N2 bzw. O2 entweicht
 Beruhigt vergossener Stahl > Zugabe Al und Si (Impfkeime) > Abbinden von elementaren O2 bzw. N2
+
