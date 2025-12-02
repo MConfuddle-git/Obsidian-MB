@@ -122,7 +122,7 @@ Stahl
 
 Vergießen von Stahl
 Problem: Löslichkeit von N2 und O2 > Temperaturabhängige Löslichkeit der Schmelze
-Lösung: Hinzufügen von Silicium oder Aluminium > Impfkörner
+Lösung: Hinzufügen von Silicium oder Aluminium > Impfkeime
 
- Unberuhigt vergossener Stahl > Poren bzw. Hohlräume da N2 bzw. O2 entweicht
-Beruhigt
+Unberuhigt vergossener Stahl > Poren bzw. Hohlräume da N2 bzw. O2 entweicht
+Beruhigt vergossener Stahl > Zugabe Al und Si (Impfkeime) > Abbinden von elementaren O2 bzw. N2
