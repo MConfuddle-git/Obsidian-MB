@@ -108,11 +108,19 @@ Die wichtigsten Eindringhärteprüfverfahren sind:
 
 # 3.1. Aufbau metallischer Werkstoffe
 
-## Stahlwerkstoffe
-
+## Stahlherstellung
 Hochofenprozess beschreiben
 
 Koks Verwendungszweck 
 
 Edelstahl Begriffsdefinition 
 
+Eisenerz > Reduktion mit Koks, das wahre Reduktionsmittel ist CO
+Roheisen > Oxidation i Frischen, Verschlackung bzw. Abbinden unerwünschter Begleitelemente (S, P, Si, C)
+Rohstahl > Sekundärmetallurgie (Legierten, Reinheitsgrad erhöhen durch z.B. Vakuumbehandlung)
+Stahl
+
+Vergießen von Stahl
+Problem: Löslichkeit von N2
+
+ Beruhigt / unberuhigt vergossener Stahl
