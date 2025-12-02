@@ -116,7 +116,7 @@ Koks Verwendungszweck
 Edelstahl Begriffsdefinition 
 
 Eisenerz > Reduktion mit Koks, das wahre Reduktionsmittel ist CO
-Roheisen > Oxidation i Frischen, Verschlackung bzw. Abbinden unerwünschter Begleitelemente (S, P, Si, C)
+Roheisen > Oxidation ist gleich Frischen, Verschlackung bzw. Abbinden unerwünschter Begleitelemente (S, P, Si, C)
 Rohstahl > Sekundärmetallurgie (Legierten, Reinheitsgrad erhöhen durch z.B. Vakuumbehandlung)
 Stahl
 
