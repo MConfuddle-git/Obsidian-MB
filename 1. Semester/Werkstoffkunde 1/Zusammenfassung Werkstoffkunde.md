@@ -107,3 +107,4 @@ Die wichtigsten Eindringhärteprüfverfahren sind:
 >[!cue] Ermüdungsversuch - Dauerfestigkeit
 
 # 3.1. Aufbau metallischer Werkstoffe
+
