@@ -45,6 +45,7 @@ In der Anwendung unterscheidet man grundsätzlich zwischen zwei Werkstoffarten:
 
 Um eine fundierte Werkstoffauswahl treffen zu können, müssen die spezifischen Eigenschaften der Materialien detailliert betrachtet und verglichen werden.
 
+
 ## 2. Allgemeine Werkstoffeigenschaften
 
 Um Werkstoffe objektiv zu klassifizieren und für technische Anwendungen auswählen zu können, ist es unerlässlich, ihre Eigenschaften anhand quantifizierbarer Kennwerte zu beschreiben. Diese Eigenschaften lassen sich in vier Hauptkategorien unterteilen:
