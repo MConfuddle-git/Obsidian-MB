@@ -106,7 +106,35 @@ Die wichtigsten Eindringhärteprüfverfahren sind:
 
 >[!cue] Ermüdungsversuch - Dauerfestigkeit
 
+Beobachtung: Liegt eine zeitlich veränderliche (periodische oder unregelmäßige) Belastung vor, so kann es zum Werkstoffversagen durch Materialermüdung kommen, obwohl u. U. der statische Festigkeitswert (z.B. Rp0,2) nicht überschritten wird.
+Oberflächenrauheit beeinflusst maßgeblich die dynamische Bauteilfestigkeit 
+Steigerung der dynamischen Festigkeit durch Oberflächenbehandlung
+
 # 3.1. Aufbau metallischer Werkstoffe
+
+Definition metallischer Werkstoffe 
+Ein Metall hat überwiegend metallische Eigenschaften: 
+• Elektrische Leitfähigkeit • Thermische Leitfähigkeit • Verformbarkeit / Duktilität (Zähigkeit, unempfindlich gegen Schläge) • Mittlere Festigkeit, mittlere Steifigkeit • Glänzende Oberfläche (undurchsichtig) • Manchmal: Ferromagnetismus
+
+Ein reines Metall ist ein Element des Periodensystems.
+Eine Legierung ist eine Mischung verschiedener Elemente (mindestens ein Metall). Die Legierung hat metallische Eigenschaften. 
+
+Optisch: Metallischer Glanz • Mechanisch: Plastische Verformbarkeit • Elektrisch: gute elektrische Eigenschaften (Temperatur ↓ → Leitfähigkeit ↑) • Thermisch: Gute Wärmeleitfähigkeit
+
+Mit steigender Temperatur nimmt die elektrische Leitfähigkeit metallischer Werkstoffe ab.
+
+Schaubild einfügen Kräfte von atomen
+
+Die plastische Umformung basiert auf der Verschiebung von Gleitebenen im Kristall.
+
+Schaubild krz kfz hdp
+
+Für eine gute plastische Verformbarkeit muss ein Metall viele unterschiedliche Gleitebenen und eine hohe Anzahl an Gleitrichtungen aufweisen. • Bevorzugt dienen in einer Gitterstruktur jene Gitterebenen als Gleitebenen, die • einen möglichst großen Abstand zueinander haben. • Möglichst dicht gepackt sind, d.h. möglichst viele Atome beinhalten. • Die Kombination aus Gleitebenenanzahl und Gleichrichtungsanzahl entscheidet über die Gleitmöglichkeiten und somit über die Verformbarkeit eines metallischen Werkstoffs.
+
+Schaubild Erstarrung 
+
+Arten von Gitterbaufehlern • Leerstellen / 0-dimensional Ein nicht besetzter Gitterplatz. • Fremdatome (interstitiell gelöst) / 0-dimensional Ein zwischen den Gitterplätzen befindliches Atom. • Fremdatom (substitutionell gelöst) / 0-dimensional Atome eines anderen Elements, die in das Kristallgitter des Grundmetalls eingefügt sind. • Versetzungen / 1-dimensional Linienförmige Baufehler, bei denen eine ganze Lage von Metallionen im Gitter fehlt
+
 
 ## Stahlherstellung
 Hochofenprozess beschreiben
