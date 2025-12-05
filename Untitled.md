@@ -1,4 +1,4 @@
-Zusammenfassung der Vorlesung: Fertigungsverfahren
+
 
 Basierend auf den Vorlesungsunterlagen von Prof. Dipl.-Ing. Stephanus Faller, Technische Hochschule Ulm.
 
