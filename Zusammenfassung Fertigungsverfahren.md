@@ -1,11 +1,4 @@
 
-
-Basierend auf den Vorlesungsunterlagen von Prof. Dipl.-Ing. Stephanus Faller, Technische Hochschule Ulm.
-
-
---------------------------------------------------------------------------------
-
-
 1.0 Grundlagen der Fertigungstechnik
 
 1.1 Einleitender Überblick
