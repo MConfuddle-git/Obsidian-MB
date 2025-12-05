@@ -221,5 +221,3 @@ Das Massenträgheitsmoment J beschreibt den Widerstand eines Körpers gegen eine
 * Dynamische Grundgleichung der Rotation: 𝑀⃗ = J * 𝛼⃗ = d𝐿⃗/d𝑡
 * Drehimpuls: Das Rotations-Analogon zum Impuls. 𝐿⃗ = J * 𝜔⃗
 * Drehimpulserhaltungssatz: In einem abgeschlossenen System, auf das kein äußeres Drehmoment wirkt, bleibt der Gesamtdrehimpuls konstant. Wenn 𝑀⃗_ext = 0, dann 𝐿⃗ = konstant bzw. J₁ * ω₁ = J₂ * ω₂. Dies erklärt Phänomene wie die Pirouette einer Eiskunstläuferin, die ihre Drehgeschwindigkeit durch Anziehen der Arme (Verringerung von J) erhöht.
-
-Die hier vorgestellten mechanischen Prinzipien – von der Kinematik über die Newtonschen Axiome bis hin zu den Erhaltungssätzen für Energie, Impuls und Drehimpuls – bilden das grundlegende Werkzeug für die Analyse, den Entwurf und die Optimierung nahezu aller technischer Systeme.
