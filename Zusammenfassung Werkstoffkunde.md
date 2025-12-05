@@ -1,4 +1,4 @@
-
+.
 ## 1. Einführung in die Werkstofftechnik
 
 Die Werkstofftechnik ist eine fundamentale Disziplin, die untrennbar mit der menschlichen Entwicklung und technologischen Innovation verbunden ist. Die Fähigkeit, Werkstoffe gezielt auszuwählen, zu verarbeiten und zu neuen Materialien zu kombinieren, hat den Fortschritt von den frühesten Werkzeugen bis hin zu modernen Hochtechnologieanwendungen wie der Luft- und Raumfahrt oder der Medizintechnik vorangetrieben.
