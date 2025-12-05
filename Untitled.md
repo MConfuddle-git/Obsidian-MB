@@ -1,4 +1,4 @@
-Formelsammlung Physik 1: Mechanik
+
 
 Dieses Dokument dient als eine prägnante und strukturierte Zusammenfassung der wichtigsten Formeln, Definitionen und Gesetze aus dem Bereich der Mechanik. Es ist als schnelles Nachschlagewerk für Studierende der Ingenieurwissenschaften im ersten Semester konzipiert und soll das Verständnis der fundamentalen Prinzipien unterstützen, die für die quantitative Beschreibung und Analyse technischer Systeme unerlässlich sind.
 
