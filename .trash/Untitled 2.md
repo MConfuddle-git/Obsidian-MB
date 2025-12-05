@@ -1,5 +1,13 @@
 Formelsammlung: Mathematische Grundlagen für Studium und Praxis
+Elemente bezeichnet.
 
+|   |   |
+|---|---|
+|Darstellungsform|Beispiel|
+|**Aufzählung**|`M = {a, b, c}` <br> `N = {1, 2, 3, ..., 100}` <br> `X = {1, 2, 3, ...}`|
+|**Definierende Eigenschaft**|`A = {x|
+
+2. Grundlegende Schreibweisen
 
 --------------------------------------------------------------------------------
 
