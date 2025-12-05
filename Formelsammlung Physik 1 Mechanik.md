@@ -1,7 +1,4 @@
 
-
-Dieses Dokument dient als eine prägnante und strukturierte Zusammenfassung der wichtigsten Formeln, Definitionen und Gesetze aus dem Bereich der Mechanik. Es ist als schnelles Nachschlagewerk für Studierende der Ingenieurwissenschaften im ersten Semester konzipiert und soll das Verständnis der fundamentalen Prinzipien unterstützen, die für die quantitative Beschreibung und Analyse technischer Systeme unerlässlich sind.
-
 1. Physikalische Grundlagen und Messunsicherheit
 
 Die Verwendung eines standardisierten Einheitensystems, wie des Internationalen Einheitensystems (SI), ist von strategischer Bedeutung für die globale wissenschaftliche und technische Kommunikation. Es gewährleistet, dass Messungen und Berechnungen weltweit vergleichbar und reproduzierbar sind. Ebenso fundamental für jeden Ingenieur ist das Verständnis und die Quantifizierung von Messunsicherheiten. Diese Fähigkeit ist entscheidend, um die Zuverlässigkeit von experimentellen Daten, Simulationen und letztlich technischen Entwürfen bewerten zu können.
