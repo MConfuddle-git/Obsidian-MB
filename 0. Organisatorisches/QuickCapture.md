@@ -32,5 +32,5 @@
 - [x] Anmeldung Klausur 🛫 2025-11-16 📅 2025-12-14 🔺 #project/Werkstoffkunde-1 ✅ 2025-12-01
 - [ ] Klausur (keine Hilfsmittel) 🔺 #project/Werkstoffkunde-1
 - [x] Anmeldung Klausur #project/Konstruktion-1 🔺 🛫 2025-11-16 📅 2025-12-14  ✅ 2025-12-01
-- [ ] Klausur (kein Hilfsmittel) 🔺 #project/Konstruktion-1
+- [ ] Klausur (kein Hilfsmittel) #project/Konstruktion-1 🔺 📅 2026-02-26
 - [ ] Hausaufgabe Chemie Folie 13 📅 2025-12-09
