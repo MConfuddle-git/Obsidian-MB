@@ -30,7 +30,8 @@ Für den Spezialfall der Kreisbewegung (konstanter Radius `r = ρ`) gelten folge
 | **Radialbeschleunigung** `a_r`     | `a_r = v²/r = ω² ∙ r` | `m/s²`             | Zeigt zum Kreismittelpunkt (Zentripetalbeschleunigung).         |
 | **Tangentialbeschleunigung** `a_t` | `a_t = α_φ ∙ r`       | `m/s²`             | Tritt nur bei ungleichmäßiger Kreisbewegung auf (`ω ≠ konst.`). |
 
-#### Analogie zwischen Translation und Rotation
+>[!cue] Analogie Translation & Rotation
+
 Viele Gesetze der geradlinigen Bewegung (Translation) lassen sich direkt auf die Drehbewegung (Rotation) übertragen, indem man die entsprechenden Größen austauscht.
 
 | Translation (geradlinig) | Rotation (Kreisbewegung)   |
@@ -68,7 +69,8 @@ In beschleunigten Bezugssystemen treten für einen mitbewegten Beobachter sogena
 ### 2.2 Arbeit, Energie und Leistung
 Arbeit, Energie und Leistung sind zentrale Größen zur Beschreibung von mechanischen Prozessen. **Arbeit** und **Leistung** sind Prozessgrößen, die einen Vorgang beschreiben, während **Energie** eine Zustandsgröße ist, die die gespeicherte Arbeitsfähigkeit eines Systems charakterisiert.
 
-#### Arbeit
+>[!cue] Arbeit
+
 Mechanische Arbeit `W` wird verrichtet, wenn ein Körper durch eine Kraft `F` entlang eines Weges `s` bewegt wird.
 
 - **Allgemeine Definition (variable Kraft):** `W = ∫ F ⋅ ds`
@@ -78,7 +80,8 @@ Mechanische Arbeit `W` wird verrichtet, wenn ein Körper durch eine Kraft `F` en
 - **Elastische Verformungsarbeit (Spannarbeit)** (Dehnung/Stauchung einer Feder): 
   `W_E = ½ ∙ D ∙ s²` (aus der Ruhelage)
 
-#### Energie und Energieerhaltung
+>[!cue] Energie & Energieerhaltung
+
 Energie ist die Fähigkeit eines Systems, Arbeit zu verrichten. In der Mechanik unterscheidet man hauptsächlich kinetische und potentielle Energie.
 
 - **Kinetische Energie** (Bewegungsenergie): `W_kin = ½ ∙ m ∙ v²`
@@ -89,7 +92,8 @@ Energie ist die Fähigkeit eines Systems, Arbeit zu verrichten. In der Mechanik 
 - **Ohne Reibung:** Die mechanische Gesamtenergie eines abgeschlossenen Systems bleibt konstant. `(W_kin + W_pot)_Anfang = (W_kin + W_pot)_Ende`
 - **Mit Reibung:** Die Differenz der mechanischen Energie entspricht der verrichteten Reibungsarbeit `W_R`. `(W_kin + W_pot)_Anfang = (W_kin + W_pot)_Ende + W_R`
 
-#### Leistung und Wirkungsgrad
+>[!cue] Leistung & Wirkungsgrad
+
 - **Leistung** `P`: Die pro Zeit verrichtete Arbeit.
     - **Definition:** `P = dW/dt`
     - **Praktische Formel:** `P = F ∙ v` (für Kraft parallel zur Geschwindigkeit)
@@ -98,7 +102,8 @@ Energie ist die Fähigkeit eines Systems, Arbeit zu verrichten. In der Mechanik 
 Stoßvorgänge sind kurzzeitige Wechselwirkungen zwischen Körpern. In einem abgeschlossenen System (ohne äußere Kräfte) ist der **Gesamtimpuls** eine Erhaltungsgröße, was die Analyse von Stößen ermöglicht.
 
 - **Impulserhaltungssatz (Zwei-Körper-Stoß):** `m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'` (Die gestrichenen Größen `v'` bezeichnen die Geschwindigkeiten nach dem Stoß.)
-#### Stoßarten
+
+>[!cue] Stoßarten
 
 | Stoßart                           | Energieerhaltung                                                               | Geschwindigkeiten nach Stoß `v'`                                                                        | Besonderheiten                                                                                                                                                                                 |
 | --------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
