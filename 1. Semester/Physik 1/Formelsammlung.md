@@ -53,10 +53,12 @@ Die Grundlage der klassischen Dynamik bilden die Newtonschen Axiome.
 - **Superpositionsprinzip:** Wirken mehrere Kräfte auf einen Körper, so addieren sich diese vektoriell zur Gesamtkraft `F_ges`. `F_ges = Σ F_i`
 
 #### Trägheitskräfte (Scheinkräfte)
-In beschleunigten Bezugssystemen treten für einen mitbewegten Beobachter sogenannte Trägheits- oder Scheinkräfte auf. Sie sind real messbar, wirken stets entgegen der Beschleunigung des Systems und haben keine Gegenkraft im Sinne des 3. Newtonschen Axioms. Sie entstehen nicht durch eine Wechselwirkung zwischen zwei Körpern, sondern aus der Trägheit der Masse im beschleunigten Bezugssystem.
+In beschleunigten Bezugssystemen treten für einen mit bewegten Beobachter sogenannte Trägheits- oder Scheinkräfte auf. Sie sind real messbar, wirken stets entgegen der Beschleunigung des Systems und haben keine Gegenkraft im Sinne des 3. Newtonschen Axioms. Sie entstehen nicht durch eine Wechselwirkung zwischen zwei Körpern, sondern aus der Trägheit der Masse im beschleunigten Bezugssystem.
 
-- **Zentrifugalkraft:** `F_z = m ∙ ω² ∙ r` (tritt bei Kreisbewegungen auf und wirkt nach außen)
-- **Coriolis-Kraft:** `F_C = 2 ∙ m ∙ (v × ω)` (tritt bei einer Bewegung `v` in einem rotierenden System `ω` auf)
+- **Zentrifugalkraft:** `F_z = m ∙ ω² ∙ r` 
+  (tritt bei Kreisbewegungen auf und wirkt nach außen)
+- **Coriolis-Kraft:** `F_C = 2 ∙ m ∙ (v × ω)` 
+  (tritt bei einer Bewegung `v` in einem rotierenden System `ω` auf)
 
 ### 2.2 Arbeit, Energie und Leistung
 Arbeit, Energie und Leistung sind zentrale Größen zur Beschreibung von mechanischen Prozessen. **Arbeit** und **Leistung** sind Prozessgrößen, die einen Vorgang beschreiben, während **Energie** eine Zustandsgröße ist, die die gespeicherte Arbeitsfähigkeit eines Systems charakterisiert.
@@ -81,7 +83,6 @@ Energie ist die Fähigkeit eines Systems, Arbeit zu verrichten. In der Mechanik 
 **Energiesatz der Mechanik:**
 - **Ohne Reibung:** Die mechanische Gesamtenergie eines abgeschlossenen Systems bleibt konstant. `(W_kin + W_pot)_Anfang = (W_kin + W_pot)_Ende`
 - **Mit Reibung:** Die Differenz der mechanischen Energie entspricht der verrichteten Reibungsarbeit `W_R`. `(W_kin + W_pot)_Anfang = (W_kin + W_pot)_Ende + W_R`
-
 #### Leistung und Wirkungsgrad
 - **Leistung** `P`: Die pro Zeit verrichtete Arbeit.
     - **Definition:** `P = dW/dt`
@@ -90,18 +91,19 @@ Energie ist die Fähigkeit eines Systems, Arbeit zu verrichten. In der Mechanik 
 ### 2.3 Stoßvorgänge
 Stoßvorgänge sind kurzzeitige Wechselwirkungen zwischen Körpern. In einem abgeschlossenen System (ohne äußere Kräfte) ist der **Gesamtimpuls** eine Erhaltungsgröße, was die Analyse von Stößen ermöglicht.
 
-- **Impulserhaltungssatz (Zwei-Körper-Stoß):** `m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'` (Die gestrichenen Größen `v'` bezeichnen die Geschwindigkeiten nach dem Stoß.)
+- **Impulserhaltungssatz (Zwei-Körper-Stoß):** `m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'` 
+  (Die gestrichenen Größen `v'` bezeichnen die Geschwindigkeiten nach dem Stoß.)
 #### Stoßarten
 
-| Stoßart                           | Energieerhaltung                                                               | Geschwindigkeiten nach Stoß `v'`                                                                        | Besonderheiten                                                                                                                                                                                 |
-| --------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Vollkommen unelastischer Stoß** | Kinetische Energie wird in Verformungsarbeit/Wärme umgewandelt (`ΔW_kin ≠ 0`). | Beide Körper bewegen sich gemeinsam weiter: <br> `v₁' = v₂' = v'` <br> `v' = (m₁v₁ + m₂v₂) / (m₁ + m₂)` | Maximaler Energieverlust. Die Körper "kleben" aneinander. `ΔW = m₁m₂/(2(m₁+m₂)) ∙ (v₁ - v₂)²`                                                                                                  |
-| **Vollkommen elastischer Stoß**   | Die kinetische Gesamtenergie bleibt erhalten (`ΔW_kin = 0`).                   | `v₁' = ((m₁-m₂)v₁ + 2m₂v₂) / (m₁+m₂)` <br> `v₂' = ((m₂-m₁)v₂ + 2m₁v₁) / (m₁+m₂)`                        | Idealisierter Stoß ohne Energieverlust (z.B. Billardkugeln).                                                                                                                                   |
-| **Teilelastischer Stoß**          | Ein Teil der kinetischen Energie geht verloren.                                | Die Geschwindigkeiten hängen von der Stoßziffer `k` ab.                                                 | Realer Stoßvorgang. Die Elastizität wird durch die **Stoßziffer** `k` beschrieben (`0 ≤ k ≤ 1`). `k = 0` (unelastisch), `k = 1` (elastisch). <br> `k = sqrt(h₂/h₁)` (Rückprallhöhe / Fallhöhe) |
+| Stoßart                           | Energieerhaltung                                                               | Geschwindigkeiten nach Stoß `v'`                                                                    | Besonderheiten                                                                                                                                                                                 |
+| --------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Vollkommen unelastischer Stoß** | Kinetische Energie wird in Verformungsarbeit/Wärme umgewandelt (`ΔW_kin ≠ 0`). | Beide Körper bewegen sich gemeinsam weiter: <br>`v₁' = v₂' = v'` <br>`v' = (m₁v₁ + m₂v₂)/(m₁ + m₂)` | Maximaler Energieverlust. Die Körper "kleben" aneinander. `ΔW = m₁m₂/(2(m₁+m₂)) ∙ (v₁ - v₂)²`                                                                                                  |
+| **Vollkommen elastischer Stoß**   | Die kinetische Gesamtenergie bleibt erhalten (`ΔW_kin = 0`).                   | `v₁' = ((m₁-m₂)v₁ + 2m₂v₂)/(m₁+m₂)` <br>`v₂' = ((m₂-m₁)v₂ + 2m₁v₁)/(m₁+m₂)`                         | Idealisierter Stoß ohne Energieverlust (z.B. Billardkugeln).                                                                                                                                   |
+| **Teilelastischer Stoß**          | Ein Teil der kinetischen Energie geht verloren.                                | Die Geschwindigkeiten hängen von der Stoßziffer `k` ab.                                             | Realer Stoßvorgang. Die Elastizität wird durch die **Stoßziffer** `k` beschrieben (`0 ≤ k ≤ 1`). `k = 0` (unelastisch), `k = 1` (elastisch). <br> `k = sqrt(h₂/h₁)` (Rückprallhöhe / Fallhöhe) |
 
 --------------------------------------------------------------------------------
 ## 3.0 Rotation starrer Körper
-Bei der Drehung starrer Körper kann die Masse nicht mehr als einzelner Punkt betrachtet werden, da die Verteilung der Masse um die Drehachse entscheidend ist. An die Stelle der Masse `m` tritt das **Massenträgheitsmoment** `**J**`. Die kinetische Energie eines rollenden Körpers setzt sich aus dem Translations- und dem Rotationsanteil zusammen.
+Bei der Drehung starrer Körper kann die Masse nicht mehr als einzelner Punkt betrachtet werden, da die Verteilung der Masse um die Drehachse entscheidend ist. An die Stelle der Masse `m` tritt das **Massenträgheitsmoment** `J`. Die kinetische Energie eines rollenden Körpers setzt sich aus dem Translations- und dem Rotationsanteil zusammen.
 ### 3.1 Rotationsenergie und Massenträgheitsmoment
 
 - **Kinetische Energie der Rotation:** `W_kin,rot = ½ ∙ J ∙ ω²`
@@ -140,11 +142,11 @@ Eine mechanische Schwingung ist eine zeitlich periodische Bewegung eines Körper
 
 #### Kenngrößen einer Schwingung
 
-- **Amplitude (**`**ŷ**` **oder** `**A₀**`**):** Maximale Auslenkung aus der Ruhelage.
-- **Elongation (**`**y(t)**`**):** Momentane Auslenkung zur Zeit `t`.
-- **Schwingungsdauer (**`**T**`**):** Zeit für eine vollständige Schwingung.
-- **Frequenz (**`**f**`**):** Anzahl der Schwingungen pro Sekunde. `f = 1/T`.
-- **Kreisfrequenz (**`**ω**`**):** `ω = 2π ∙ f = 2π / T`.
+- **Amplitude (**`ŷ` **oder** `A₀`**):** Maximale Auslenkung aus der Ruhelage.
+- **Elongation (**`y(t)`**):** Momentane Auslenkung zur Zeit `t`.
+- **Schwingungsdauer (**`T`**):** Zeit für eine vollständige Schwingung.
+- **Frequenz (**`f`**):** Anzahl der Schwingungen pro Sekunde. `f = 1/T`.
+- **Kreisfrequenz (**`ω`**):** `ω = 2π ∙ f = 2π / T`.
 
 #### Harmonische Schwingung
 
@@ -163,31 +165,33 @@ Bei einer ungedämpften harmonischen Schwingung wird potentielle Energie periodi
 
 ### 4.3 Spezifische schwingende Systeme
 
-| Pendelart                       | Formel für Schwingungsdauer `T` | Wichtige Annahmen/Bedingungen                                                                                                           |
-| ------------------------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **Federpendel**                 | `T = 2π ∙ sqrt(m/k)`            | Lineares Kraftgesetz, masselose Feder.                                                                                                  |
-| **Torsionspendel**              | `T = 2π ∙ sqrt(J/D*)`           | Lineares Rückstellmoment. Analogie: `m → J`, `k → D*`.                                                                                  |
-| **Mathematisches Pendel**       | `T = 2π ∙ sqrt(l/g)`            | Punktmasse an masselosem Faden, **kleine Auslenkung (**`**sin φ ≈ φ**`**)**. Für große Winkel ist die Schwingung nicht mehr harmonisch! |
-| **Physikalisches Pendel**       | `T = 2π ∙ sqrt(J_P / (mgl))`    | Starrer Körper, der um einen Punkt P außerhalb des Schwerpunkts S schwingt (`l` = Abstand P-S). Kleine Auslenkung.                      |
-| **Flüssigkeitspendel (U-Rohr)** | `T = 2π ∙ sqrt(l / (2g))`       | `l` = Länge der gesamten Flüssigkeitssäule. Reibungsfrei.                                                                               |
+| Pendelart                       | Formel für Schwingungsdauer `T` | Wichtige Annahmen/Bedingungen                                                                                                       |
+| ------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Federpendel**                 | `T = 2π ∙ sqrt(m/k)`            | Lineares Kraftgesetz, masselose Feder.                                                                                              |
+| **Torsionspendel**              | `T = 2π ∙ sqrt(J/D*)`           | Lineares Rückstellmoment. Analogie: `m → J`, `k → D*`.                                                                              |
+| **Mathematisches Pendel**       | `T = 2π ∙ sqrt(l/g)`            | Punktmasse an masselosem Faden, **kleine Auslenkung (**`sin φ ≈ φ`**)**. Für große Winkel ist die Schwingung nicht mehr harmonisch! |
+| **Physikalisches Pendel**       | `T = 2π ∙ sqrt(J_P / (mgl))`    | Starrer Körper, der um einen Punkt P außerhalb des Schwerpunkts S schwingt (`l` = Abstand P-S). Kleine Auslenkung.                  |
+| **Flüssigkeitspendel (U-Rohr)** | `T = 2π ∙ sqrt(l / (2g))`       | `l` = Länge der gesamten Flüssigkeitssäule. Reibungsfrei.                                                                           |
 
 ### 4.4 Gedämpfte Schwingung
 In realen Systemen führt Reibung zu Energieverlusten, wodurch die Amplitude einer freien Schwingung mit der Zeit abnimmt. Eine häufige Form ist die geschwindigkeitsproportionale Reibungskraft `F_R = -β ∙ ẏ`.
 
 #### Zentrale Gleichungen
+
 - **Differentialgleichung:** `ÿ + 2δẏ + ω₀²y = 0`
     - **Abklingkoeffizient:** `δ = β/(2m)`
     - **Ungedämpfte Eigenkreisfrequenz:** `ω₀ = sqrt(k/m)`
 - **Lösungsgleichung (Elongation):** `y(t) = ŷ₀ ∙ e^(-δt) ∙ sin(ω_d ∙ t + φ₀)`
 - **Kreisfrequenz der gedämpften Schwingung:** `ω_d = sqrt(ω₀² - δ²)`
-- **Logarithmisches Dekrement** `**Λ**`**:** Ein Maß für die Dämpfung. `Λ = δ ∙ T_d = ln(ŷ_i / ŷ_{i+1})`
+- **Logarithmisches Dekrement** `**Λ**`**:** Ein Maß für die Dämpfung. 
+  `Λ = δ ∙ T_d = ln(ŷ_i / ŷ_{i+1})`
 
 #### Fallunterscheidung
 Je nach Stärke der Dämpfung (`δ`) im Verhältnis zur Eigenfrequenz (`ω₀`) ergeben sich drei Fälle:
 
-1. **Schwingfall (**`**δ² < ω₀²**`**):** Das System schwingt mit exponentiell abnehmender Amplitude.
-2. **Kriechfall (**`**δ² > ω₀²**`**):** Das System kehrt nach Auslenkung langsam und ohne Schwingung in die Ruhelage zurück (starke Dämpfung).
-3. **Aperiodischer Grenzfall (**`**δ² = ω₀²**`**):** Das System kehrt am schnellstmöglichen Weg ohne Überschwingen in die Ruhelage zurück.
+1. **Schwingfall (**`δ² < ω₀²`**):** Das System schwingt mit exponentiell abnehmender Amplitude.
+2. **Kriechfall (**`δ² > ω₀²`**):** Das System kehrt nach Auslenkung langsam und ohne Schwingung in die Ruhelage zurück (starke Dämpfung).
+3. **Aperiodischer Grenzfall (**`δ² = ω₀²`**):** Das System kehrt am schnellstmöglichen Weg ohne Überschwingen in die Ruhelage zurück.
 
 ### 4.5 Erzwungene Schwingung und Resonanz
 Wird ein schwingfähiges, gedämpftes System durch eine äußere periodische Kraft `F_E(t)` angeregt, spricht man von einer erzwungenen Schwingung. Die äußere Kraft gleicht die Dämpfungsverluste aus und zwingt dem System ihre Frequenz (Erregerfrequenz `ω_E`) auf.
@@ -201,11 +205,9 @@ Wird ein schwingfähiges, gedämpftes System durch eine äußere periodische Kra
 - **Resonanz-Überhöhung** (Verhältnis der Amplitude bei Resonanz zur statischen Auslenkung): `Resonanz-Überhöhung = ŷ_res / ŷ_stat = ω₀² / (2δ ∙ ω_d)`
 
 ### 4.6 Überlagerung von Schwingungen
-
 Mehrere Schwingungen, die auf einen Körper wirken, überlagern sich nach dem Superpositionsprinzip (vektorielle Addition der Auslenkungen). Ein wichtiger Spezialfall ist die Überlagerung zweier Schwingungen mit sehr ähnlichen Frequenzen.
 
 #### Spezialfall: Schwebung (`ω₁ ≈ ω₂`)
-
 Die Überlagerung zweier harmonischer Schwingungen gleicher Amplitude, deren Frequenzen sich nur geringfügig unterscheiden, führt zu einer **Schwebung**.
 
 - **Resultierende Schwingung:** `x_R(t) ≈ [2ŷ₀ ∙ cos((Δω/2)t)] ∙ sin(ω̄t)`
