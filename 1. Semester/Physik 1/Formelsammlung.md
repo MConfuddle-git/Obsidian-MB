@@ -1,9 +1,3 @@
----
-cssclasses:
-  - cornell-left
-  - cornell-border
----
-
 ## 1.0 Kinematik: Beschreibung von Bewegungen
 
 ### 1.1 Geradlinige Bewegung
@@ -19,8 +13,7 @@ Bewegungen auf gekrümmten Bahnen sind immer beschleunigte Bewegungen, selbst we
 - **Tangentialbeschleunigung** `a_t`: Beschreibt die Änderung des _Betrags_ der Geschwindigkeit. `a_t = d|v|/dt`
 - **Normal-/Radialbeschleunigung** `a_n`: Beschreibt die Änderung der _Richtung_ der Geschwindigkeit. Sie steht senkrecht auf der Bahn und zeigt zum Krümmungsmittelpunkt. `a_n = |v|²/ρ` (wobei `ρ` der Krümmungsradius der Bahn ist)
 
->[!cue] Formeln der Kreisbewegung
-
+#### Formeln der Kreisbewegung
 Für den Spezialfall der Kreisbewegung (konstanter Radius `r = ρ`) gelten folgende Zusammenhänge:
 
 | Größe                              | Formel                | Einheit            | Beschreibung                                                    |
@@ -30,8 +23,7 @@ Für den Spezialfall der Kreisbewegung (konstanter Radius `r = ρ`) gelten folge
 | **Radialbeschleunigung** `a_r`     | `a_r = v²/r = ω² ∙ r` | `m/s²`             | Zeigt zum Kreismittelpunkt (Zentripetalbeschleunigung).         |
 | **Tangentialbeschleunigung** `a_t` | `a_t = α_φ ∙ r`       | `m/s²`             | Tritt nur bei ungleichmäßiger Kreisbewegung auf (`ω ≠ konst.`). |
 
->[!cue] Analogie Translation & Rotation
-
+#### Analogie zwischen Translation und Rotation
 Viele Gesetze der geradlinigen Bewegung (Translation) lassen sich direkt auf die Drehbewegung (Rotation) übertragen, indem man die entsprechenden Größen austauscht.
 
 | Translation (geradlinig) | Rotation (Kreisbewegung)   |
@@ -69,8 +61,7 @@ In beschleunigten Bezugssystemen treten für einen mitbewegten Beobachter sogena
 ### 2.2 Arbeit, Energie und Leistung
 Arbeit, Energie und Leistung sind zentrale Größen zur Beschreibung von mechanischen Prozessen. **Arbeit** und **Leistung** sind Prozessgrößen, die einen Vorgang beschreiben, während **Energie** eine Zustandsgröße ist, die die gespeicherte Arbeitsfähigkeit eines Systems charakterisiert.
 
->[!cue] Arbeit
-
+#### Arbeit
 Mechanische Arbeit `W` wird verrichtet, wenn ein Körper durch eine Kraft `F` entlang eines Weges `s` bewegt wird.
 
 - **Allgemeine Definition (variable Kraft):** `W = ∫ F ⋅ ds`
@@ -80,8 +71,7 @@ Mechanische Arbeit `W` wird verrichtet, wenn ein Körper durch eine Kraft `F` en
 - **Elastische Verformungsarbeit (Spannarbeit)** (Dehnung/Stauchung einer Feder): 
   `W_E = ½ ∙ D ∙ s²` (aus der Ruhelage)
 
->[!cue] Energie & Energieerhaltung
-
+#### Energie und Energieerhaltung
 Energie ist die Fähigkeit eines Systems, Arbeit zu verrichten. In der Mechanik unterscheidet man hauptsächlich kinetische und potentielle Energie.
 
 - **Kinetische Energie** (Bewegungsenergie): `W_kin = ½ ∙ m ∙ v²`
@@ -92,8 +82,7 @@ Energie ist die Fähigkeit eines Systems, Arbeit zu verrichten. In der Mechanik 
 - **Ohne Reibung:** Die mechanische Gesamtenergie eines abgeschlossenen Systems bleibt konstant. `(W_kin + W_pot)_Anfang = (W_kin + W_pot)_Ende`
 - **Mit Reibung:** Die Differenz der mechanischen Energie entspricht der verrichteten Reibungsarbeit `W_R`. `(W_kin + W_pot)_Anfang = (W_kin + W_pot)_Ende + W_R`
 
->[!cue] Leistung & Wirkungsgrad
-
+#### Leistung und Wirkungsgrad
 - **Leistung** `P`: Die pro Zeit verrichtete Arbeit.
     - **Definition:** `P = dW/dt`
     - **Praktische Formel:** `P = F ∙ v` (für Kraft parallel zur Geschwindigkeit)
@@ -102,8 +91,7 @@ Energie ist die Fähigkeit eines Systems, Arbeit zu verrichten. In der Mechanik 
 Stoßvorgänge sind kurzzeitige Wechselwirkungen zwischen Körpern. In einem abgeschlossenen System (ohne äußere Kräfte) ist der **Gesamtimpuls** eine Erhaltungsgröße, was die Analyse von Stößen ermöglicht.
 
 - **Impulserhaltungssatz (Zwei-Körper-Stoß):** `m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'` (Die gestrichenen Größen `v'` bezeichnen die Geschwindigkeiten nach dem Stoß.)
-
->[!cue] Stoßarten
+#### Stoßarten
 
 | Stoßart                           | Energieerhaltung                                                               | Geschwindigkeiten nach Stoß `v'`                                                                        | Besonderheiten                                                                                                                                                                                 |
 | --------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -205,6 +193,7 @@ Je nach Stärke der Dämpfung (`δ`) im Verhältnis zur Eigenfrequenz (`ω₀`) 
 Wird ein schwingfähiges, gedämpftes System durch eine äußere periodische Kraft `F_E(t)` angeregt, spricht man von einer erzwungenen Schwingung. Die äußere Kraft gleicht die Dämpfungsverluste aus und zwingt dem System ihre Frequenz (Erregerfrequenz `ω_E`) auf.
 
 #### Gleichungen und Formeln
+
 - **Differentialgleichung:** `ÿ + 2δẏ + ω₀²y = (F̂_E/m) ∙ cos(ω_E ∙ t)`
 - **Amplitude im stationären Zustand:** `ŷ(ω_E) = (F̂_E/m) / sqrt((ω₀² - ω_E²)² + (2δω_E)²)`
 - **Phasenverschiebung** (zwischen Erreger und Schwinger): `φ(ω_E) = arctan(2δω_E / (ω₀² - ω_E²))`
@@ -212,9 +201,11 @@ Wird ein schwingfähiges, gedämpftes System durch eine äußere periodische Kra
 - **Resonanz-Überhöhung** (Verhältnis der Amplitude bei Resonanz zur statischen Auslenkung): `Resonanz-Überhöhung = ŷ_res / ŷ_stat = ω₀² / (2δ ∙ ω_d)`
 
 ### 4.6 Überlagerung von Schwingungen
+
 Mehrere Schwingungen, die auf einen Körper wirken, überlagern sich nach dem Superpositionsprinzip (vektorielle Addition der Auslenkungen). Ein wichtiger Spezialfall ist die Überlagerung zweier Schwingungen mit sehr ähnlichen Frequenzen.
 
 #### Spezialfall: Schwebung (`ω₁ ≈ ω₂`)
+
 Die Überlagerung zweier harmonischer Schwingungen gleicher Amplitude, deren Frequenzen sich nur geringfügig unterscheiden, führt zu einer **Schwebung**.
 
 - **Resultierende Schwingung:** `x_R(t) ≈ [2ŷ₀ ∙ cos((Δω/2)t)] ∙ sin(ω̄t)`
