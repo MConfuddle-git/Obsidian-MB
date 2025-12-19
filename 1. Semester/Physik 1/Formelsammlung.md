@@ -1,3 +1,9 @@
+---
+cssclasses:
+  - cornell-left
+  - cornell-border
+---
+
 ## 1.0 Kinematik: Beschreibung von Bewegungen
 
 ### 1.1 Geradlinige Bewegung
@@ -13,7 +19,8 @@ Bewegungen auf gekrümmten Bahnen sind immer beschleunigte Bewegungen, selbst we
 - **Tangentialbeschleunigung** `a_t`: Beschreibt die Änderung des _Betrags_ der Geschwindigkeit. `a_t = d|v|/dt`
 - **Normal-/Radialbeschleunigung** `a_n`: Beschreibt die Änderung der _Richtung_ der Geschwindigkeit. Sie steht senkrecht auf der Bahn und zeigt zum Krümmungsmittelpunkt. `a_n = |v|²/ρ` (wobei `ρ` der Krümmungsradius der Bahn ist)
 
-#### Formeln der Kreisbewegung
+>[!cue] Formeln der Kreisbewegung
+
 Für den Spezialfall der Kreisbewegung (konstanter Radius `r = ρ`) gelten folgende Zusammenhänge:
 
 | Größe                              | Formel                | Einheit            | Beschreibung                                                    |
