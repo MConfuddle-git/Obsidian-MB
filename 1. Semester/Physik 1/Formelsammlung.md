@@ -213,4 +213,4 @@ Die Überlagerung zweier harmonischer Schwingungen gleicher Amplitude, deren Fre
 - **Resultierende Schwingung:** `x_R(t) ≈ [2ŷ₀ ∙ cos((Δω/2)t)] ∙ sin(ω̄t)`
     - Der erste Term `[...]` beschreibt eine langsam variierende Amplitude.
     - Der zweite Term `sin(...)` beschreibt eine schnelle Schwingung mit der mittleren Frequenz `ω̄ = (ω₁ + ω₂)/2`.
-- **Schwebungsdauer** `**T_S**`**:** Die Zeit zwischen zwei Amplitudenminima. `T_S = 2π / Δω` (wobei `Δω = |ω₁ - ω₂|`)
+- **Schwebungsdauer** `T_S`**:** Die Zeit zwischen zwei Amplitudenminima. `T_S = 2π / Δω` (wobei `Δω = |ω₁ - ω₂|`)
