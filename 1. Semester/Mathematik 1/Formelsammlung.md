@@ -6,12 +6,12 @@ Das Verständnis mathematischer Grundlagen ist das Fundament für alle weiterfü
 
 #### 1. Definition und Darstellung
 
-Eine Menge ist nach Cantor eine Zusammenfassung von bestimmten, wohlunterschiedenen Objekten unserer Anschauung oder unseres Denkens zu einem Ganzen. Die Objekte, aus denen eine Menge besteht, werden als ihre Elemente bezeichnet.
+Eine Menge ist nach Cantor eine Zusammenfassung von bestimmten, wohl unterschiedenen Objekten unserer Anschauung oder unseres Denkens zu einem Ganzen. Die Objekte, aus denen eine Menge besteht, werden als ihre Elemente bezeichnet.
 
-| Darstellungsform             | Beispiel                                                                 |
-| ---------------------------- | ------------------------------------------------------------------------ |
-| **Aufzählung**               | `M = {a, b, c}` <br> `N = {1, 2, 3, ..., 100}` <br> `X = {1, 2, 3, ...}` |
-| **Definierende Eigenschaft** | `A = {x                                                                  |
+| Darstellungsform             | Beispiel                                                               |
+| ---------------------------- | ---------------------------------------------------------------------- |
+| **Aufzählung**               | `M = {a, b, c}` <br>`N = {1, 2, 3, ..., 100}` <br>`X = {1, 2, 3, ...}` |
+| **Definierende Eigenschaft** | `A = {x                                                                |
 
 #### 2. Grundlegende Schreibweisen
 
