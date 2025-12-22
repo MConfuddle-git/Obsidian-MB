@@ -1,19 +1,14 @@
 ## 1.0 Grundlagen: Axiome und Grundbegriffe
 
-### 1.1 Einleitung und strategische Bedeutung
+### 1.1 Definitionen der Grundbegriffe
 
-Die Statik als Teilgebiet der Technischen Mechanik befasst sich mit den Bedingungen, unter denen ein Körper im Zustand der Ruhe verbleibt. Das Fundament hierfür bilden wenige, aber entscheidende Konzepte: die **Kraft** als Vektorgröße, die Idealisierung des **starren Körpers**, der unter Krafteinwirkung keine Formänderung erfährt, und die grundlegenden **Axiome der Mechanik**. Das Verständnis dieser Prinzipien ist die unverzichtbare Basis für die Analyse jeglicher mechanischer Systeme und Tragwerke, von einfachen Hebeln bis hin zu komplexen Brücken- oder Rahmenkonstruktionen. Die folgenden Abschnitte schlüsseln diese Grundpfeiler detailliert auf.
-
-### 1.2 Definitionen der Grundbegriffe
-
-- **Die Kraft (**`**F**`**):** Die Kraft ist eine Vektorgröße, die als **gebundener Vektor** durch drei Eigenschaften vollständig definiert ist:
+- **Die Kraft (**`F`**):** Die Kraft ist eine Vektorgröße, die als **gebundener Vektor** durch drei Eigenschaften vollständig definiert ist:
     1. **Betrag:** Die Größe bzw. Intensität der Kraft.
     2. **Richtung:** Die Orientierung der Kraft im Raum, festgelegt durch ihre Wirkungslinie.
     3. **Angriffspunkt:** Der Punkt, an dem die Kraft auf den Körper wirkt.
 - Die Formelzeichen sind **\vec{F}_{Index}** für den Kraftvektor und **F_{Index}** für den Betrag der Kraft.
 - **Der starre Körper:** Der starre Körper ist eine grundlegende Idealisierung in der Statik (Stereostatik). Er beschreibt einen Körper, der unter der Einwirkung von Kräften keine Deformationen (Formänderungen) erfährt. Der Abstand zwischen zwei beliebigen Punkten des Körpers bleibt also stets konstant. Diese Vereinfachung ist für viele ingenieurtechnische Anwendungen hinreichend genau.
-
-### 1.3 Die Axiome der Mechanik
+### 1.2 Die Axiome der Mechanik
 
 Die gesamte klassische Mechanik basiert auf vier fundamentalen, durch Beobachtung gewonnenen Grundaussagen, den sogenannten Axiomen nach Newton.
 
@@ -21,29 +16,18 @@ Die gesamte klassische Mechanik basiert auf vier fundamentalen, durch Beobachtun
 2. **Verschiebungsaxiom:** Die Wirkung einer Kraft auf einen **starren Körper** ändert sich nicht, wenn ihr Angriffspunkt entlang ihrer Wirkungslinie verschoben wird. Eine Kraft ist somit ein "linienflüchtiger" Vektor.
 3. **Reaktionsaxiom (3. Newtonsches Gesetz / Wechselwirkungsgesetz):** Übt ein Körper 1 auf einen Körper 2 eine Kraft aus (actio), so übt der Körper 2 auf den Körper 1 eine gleich große, aber entgegengesetzt gerichtete Kraft aus (reactio). Kurz: _actio gleich reactio_. Als Vektorgleichung formuliert: **\vec{F}_{1} = - \vec{F}_{2}**.
 4. **Parallelogrammaxiom (4. Newtonsches Gesetz):** Die Wirkung zweier Kräfte, die an einem gemeinsamen Punkt angreifen, ist äquivalent zur Wirkung einer einzelnen Kraft, der Resultierenden **\vec{F}_{R}**. Diese Resultierende entspricht der Diagonalen des Parallelogramms, das aus den beiden Einzelkräften gebildet wird.
+### 1.3 Kraftübertragungselemente in der Ebene
 
-### 1.4 Kraftübertragungselemente in der Ebene
-
-Lager und Gelenke schränken die Bewegungsmöglichkeiten (Freiheitsgrade) eines Körpers ein und übertragen dabei Kräfte und Momente. Ihre "Wertigkeit" gibt an, wie viele Freiheitsgrade sie unterbinden.
-
-|   |   |   |   |
-|---|---|---|---|
-|Element|Symbol (Beschreibung)|Wertigkeit|Übertragene Komponenten|
-|**Pendelstütze**|Ein Stab, der an beiden Enden gelenkig gelagert ist.|einwertig|Überträgt nur Druck- oder Zugkräfte entlang der Stabachse.|
-|**Loslager**|Ein Lager, das Bewegungen parallel zur Auflagefläche zulässt.|einwertig|Überträgt nur eine Kraftkomponente senkrecht zur Auflagefläche.|
-|**Festlager**|Ein unverschiebliches, aber drehbares Lager.|zweiwertig|Überträgt zwei zueinander senkrechte Kraftkomponenten (F_x, F_y).|
-|**Gelenkverbindung**|Verbindet zwei Starrkörper drehbar miteinander.|zweiwertig|Überträgt zwei zueinander senkrechte Kraftkomponenten (F_x, F_y).|
-|**Feste Einspannung**|Ein Lager, das jegliche Bewegung unterbindet.|dreiwertig|Überträgt zwei Kraftkomponenten (F_x, F_y) und ein Moment (M).|
-
-Mit diesen grundlegenden Elementen und Axiomen können nun komplexe Kräftesysteme analysiert werden, um deren Gleichgewicht zu untersuchen.
-
+| Element               | Symbol (Beschreibung)                                         | Wertigkeit | Übertragene Komponenten                                           |
+| --------------------- | ------------------------------------------------------------- | ---------- | ----------------------------------------------------------------- |
+| **Pendelstütze**      | Ein Stab, der an beiden Enden gelenkig gelagert ist.          | einwertig  | Überträgt nur Druck- oder Zugkräfte entlang der Stabachse.        |
+| **Loslager**          | Ein Lager, das Bewegungen parallel zur Auflagefläche zulässt. | einwertig  | Überträgt nur eine Kraftkomponente senkrecht zur Auflagefläche.   |
+| **Festlager**         | Ein unverschiebliches, aber drehbares Lager.                  | zweiwertig | Überträgt zwei zueinander senkrechte Kraftkomponenten (F_x, F_y). |
+| **Gelenkverbindung**  | Verbindet zwei Starrkörper drehbar miteinander.               | zweiwertig | Überträgt zwei zueinander senkrechte Kraftkomponenten (F_x, F_y). |
+| **Feste Einspannung** | Ein Lager, das jegliche Bewegung unterbindet.                 | dreiwertig | Überträgt zwei Kraftkomponenten (F_x, F_y) und ein Moment (M).    |
 ## 2.0 Kräftesysteme und Gleichgewicht in der Ebene
 
-### 2.1 Einleitung und strategische Bedeutung
-
-Die Analyse ebener Kräftesysteme stellt eine Kernkompetenz der Statik dar. Man unterscheidet dabei zwischen **zentralen Kräftesystemen**, bei denen sich die Wirkungslinien aller Kräfte in einem Punkt schneiden, und **allgemeinen Kräftesystemen**, bei denen dies nicht der Fall ist. Die Aufstellung der korrekten Gleichgewichtsbedingungen ist der entscheidende Schritt, um unbekannte Reaktionskräfte in Lagern oder Verbindungen statischer Systeme zu berechnen. Die folgenden Abschnitte stellen die dafür notwendigen Formeln und Bedingungen übersichtlich dar.
-
-### 2.2 Zentrales ebenes Kräftesystem (gemeinsamer Angriffspunkt)
+### 2.1 Zentrales ebenes Kräftesystem (gemeinsamer Angriffspunkt)
 
 Bei einem zentralen Kräftesystem ist für das Gleichgewicht nur das Kräftegleichgewicht relevant, da keine Momente entstehen.
 
@@ -60,7 +44,7 @@ Bei einem zentralen Kräftesystem ist für das Gleichgewicht nur das Kräfteglei
     - **\sum F_{ix} = 0**
     - **\sum F_{iy} = 0**
 
-### 2.3 Allgemeines ebenes Kräftesystem
+### 2.2 Allgemeines ebenes Kräftesystem
 
 Bei einem allgemeinen Kräftesystem muss zusätzlich zum Kräftegleichgewicht auch das Momentengleichgewicht erfüllt sein.
 
@@ -74,20 +58,14 @@ Bei einem allgemeinen Kräftesystem muss zusätzlich zum Kräftegleichgewicht au
         - **F_{Rx} = \sum F_{ix}**
         - **F_{Ry} = \sum F_{iy}**
         - **M_{RA} = \sum M_{iA}**
-- **Gleichgewichtsbedingungen:** Ein allgemeines ebenes Kräftesystem ist im Gleichgewicht, wenn sowohl die resultierende Kraft als auch das resultierende Moment (bezüglich eines beliebigen Punktes A) null sind. Dies führt zu drei unabhängigen skalaren Gleichungen:
-    - **\sum F_{ix} = 0**
-    - **\sum F_{iy} = 0**
-    - **\sum M_{iA} = 0**
-
-Diese fundamentalen Gleichgewichtsbedingungen werden nun zur Analyse vollständiger Tragwerke angewendet.
-
+- **Gleichgewichtsbedingungen:** 
+	- Ein allgemeines ebenes Kräftesystem ist im Gleichgewicht, wenn sowohl die resultierende Kraft als auch das resultierende Moment (bezüglich eines beliebigen Punktes A) null sind. Dies führt zu drei unabhängigen skalaren Gleichungen:
+	    - **\sum F_{ix} = 0**
+	    - **\sum F_{iy} = 0**
+	    - **\sum M_{iA} = 0**
 ## 3.0 Ebene Tragwerke und statische Bestimmtheit
 
-### 3.1 Einleitung und strategische Bedeutung
-
-Die Prinzipien der Statik finden ihre praktische Anwendung bei der Analyse realer Ingenieurbauwerke wie Balken, Rahmen und Fachwerke. Eine entscheidende Vorab-Untersuchung betrifft die **statische Bestimmtheit**. Nur wenn ein Tragwerk statisch bestimmt ist, können alle Lager- und Verbindungskräfte allein mit den drei Gleichgewichtsbedingungen der Statik berechnet werden. Andernfalls ist das System statisch unbestimmt (zu viele Lager) oder kinematisch (verschieblich, "wackelig").
-
-### 3.2 Statische Bestimmtheit
+### 3.1 Statische Bestimmtheit
 
 Die statische Bestimmtheit wird durch den Freiheitsgrad `f` des Systems beschrieben.
 
@@ -106,7 +84,7 @@ Die statische Bestimmtheit wird durch den Freiheitsgrad `f` des Systems beschrie
     - `n`: Anzahl der Starrkörper des Tragwerks
     - `z`: Anzahl der Zwischenreaktionen in den Gelenken/Verbindungen
 
-### 3.3 Ebene Fachwerke (Knotenpunktverfahren)
+### 3.2 Ebene Fachwerke (Knotenpunktverfahren)
 
 Fachwerke sind Tragwerke, die idealisiert nur aus zug- oder druckbeanspruchten Stäben bestehen. Die Berechnung der Stabkräfte erfolgt unter folgenden Annahmen:
 
@@ -119,9 +97,6 @@ Beim **Knotenpunktverfahren** wird jeder einzelne Knoten freigeschnitten und die
 1. An einem **unbelasteten Knoten** mit **zwei Stäben** (nicht auf einer Linie) sind beide Stäbe Nullstäbe.
 2. An einem Knoten mit **zwei Stäben**, bei dem eine **äußere Kraft** in Richtung des einen Stabes wirkt, ist der andere Stab ein Nullstab.
 3. An einem **unbelasteten Knoten** mit **drei Stäben**, von denen zwei auf einer Linie liegen, ist der dritte Stab ein Nullstab.
-
-Nach der Betrachtung ebener Systeme werden diese Prinzipien nun auf den dreidimensionalen Raum erweitert.
-
 ## 4.0 Räumliche Statik
 
 ### 4.1 Einleitung und strategische Bedeutung
@@ -132,7 +107,7 @@ Der Übergang von der zweidimensionalen zur dreidimensionalen Statik erweitert d
 
 Die Beschreibung von Kräften und Momenten erfolgt konsequent über Vektoren in einem 3D-Koordinatensystem.
 
-- **Kraftvektor** `**F**`**:**
+- **Kraftvektor** `F`**:**
     - Koordinatenschreibweise mit Einheitsvektoren: **\vec{F} = F_x \cdot \vec{e}_x + F_y \cdot \vec{e}_y + F_z \cdot \vec{e}_z**
     - Berechnung des Betrags aus den Komponenten: **F = \sqrt{F_x^2 + F_y^2 + F_z^2}**
 - **Moment einer Kraft im Raum:**
@@ -156,15 +131,11 @@ Um die resultierende Kraft einer verteilten Last (wie der Gewichtskraft) korrekt
 
 ## 5.0 Schwerpunkte
 
-### 5.1 Einleitung und strategische Bedeutung
-
-Die Berechnung von Schwerpunkten ist für die Ingenieurmechanik von zentraler Bedeutung. Der Schwerpunkt ist jener fiktive Punkt, in dem man sich die gesamte Masse oder das gesamte Gewicht eines Körpers konzentriert vorstellen kann. Für die Statik ist er der Angriffspunkt der resultierenden Gewichtskraft oder einer verteilten Last (z. B. einer Streckenlast). Die Kenntnis seiner Lage ist für Stabilitäts- und Gleichgewichtsanalysen unerlässlich.
-
-### 5.2 Schwerpunkte von Linien, Flächen und Volumen
+### 5.1 Schwerpunkte von Linien, Flächen und Volumen
 
 Die Koordinaten des Schwerpunkts (x_S, y_S, z_S) werden über integrale Beziehungen berechnet.
 
-- **Streckenlast** `**q(x)**`**:**
+- **Streckenlast** `q(x)`**:**
     - Resultierende Kraft: **F_R = \int q(x) \,dx**
     - Schwerpunktskoordinate: **x_S = \frac{\int x \cdot q(x) \,dx}{\int q(x) \,dx}**
 - **Flächenschwerpunkt:**
@@ -176,7 +147,7 @@ Die Koordinaten des Schwerpunkts (x_S, y_S, z_S) werden über integrale Beziehun
 - **Volumenschwerpunkt (homogener Körper):**
     - **x_S = \frac{\int x \,dV}{V}**, **y_S = \frac{\int y \,dV}{V}**, **z_S = \frac{\int z \,dV}{V}**
 
-### 5.3 Schwerpunkte zusammengesetzter Gebilde
+### 5.2 Schwerpunkte zusammengesetzter Gebilde
 
 Der Schwerpunkt eines Körpers, der sich aus mehreren einfachen Teilgebilden zusammensetzen lässt, kann über Summenformeln berechnet werden. Die Formeln für einen Flächenschwerpunkt lauten exemplarisch:
 
@@ -187,13 +158,9 @@ Dabei sind x_{Si} und y_{Si} die bekannten Schwerpunktkoordinaten und A_i die Fl
 
 Nachdem die äußeren Kräfte und deren Angriffspunkte bestimmt sind, folgt die Analyse der inneren Beanspruchungen eines Bauteils – der sogenannten Schnittgrößen.
 
-## 6.0 Schnittgrößen
+### 6.0 Schnittgrößen
 
-### 6.1 Einleitung und strategische Bedeutung
-
-Für die Bemessung und den Festigkeitsnachweis von Bauteilen ist die Kenntnis der äußeren Kräfte allein nicht ausreichend. Es ist entscheidend zu wissen, wie stark das Material im Inneren des Bauteils beansprucht wird. Diese inneren Beanspruchungen werden durch die **Schnittgrößen** beschrieben. Man definiert sie als jene inneren Kräfte und Momente, die an einem gedachten Schnitt durch das Bauteil wirken müssen, um das Gleichgewicht der beiden getrennten Teile aufrechtzuerhalten.
-
-### 6.2 Schnittgrößen am geraden Balken (Ebene)
+### 6.1 Schnittgrößen am geraden Balken (Ebene)
 
 An einem gedachten Schnitt durch einen ebenen Balken treten drei Schnittgrößen auf:
 
@@ -202,8 +169,7 @@ An einem gedachten Schnitt durch einen ebenen Balken treten drei Schnittgrößen
 - **Biegemoment (M):** Das Moment um die Achse, die senkrecht zur Ebene steht (y-Achse). Es verursacht eine Biegung des Balkens.
 
 **Vorzeichenkonvention:** Ein Schnittufer wird als _positiv_ bezeichnet, wenn sein nach außen weisender Normalenvektor in die positive Koordinatenrichtung (z.B. x-Richtung) zeigt. Positive Schnittgrößen zeigen an diesem positiven Schnittufer in die positiven Koordinatenrichtungen.
-
-### 6.3 Zusammenhang zwischen Belastung und Schnittgrößen
+### 6.2 Zusammenhang zwischen Belastung und Schnittgrößen
 
 Zwischen der äußeren Belastung (Streckenlast `q(x)`) und den inneren Schnittgrößen (Querkraft `Q(x)`, Biegemoment `M(x)`) bestehen fundamentale Differentialbeziehungen:
 
@@ -211,8 +177,7 @@ Zwischen der äußeren Belastung (Streckenlast `q(x)`) und den inneren Schnittgr
 - **\frac{dM(x)}{dx} = Q(x)** (Die Ableitung des Biegemoments entspricht der Querkraft.)
 
 Diese Beziehungen bedeuten umgekehrt, dass der Querkraftverlauf durch Integration der negativen Streckenlast und der Momentenverlauf durch Integration des Querkraftverlaufs ermittelt werden kann.
-
-### 6.4 Räumliche Schnittgrößen
+### 6.3 Räumliche Schnittgrößen
 
 An einem Schnitt durch ein räumlich belastetes Bauteil können insgesamt sechs Schnittgrößen auftreten, die den sechs Freiheitsgraden entsprechen:
 
@@ -225,11 +190,8 @@ Das letzte Kapitel dieser Formelsammlung widmet sich der Reibung, einer wichtige
 
 ## 7.0 Reibung
 
-### 7.1 Einleitung und strategische Bedeutung
-
-Die Reibung ist eine reale physikalische Kraft, die der relativen Bewegung zwischen zwei sich berührenden Körpern entgegenwirkt. Sie entsteht durch die Beschaffenheit der Kontaktoberflächen. In der Mechanik wird fundamental zwischen der **Haftung** (statischer Zustand ohne Bewegung) und der **Gleitreibung** (kinetischer Zustand bei Bewegung) unterschieden. Das Verständnis dieser beiden Zustände ist für unzählige technische Anwendungen entscheidend, vom Bremsvorgang eines Fahrzeugs bis zur Funktion von Schraubverbindungen.
-
-### 7.2 Coulombsches Reibungsgesetz
+Die Reibung ist eine reale physikalische Kraft, die der relativen Bewegung zwischen zwei sich berührenden Körpern entgegenwirkt. Sie entsteht durch die Beschaffenheit der Kontaktoberflächen. In der Mechanik wird fundamental zwischen der **Haftung** (statischer Zustand ohne Bewegung) und der **Gleitreibung** (kinetischer Zustand bei Bewegung) unterschieden.
+### 7.1 Coulombsches Reibungsgesetz
 
 Das Coulombsche Reibungsgesetz beschreibt die Zusammenhänge zwischen Normalkraft und Reibungskraft für drei grundlegende Fälle. Dabei ist F_n die Normalkraft, \mu_0 die Haftzahl und \mu die Gleitreibungszahl.
 
@@ -240,7 +202,7 @@ Das Coulombsche Reibungsgesetz beschreibt die Zusammenhänge zwischen Normalkraf
 - **Gleitreibung (Bewegung):** Sobald sich der Körper bewegt, wirkt eine konstante Reibungskraft F_r, die der Bewegungsrichtung entgegengesetzt ist. In der Regel ist \mu < \mu_0.
     - **F_r = \mu \cdot F_n**
 
-### 7.3 Seilreibung (Eytelweinsche Gleichung)
+### 7.2 Seilreibung (Eytelweinsche Gleichung)
 
 Wird ein Seil um einen feststehenden Zylinder geschlungen, kann aufgrund der Reibung zwischen Seil und Zylinder eine kleine Haltekraft eine deutlich größere Lastkraft im Gleichgewicht halten. Dieses Phänomen wird durch die Eytelweinsche Gleichung beschrieben.
 
