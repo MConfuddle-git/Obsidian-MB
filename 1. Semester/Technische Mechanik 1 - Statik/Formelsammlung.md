@@ -18,13 +18,7 @@ Die gesamte klassische Mechanik basiert auf vier fundamentalen, durch Beobachtun
 4. **Parallelogrammaxiom (4. Newtonsches Gesetz):** Die Wirkung zweier Kräfte, die an einem gemeinsamen Punkt angreifen, ist äquivalent zur Wirkung einer einzelnen Kraft, der Resultierenden 𝐹⃑𝑅. Diese Resultierende entspricht der Diagonalen des Parallelogramms, das aus den beiden Einzelkräften gebildet wird.
 ### 1.3 Kraftübertragungselemente in der Ebene
 
-| Element               | Symbol (Beschreibung)                                         | Wertigkeit | Übertragene Komponenten                                         |
-| --------------------- | ------------------------------------------------------------- | ---------- | --------------------------------------------------------------- |
-| **Pendelstütze**      | Ein Stab, der an beiden Enden gelenkig gelagert ist.          | einwertig  | Überträgt nur Druck- oder Zugkräfte entlang der Stabachse.      |
-| **Loslager**          | Ein Lager, das Bewegungen parallel zur Auflagefläche zulässt. | einwertig  | Überträgt nur eine Kraftkomponente senkrecht zur Auflagefläche. |
-| **Festlager**         | Ein unverschiebliches, aber drehbares Lager.                  | zweiwertig | Überträgt zwei zueinander senkrechte Kraftkomponenten (Fx, Fy). |
-| **Gelenkverbindung**  | Verbindet zwei Starrkörper drehbar miteinander.               | zweiwertig | Überträgt zwei zueinander senkrechte Kraftkomponenten (Fx, Fy). |
-| **Feste Einspannung** | Ein Lager, das jegliche Bewegung unterbindet.                 | dreiwertig | Überträgt zwei Kraftkomponenten (Fx, Fy) und ein Moment (M).    |
+![[Pasted image 20251222174307.png]]
 ## 2.0 Kräftesysteme und Gleichgewicht in der Ebene
 
 ### 2.1 Zentrales ebenes Kräftesystem (gemeinsamer Angriffspunkt)
@@ -36,8 +30,8 @@ Bei einem zentralen Kräftesystem ist für das Gleichgewicht nur das Kräfteglei
     - **Fy = F · sin(α)**
 - **Betrag und Richtung:** Berechnung von Betrag und Richtung aus den gegebenen Komponenten:
     - **F = √𝐹𝑥 2 + 𝐹𝑦 2**
-    - **α = \arctan\left(\frac{F_y}{F_x}\right)** (Achtung: Quadrant beachten!)
-- **Addition von Kräften (Resultierende):** Die resultierende Kraft **\vec{F}_{R} = ∑ \vec{F}_{i}** wird durch die komponentenweise Addition der Einzelkräfte ermittelt:
+    - **α = arctan (Fy / Fx)  (Achtung: Vorzeichen beachten!)
+- **Addition von Kräften (Resultierende):** Die resultierende Kraft **𝐹⃗𝑅 = ∑ 𝐹⃗i** wird durch die komponentenweise Addition der Einzelkräfte ermittelt:
     - **F{Rx} = ∑ F{ix}**
     - **F{Ry} = ∑ F{iy}**
 - **Gleichgewichtsbedingungen:** Ein zentrales ebenes Kräftesystem ist im Gleichgewicht, wenn die Resultierende eine Nullkraft ist. Daraus folgen zwei skalare Gleichungen:
@@ -50,11 +44,11 @@ Bei einem allgemeinen Kräftesystem muss zusätzlich zum Kräftegleichgewicht au
 
 - **Kräftepaar und Moment:**
     - Ein **Kräftepaar** besteht aus zwei gleich großen, parallelen, aber entgegengesetzt gerichteten Kräften. Seine Wirkung ist eine reine Drehung.
-    - Das Moment eines Kräftepaares ist das Produkt aus dem Kraftbetrag `F` und dem senkrechten Abstand `h` der Wirkungslinien: **M = F \cdot h**.
+    - Das Moment eines Kräftepaares ist das Produkt aus dem Kraftbetrag `F` und dem senkrechten Abstand `h` der Wirkungslinien: **M = F · h**.
 - **Moment einer Kraft:**
-    - Das Moment einer Kraft \vec{F} mit den Komponenten (Fx, Fy) und dem Angriffspunkt (x, y) bezüglich eines Punktes A (xA, yA) berechnet sich zu: **M_A = (x - x_A) \cdot F_y - (y - y_A) \cdot F_x**
+    - Das Moment einer Kraft 𝐹⃗ mit den Komponenten (Fx, Fy) und dem Angriffspunkt (x, y) bezüglich eines Punktes A (xA, yA) berechnet sich zu: **MA = (x - xA) · Fy - (y - yA) · Fx**
 - **Resultierende:**
-    - Ein allgemeines ebenes Kräftesystem kann auf eine **resultierende Kraft** **\vec{F}_{R}** und ein **resultierendes Moment** **M_{RA}** bezüglich eines Punktes A reduziert werden. Die Komponenten berechnen sich durch Summation:
+    - Ein allgemeines ebenes Kräftesystem kann auf eine **resultierende Kraft** **𝐹⃗𝑅** und ein **resultierendes Moment** **M{RA}** bezüglich eines Punktes A reduziert werden. Die Komponenten berechnen sich durch Summation:
         - **F{Rx} = ∑ F{ix}**
         - **F{Ry} = ∑ F{iy}**
         - **M{RA} = ∑ M{iA}**
@@ -80,7 +74,7 @@ Die statische Bestimmtheit wird durch den Freiheitsgrad `f` des Systems beschrie
 - **Achtung:** `f=0` ist eine notwendige, aber keine hinreichende Bedingung. Das Tragwerk ist trotzdem kinematisch (instabil), wenn die Lagerung fehlerhaft ist, z. B. wenn:
     - die Lagerkräfte parallel zueinander sind.
     - die Wirkungslinien der Lagerkräfte sich in einem gemeinsamen Punkt schneiden.
-- **Mehrteilige Tragwerke:** Für Tragwerke, die aus mehreren starren Körpern bestehen, wird die Formel erweitert: **f = g \cdot n - a - z**
+- **Mehrteilige Tragwerke:** Für Tragwerke, die aus mehreren starren Körpern bestehen, wird die Formel erweitert: **f = g · n - a - z**
     - `n`: Anzahl der Starrkörper des Tragwerks
     - `z`: Anzahl der Zwischenreaktionen in den Gelenken/Verbindungen
 
@@ -108,11 +102,12 @@ Der Übergang von der zweidimensionalen zur dreidimensionalen Statik erweitert d
 Die Beschreibung von Kräften und Momenten erfolgt konsequent über Vektoren in einem 3D-Koordinatensystem.
 
 - **Kraftvektor** `F`**:**
-    - Koordinatenschreibweise mit Einheitsvektoren: **\vec{F} = F_x · \vec{e}_x + F_y \cdot \vec{e}_y + F_z · \vec{e}_z**
-    - Berechnung des Betrags aus den Komponenten: **F = \sqrt{F_x^2 + F_y^2 + F_z^2}**
+    - Koordinatenschreibweise mit Einheitsvektoren: **F⃗⃗  = Fx · \vec{e}_x + _y · \vec{e}_y + F_z · \vec{e}_z**
+    - Berechnung des Betrags aus den Komponenten: **F = √{F_x^2 + F_y^2 + F_z^2}**
 - **Moment einer Kraft im Raum:**
-    - Das Moment einer Kraft \vec{F}, die am Punkt mit dem Ortsvektor \vec{r} angreift, bezüglich des Koordinatenursprungs wird durch das Vektorprodukt (Kreuzprodukt) berechnet: **\vec{M} = \vec{r} \times \vec{F}**
-    - In Komponentenschreibweise ergibt sich das Moment zu: **\vec{M} = \begin{pmatrix} y \cdot F_z - z · F_y \\ z ·t F_x - x ·t F_z \\ x · F_y - y · F_x \end{pmatrix} = \begin{pmatrix} M_x \\ M_y \\ M_z \end{pmatrix}**
+    - Das Moment einer Kraft F⃗⃗ , die am Punkt mit dem Ortsvektor r⃗ angreift, bezüglich des Koordinatenursprungs wird durch das Vektorprodukt (Kreuzprodukt) berechnet: **M⃗⃗⃗⃗ = r⃗ × F⃗⃗ **
+    - In Komponentenschreibweise ergibt sich das Moment zu:
+     ![[Pasted image 20251222175101.png]]
 
 ### 4.3 Gleichgewichtsbedingungen im Raum
 
