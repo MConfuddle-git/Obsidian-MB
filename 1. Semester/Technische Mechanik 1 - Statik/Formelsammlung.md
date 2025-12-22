@@ -132,7 +132,7 @@ Die Koordinaten des Schwerpunkts (xS, yS, zS) werden über integrale Beziehungen
 
 - **Streckenlast** `q(x)`**:**
     - Resultierende Kraft: **FR = ∫ q(x) \,dx**
-    - Schwerpunktskoordinate: **xS = (∫x · q(x) \,dx() / (∫q(x) \,dx)**
+    - Schwerpunktskoordinate: **xS = (∫x · q(x) \,dx) / (∫q(x) \,dx)**
 - **Flächenschwerpunkt:**
     - **xS = (∫x \,dA) / (A)**
     - **yS = (∫y \,dA) / (A)**
