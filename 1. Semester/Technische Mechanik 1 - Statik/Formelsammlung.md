@@ -102,10 +102,10 @@ Der Übergang von der zweidimensionalen zur dreidimensionalen Statik erweitert d
 Die Beschreibung von Kräften und Momenten erfolgt konsequent über Vektoren in einem 3D-Koordinatensystem.
 
 - **Kraftvektor** `F`**:**
-    - Koordinatenschreibweise mit Einheitsvektoren: F⃗⃗  = Fx ·  𝑒𝑥⃗⃗⃗⃗  + Fy · 𝑒𝑦⃗⃗⃗⃗⃗  + Fz · 𝑒𝑧⃗⃗⃗⃗
-    - Berechnung des Betrags aus den Komponenten: **F = √{Fx² + Fy² + Fz²}**
+    - Koordinatenschreibweise mit Einheitsvektoren: F⃗  = Fx ·  e⃗x + Fy · e⃗y  + Fz · e⃗z
+    - Berechnung des Betrags aus den Komponenten: **F = √(Fx² + Fy² + Fz²)**
 - **Moment einer Kraft im Raum:**
-    - Das Moment einer Kraft F⃗⃗ , die am Punkt mit dem Ortsvektor r⃗ angreift, bezüglich des Koordinatenursprungs wird durch das Vektorprodukt (Kreuzprodukt) berechnet: **M⃗⃗⃗⃗ = r⃗ × F⃗⃗ 
+    - Das Moment einer Kraft F⃗, die am Punkt mit dem Ortsvektor  angreift, bezüglich des Koordinatenursprungs wird durch das Vektorprodukt (Kreuzprodukt) berechnet: M⃗ = r⃗ × F⃗ 
     - In Komponentenschreibweise ergibt sich das Moment zu:
      ![[Pasted image 20251222175101.png]]
 
@@ -113,7 +113,7 @@ Die Beschreibung von Kräften und Momenten erfolgt konsequent über Vektoren in 
 
 Ein Körper im Raum ist im Gleichgewicht, wenn die Vektorsumme aller Kräfte und die Vektorsumme aller Momente (bezüglich eines beliebigen Punktes A) null sind.
 
-- Vektorielle Gleichgewichtsbedingungen: **∑ F⃗ i =  0⃗⃗  und ∑ F⃗ {iA} =  0⃗⃗ 
+- Vektorielle Gleichgewichtsbedingungen: ∑ F⃗i =  0⃗ und ∑ F⃗ {iA} =  0⃗
 - Daraus ergeben sich sechs unabhängige skalare Gleichgewichtsbedingungen:
     - **∑ F{ix} = 0**
     - **∑ F{iy} = 0**
