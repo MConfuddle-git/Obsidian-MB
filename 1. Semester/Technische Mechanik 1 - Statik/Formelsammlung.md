@@ -31,7 +31,7 @@ Bei einem zentralen Kräftesystem ist für das Gleichgewicht nur das Kräfteglei
 - **Betrag und Richtung:** Berechnung von Betrag und Richtung aus den gegebenen Komponenten:
     - **F = √𝐹𝑥 2 + 𝐹𝑦 2**
     - **α = arctan (Fy / Fx)  (Achtung: Vorzeichen beachten!)
-- **Addition von Kräften (Resultierende):** Die resultierende Kraft **𝐹⃗𝑅 = ∑ 𝐹⃗i** wird durch die komponentenweise Addition der Einzelkräfte ermittelt:
+- **Addition von Kräften (Resultierende):** Die resultierende Kraft 𝐹⃗𝑅 = ∑ 𝐹⃗i wird durch die komponentenweise Addition der Einzelkräfte ermittelt:
     - **F{Rx} = ∑ F{ix}**
     - **F{Ry} = ∑ F{iy}**
 - **Gleichgewichtsbedingungen:** Ein zentrales ebenes Kräftesystem ist im Gleichgewicht, wenn die Resultierende eine Nullkraft ist. Daraus folgen zwei skalare Gleichungen:
@@ -102,7 +102,7 @@ Der Übergang von der zweidimensionalen zur dreidimensionalen Statik erweitert d
 Die Beschreibung von Kräften und Momenten erfolgt konsequent über Vektoren in einem 3D-Koordinatensystem.
 
 - **Kraftvektor** `F`**:**
-    - Koordinatenschreibweise mit Einheitsvektoren: **F⃗⃗  = Fx ·  𝑒𝑥⃗⃗⃗⃗  + Fy · 𝑒𝑦⃗⃗⃗⃗⃗  + Fz · 𝑒𝑧⃗⃗⃗⃗
+    - Koordinatenschreibweise mit Einheitsvektoren: F⃗⃗  = Fx ·  𝑒𝑥⃗⃗⃗⃗  + Fy · 𝑒𝑦⃗⃗⃗⃗⃗  + Fz · 𝑒𝑧⃗⃗⃗⃗
     - Berechnung des Betrags aus den Komponenten: **F = √{Fx² + Fy² + Fz²}**
 - **Moment einer Kraft im Raum:**
     - Das Moment einer Kraft F⃗⃗ , die am Punkt mit dem Ortsvektor r⃗ angreift, bezüglich des Koordinatenursprungs wird durch das Vektorprodukt (Kreuzprodukt) berechnet: **M⃗⃗⃗⃗ = r⃗ × F⃗⃗ 
@@ -113,7 +113,7 @@ Die Beschreibung von Kräften und Momenten erfolgt konsequent über Vektoren in 
 
 Ein Körper im Raum ist im Gleichgewicht, wenn die Vektorsumme aller Kräfte und die Vektorsumme aller Momente (bezüglich eines beliebigen Punktes A) null sind.
 
-- Vektorielle Gleichgewichtsbedingungen: **∑ F⃗⃗ i =  0⃗⃗  und ∑ F⃗ _{iA} =  0⃗⃗ 
+- Vektorielle Gleichgewichtsbedingungen: **∑ F⃗ i =  0⃗⃗  und ∑ F⃗ {iA} =  0⃗⃗ 
 - Daraus ergeben sich sechs unabhängige skalare Gleichgewichtsbedingungen:
     - **∑ F{ix} = 0**
     - **∑ F{iy} = 0**
@@ -131,7 +131,7 @@ Um die resultierende Kraft einer verteilten Last (wie der Gewichtskraft) korrekt
 Die Koordinaten des Schwerpunkts (xS, yS, zS) werden über integrale Beziehungen berechnet.
 
 - **Streckenlast** `q(x)`**:**
-    - Resultierende Kraft: **FR = ∫ q(x) \,dx**
+    - Resultierende Kraft: **FR = ∫q(x) \,dx**
     - Schwerpunktskoordinate: **xS = (∫x · q(x) \,dx) / (∫q(x) \,dx)**
 - **Flächenschwerpunkt:**
     - **xS = (∫x \,dA) / (A)**
@@ -196,14 +196,14 @@ Das Coulombsche Reibungsgesetz beschreibt die Zusammenhänge zwischen Normalkraf
     - **Fh < μ0 · Fn**
 - **Grenzhaftung (Bewegungsbeginn):** Dies ist der Übergangszustand, bei dem die Haltekraft ihr Maximum erreicht hat. Eine infinitesimale Erhöhung der äußeren Kraft führt zur Bewegung.
     - **F{h,max} = μ0 · Fn**
-- **Gleitreibung (Bewegung):** Sobald sich der Körper bewegt, wirkt eine konstante Reibungskraft F_r, die der Bewegungsrichtung entgegengesetzt ist. In der Regel ist \mu < \mu_0.
+- **Gleitreibung (Bewegung):** Sobald sich der Körper bewegt, wirkt eine konstante Reibungskraft `Fr`, die der Bewegungsrichtung entgegengesetzt ist. In der Regel ist `μ < μ0`.
     - **Fr = μ · Fn**
 
 ### 7.2 Seilreibung (Eytelweinsche Gleichung)
 
-Wird ein Seil um einen feststehenden Zylinder geschlungen, kann aufgrund der Reibung zwischen Seil und Zylinder eine kleine Haltekraft eine deutlich größere Lastkraft im Gleichgewicht halten. Dieses Phänomen wird durch die Eytelweinsche Gleichung beschrieben.
+Wird ein Seil um einen feststehenden Zylinder geschlungen, kann aufgrund der Reibung zwischen Seil und Zylinder eine kleine Haltekraft eine deutlich größere Lastkraft im Gleichgewicht halten. 
 
-- **Formel:** **F{S2} = F{S1} · e^{μ0 · α}**
+- **Formel:** **F{S2} = F{S1} · e^(μ0 · α)**
 
 Hierbei bedeuten:
 
