@@ -102,10 +102,10 @@ Der Übergang von der zweidimensionalen zur dreidimensionalen Statik erweitert d
 Die Beschreibung von Kräften und Momenten erfolgt konsequent über Vektoren in einem 3D-Koordinatensystem.
 
 - **Kraftvektor** `F`**:**
-    - Koordinatenschreibweise mit Einheitsvektoren: **F⃗⃗  = Fx · \vec{e}_x + _y · \vec{e}_y + F_z · \vec{e}_z**
-    - Berechnung des Betrags aus den Komponenten: **F = √{F_x^2 + F_y^2 + F_z^2}**
+    - Koordinatenschreibweise mit Einheitsvektoren: **F⃗⃗  = Fx ·  𝑒𝑥⃗⃗⃗⃗  + Fy · 𝑒𝑦⃗⃗⃗⃗⃗  + Fz · 𝑒𝑧⃗⃗⃗⃗
+    - Berechnung des Betrags aus den Komponenten: **F = √{Fx² + Fy² + Fz²}**
 - **Moment einer Kraft im Raum:**
-    - Das Moment einer Kraft F⃗⃗ , die am Punkt mit dem Ortsvektor r⃗ angreift, bezüglich des Koordinatenursprungs wird durch das Vektorprodukt (Kreuzprodukt) berechnet: **M⃗⃗⃗⃗ = r⃗ × F⃗⃗ **
+    - Das Moment einer Kraft F⃗⃗ , die am Punkt mit dem Ortsvektor r⃗ angreift, bezüglich des Koordinatenursprungs wird durch das Vektorprodukt (Kreuzprodukt) berechnet: **M⃗⃗⃗⃗ = r⃗ × F⃗⃗ 
     - In Komponentenschreibweise ergibt sich das Moment zu:
      ![[Pasted image 20251222175101.png]]
 
@@ -113,7 +113,7 @@ Die Beschreibung von Kräften und Momenten erfolgt konsequent über Vektoren in 
 
 Ein Körper im Raum ist im Gleichgewicht, wenn die Vektorsumme aller Kräfte und die Vektorsumme aller Momente (bezüglich eines beliebigen Punktes A) null sind.
 
-- Vektorielle Gleichgewichtsbedingungen: **∑ \vec{F}_i = \vec{0}** und **∑ \vec{M}_{iA} = \vec{0}**
+- Vektorielle Gleichgewichtsbedingungen: **∑ F⃗⃗ i =  0⃗⃗  und ∑ F⃗ _{iA} =  0⃗⃗ 
 - Daraus ergeben sich sechs unabhängige skalare Gleichgewichtsbedingungen:
     - **∑ F{ix} = 0**
     - **∑ F{iy} = 0**
@@ -123,63 +123,65 @@ Ein Körper im Raum ist im Gleichgewicht, wenn die Vektorsumme aller Kräfte und
     - **∑ M{iz} = 0**
 
 Um die resultierende Kraft einer verteilten Last (wie der Gewichtskraft) korrekt ansetzen zu können, wird die Berechnung von Schwerpunkten benötigt.
-
+### 4.4 Kraftübertragungselemente in der Ebene
+![[Pasted image 20251222181422.png]]
 ## 5.0 Schwerpunkte
-
 ### 5.1 Schwerpunkte von Linien, Flächen und Volumen
 
 Die Koordinaten des Schwerpunkts (xS, yS, zS) werden über integrale Beziehungen berechnet.
 
 - **Streckenlast** `q(x)`**:**
-    - Resultierende Kraft: **FR = \int q(x) \,dx**
-    - Schwerpunktskoordinate: **xS = \frac{\int x · q(x) \,dx}{\int q(x) \,dx}**
+    - Resultierende Kraft: **FR = ∫ q(x) \,dx**
+    - Schwerpunktskoordinate: **xS = (∫x · q(x) \,dx() / (∫q(x) \,dx)**
 - **Flächenschwerpunkt:**
-    - **xS = \frac{\int x \,dA}{A}**
-    - **yS = \frac{\int y \,dA}{A}**
+    - **xS = (∫x \,dA) / (A)**
+    - **yS = (∫y \,dA) / (A)**
 - **Linienschwerpunkt:**
-    - **xS = \frac{\int x \,ds}{s}**
-    - **yS = \frac{\int y \,ds}{s}**
+    - **xS = (∫x \,ds) / (s)**
+    - **yS = (∫y \,ds) / (s)**
 - **Volumenschwerpunkt (homogener Körper):**
-    - **xS = \frac{\int x \,dV}{V}**, **yS = \frac{\int y \,dV}{V}**, **zS = \frac{\int z \,dV}{V}**
+    - **xS = (∫x \,dV) / (V)**, **yS = (∫y \,dV) / (V)**, **zS = (∫z \,dV) / (V)**
 
 ### 5.2 Schwerpunkte zusammengesetzter Gebilde
 
 Der Schwerpunkt eines Körpers, der sich aus mehreren einfachen Teilgebilden zusammensetzen lässt, kann über Summenformeln berechnet werden. Die Formeln für einen Flächenschwerpunkt lauten exemplarisch:
 
-- **xS = \frac{∑ x_{Si} · A_i}{∑ A_i}**
-- **yS = \frac{∑ y_{Si} ·t A_i}{∑ A_i}**
+- **xS = (∑ x{Si} · Ai) / (∑ Ai)**
+- **yS = (∑ y{Si} · Ai) / (∑ Ai)**
 
-Dabei sind x_{Si} und y_{Si} die bekannten Schwerpunktkoordinaten und Ai die Flächeninhalte der Teilgebilde. Ausschnitte oder Löcher werden in der Summe als negative Flächen behandelt.
+Dabei sind x{Si} und y{Si} die bekannten Schwerpunktkoordinaten und Ai die Flächeninhalte der Teilgebilde. Ausschnitte oder Löcher werden in der Summe als negative Flächen behandelt.
 
 Nachdem die äußeren Kräfte und deren Angriffspunkte bestimmt sind, folgt die Analyse der inneren Beanspruchungen eines Bauteils – der sogenannten Schnittgrößen.
 
-### 6.0 Schnittgrößen
-
+## 6.0 Schnittgrößen
 ### 6.1 Schnittgrößen am geraden Balken (Ebene)
 
 An einem gedachten Schnitt durch einen ebenen Balken treten drei Schnittgrößen auf:
 
-- **Normalkraft (N):** Die Kraftkomponente in Längsrichtung der Balkenachse (x-Achse). Sie verursacht eine Dehnung oder Stauchung.
-- **Querkraft (Q):** Die Kraftkomponente senkrecht zur Balkenachse (in z-Richtung). Sie verursacht eine Scherung.
-- **Biegemoment (M):** Das Moment um die Achse, die senkrecht zur Ebene steht (y-Achse). Es verursacht eine Biegung des Balkens.
+- **Normalkraft (N):** Die Kraftkomponente in Längsrichtung der Balkenachse (x-Achse). 
+  Sie verursacht eine Dehnung oder Stauchung.
+- **Querkraft (Q):** Die Kraftkomponente senkrecht zur Balkenachse (in z-Richtung). 
+  Sie verursacht eine Scherung.
+- **Biegemoment (M):** Das Moment um die Achse, die senkrecht zur Ebene steht (y-Achse). 
+  Es verursacht eine Biegung des Balkens.
 
 **Vorzeichenkonvention:** Ein Schnittufer wird als _positiv_ bezeichnet, wenn sein nach außen weisender Normalenvektor in die positive Koordinatenrichtung (z.B. x-Richtung) zeigt. Positive Schnittgrößen zeigen an diesem positiven Schnittufer in die positiven Koordinatenrichtungen.
 ### 6.2 Zusammenhang zwischen Belastung und Schnittgrößen
 
 Zwischen der äußeren Belastung (Streckenlast `q(x)`) und den inneren Schnittgrößen (Querkraft `Q(x)`, Biegemoment `M(x)`) bestehen fundamentale Differentialbeziehungen:
 
-- **\frac{dQ(x)}{dx} = -q(x)** (Die Ableitung der Querkraft entspricht der negativen Streckenlast.)
-- **\frac{dM(x)}{dx} = Q(x)** (Die Ableitung des Biegemoments entspricht der Querkraft.)
+- **(dQ(x)) / (dx) = -q(x)** (Die Ableitung der Querkraft entspricht der negativen Streckenlast.)
+- **(dM(x)) / (dx) = Q(x)** (Die Ableitung des Biegemoments entspricht der Querkraft.)
 
 Diese Beziehungen bedeuten umgekehrt, dass der Querkraftverlauf durch Integration der negativen Streckenlast und der Momentenverlauf durch Integration des Querkraftverlaufs ermittelt werden kann.
 ### 6.3 Räumliche Schnittgrößen
 
 An einem Schnitt durch ein räumlich belastetes Bauteil können insgesamt sechs Schnittgrößen auftreten, die den sechs Freiheitsgraden entsprechen:
 
-- Normalkraft: **N = F_{Sx}**
-- Querkräfte: **Q_y = F_{Sy}**, **Q_z = F_{Sz}**
-- Torsionsmoment (um die Längsachse): **M_T = M_{Sx}**
-- Biegemomente (um die Querachsen): **M_y = M_{Sy}**, **M_z = M_{Sz}**
+- Normalkraft: **N = F{Sx}**
+- Querkräfte: **Qy = F{Sy}**, **Qz = F{Sz}**
+- Torsionsmoment (um die Längsachse): **MT = M{Sx}**
+- Biegemomente (um die Querachsen): **My = M{Sy}**, **Mz = M{Sz}**
 
 Das letzte Kapitel dieser Formelsammlung widmet sich der Reibung, einer wichtigen, nicht-idealen Kraft, die in realen Kontaktflächen auftritt.
 
@@ -188,24 +190,24 @@ Das letzte Kapitel dieser Formelsammlung widmet sich der Reibung, einer wichtige
 Die Reibung ist eine reale physikalische Kraft, die der relativen Bewegung zwischen zwei sich berührenden Körpern entgegenwirkt. Sie entsteht durch die Beschaffenheit der Kontaktoberflächen. In der Mechanik wird fundamental zwischen der **Haftung** (statischer Zustand ohne Bewegung) und der **Gleitreibung** (kinetischer Zustand bei Bewegung) unterschieden.
 ### 7.1 Coulombsches Reibungsgesetz
 
-Das Coulombsche Reibungsgesetz beschreibt die Zusammenhänge zwischen Normalkraft und Reibungskraft für drei grundlegende Fälle. Dabei ist F_n die Normalkraft, \mu_0 die Haftzahl und \mu die Gleitreibungszahl.
+Das Coulombsche Reibungsgesetz beschreibt die Zusammenhänge zwischen Normalkraft und Reibungskraft für drei grundlegende Fälle. Dabei ist `Fn` die Normalkraft, `μ0` die Haftzahl und `μ` die Gleitreibungszahl.
 
-- **Haftung (Ruhe):** Solange der Körper in Ruhe ist, ist die Haltekraft F_h genau so groß wie die angreifende äußere Kraft und kleiner als die maximal mögliche Haftkraft.
-    - **Fh < \mu_0 · Fn**
+- **Haftung (Ruhe):** Solange der Körper in Ruhe ist, ist die Haltekraft Fh genau so groß wie die angreifende äußere Kraft und kleiner als die maximal mögliche Haftkraft.
+    - **Fh < μ0 · Fn**
 - **Grenzhaftung (Bewegungsbeginn):** Dies ist der Übergangszustand, bei dem die Haltekraft ihr Maximum erreicht hat. Eine infinitesimale Erhöhung der äußeren Kraft führt zur Bewegung.
-    - **F{h,max} = \mu_0 · Fn**
+    - **F{h,max} = μ0 · Fn**
 - **Gleitreibung (Bewegung):** Sobald sich der Körper bewegt, wirkt eine konstante Reibungskraft F_r, die der Bewegungsrichtung entgegengesetzt ist. In der Regel ist \mu < \mu_0.
-    - **Fr = \mu · Fn**
+    - **Fr = μ · Fn**
 
 ### 7.2 Seilreibung (Eytelweinsche Gleichung)
 
 Wird ein Seil um einen feststehenden Zylinder geschlungen, kann aufgrund der Reibung zwischen Seil und Zylinder eine kleine Haltekraft eine deutlich größere Lastkraft im Gleichgewicht halten. Dieses Phänomen wird durch die Eytelweinsche Gleichung beschrieben.
 
-- **Formel:** **F_{S2} = F_{S1} · e^{\mu_0 · \alpha}**
+- **Formel:** **F{S2} = F{S1} · e^{μ0 · α}**
 
 Hierbei bedeuten:
 
-- F_{S2}: Die größere, haltende Seilkraft.
-- F_{S1}: Die kleinere, zu haltende Lastkraft.
-- \mu_0: Die Haftzahl zwischen Seil und Zylinder.
-- α: Der Umschlingungswinkel im **Bogenmaß (Radiant)**.
+- `F{S2}`: Die größere, haltende Seilkraft.
+- `F{S1}`: Die kleinere, zu haltende Lastkraft.
+- `μ0`: Die Haftzahl zwischen Seil und Zylinder.
+- `α`: Der Umschlingungswinkel im **Bogenmaß (Radiant)**.
