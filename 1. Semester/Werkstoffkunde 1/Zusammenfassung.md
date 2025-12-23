@@ -263,3 +263,7 @@ Warmarbeitsstahl
 Martensit wird angelassen, Härte nimmt ab bis zur Bildung von Sonderkarbiden (Sekundärhärtemaximum)!!! Schnellarbeitsstahl folgt dem gleichen Prinzip.
 
 Ausscheidungshärtung von Aluminium
+
+Korrosionsbeständige Stähle
+Grundprinzip: min. 10,5-12% Cr
+Bildung einer schützenden Passivierungsschicht 
