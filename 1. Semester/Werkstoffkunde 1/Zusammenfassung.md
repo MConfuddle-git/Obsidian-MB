@@ -267,3 +267,6 @@ Ausscheidungshärtung von Aluminium
 Korrosionsbeständige Stähle
 Grundprinzip: min. 10,5-12% Cr
 Bildung einer schützenden Passivierungsschicht 
+
+Ferritische Stähle 
+Bsp. X6Cr17 Cr fördert die Bildung von Ferrit Alpha-Stabilisator 
