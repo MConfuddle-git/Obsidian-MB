@@ -271,4 +271,6 @@ Bildung einer schützenden Passivierungsschicht
 Ferritische Stähle 
 Bsp. X6Cr17
 - Cr fördert die Bildung von Ferrit Alpha-Stabilisator 
-- geringe
+- geringe Zugfestigkeit
+- Preisgünstig durch kein Nickel (Ressourcen)
+- 
