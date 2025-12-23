@@ -254,10 +254,12 @@ Keine Umwandlung gleich geringer Maßverzug hohe Maßgenaugigkeit
 Vergütete Stähle können nitriert werden
 
 C45: Martensit wird während dem Einsatz angelassen, Festigkeit nimmt ab
-X30CrMoVNbN13-3-1: hoher Anteil an Karbidbildungen, thermisch sehr stabil und hohe Härte. Versetzungsbewegungen werden behindert. Ausscheidungshärtung bzw Dispersionsverfestigung 
+X30CrMoVNbN13-3-1: hoher Anteil an Karbidbildungen, thermisch sehr stabil und hohe Härte. Versetzungsbewegungen werden behindert. Ausscheidungshärtung bzw. Dispersionsverfestigung 
 
 Kaltarbeitsstähle
 Mit zunehmender Anlasstemperatur entsteht angelassener (kubischer) Martensit.
 
 Warmarbeitsstahl
-Martensit wird angelassen, Härte nimmt ab bis zur Bildung von Sonderkarbiden (Sekundärhärtemaximum)!!!
+Martensit wird angelassen, Härte nimmt ab bis zur Bildung von Sonderkarbiden (Sekundärhärtemaximum)!!! Schnellarbeitsstahl folgt dem gleichen Prinzip.
+
+Ausscheidungshärtung von Aluminium
