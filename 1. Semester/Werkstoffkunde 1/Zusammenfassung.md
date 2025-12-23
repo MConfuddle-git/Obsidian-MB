@@ -270,7 +270,28 @@ Bildung einer schützenden Passivierungsschicht
 
 Ferritische Stähle 
 Bsp. X6Cr17
-- Cr fördert die Bildung von Ferrit Alpha-Stabilisator 
+- Cr fördert die Bildung von Ferrit (Alpha-Stabilisator)
 - geringe Zugfestigkeit
 - Preisgünstig durch kein Nickel (Ressourcen)
-- 
+
+Austenitischen Stähle 
+Bsp. X5CrNi18-100
+- kfz
+- hohe Duktilität
+- hohe Zähigkeit auch bei tiefen Temperaturen 
+- hohe Verfestigung 
+
+Martensitische Stähle 
+Bsp. X20Cr13
+- Stähle mit Alpha - Gamma - Alpha Umwandlung 
+- hohe Härte 
+- hohe Festigkeit 
+- hohe Verschleißbeständigkeit 
+
+Zum Thema Korrosionsbeständigkeit 
+- Gefahr der interkristallinen Korrosion unter thermischen Einfluß
+	- Bildung von Chromkarbiden an den Korngrenzen 
+		- Elementare Chromanteil der für die Korrosionsbeständigkeit verantwortlich ist nimmt ab.
+Zwei Ansätze zur Vermeidung von interkristallinen Korrosion 
+- Ti oder Nb stabilisierende Stähle, höhere Affinität zu C als Cr
+- low carbon Stähle, C≤ 0,03% 
