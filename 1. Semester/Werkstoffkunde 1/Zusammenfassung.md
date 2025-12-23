@@ -260,4 +260,4 @@ Kaltarbeitsstähle
 Mit zunehmender Anlasstemperatur entsteht angelassener (kubischer) Martensit.
 
 Warmarbeitsstahl
-Martensit wird angelassen, Härte nimmt ab bis zur Bildung von Sonderkarbiden (Sekundärhärtemaximum)
+Martensit wird angelassen, Härte nimmt ab bis zur Bildung von Sonderkarbiden (Sekundärhärtemaximum)!!!
