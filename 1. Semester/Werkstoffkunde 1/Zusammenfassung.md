@@ -256,4 +256,8 @@ Vergütete Stähle können nitriert werden
 C45: Martensit wird während dem Einsatz angelassen, Festigkeit nimmt ab
 X30CrMoVNbN13-3-1: hoher Anteil an Karbidbildungen, thermisch sehr stabil und hohe Härte. Versetzungsbewegungen werden behindert. Ausscheidungshärtung bzw Dispersionsverfestigung 
 
-Mit zunehmender Anlasstemperatur 
+Kaltarbeitsstähle
+Mit zunehmender Anlasstemperatur entsteht angelassener (kubischer) Martensit.
+
+Warmarbeitsstahl
+Mar
