@@ -112,9 +112,6 @@ Fügeverfahren verbinden mehrere Einzelteile zu einer Baugruppe. Die Gestaltung 
 - **Standardisierung:** Die Verwendung möglichst **weniger unterschiedlicher Normteile** (z. B. Schraubengrößen) reduziert die Teilevielfalt, erhöht die Losgrößen im Einkauf und minimiert die Verwechslungsgefahr in der Montage.
 - **Poka Yoke:** Dieses Prinzip der "fehler-sicheren" Konstruktion stellt durch asymmetrische Gestaltungsmerkmale sicher, dass ein Bauteil **nicht falsch zusammengebaut werden kann**.
 - **Zugänglichkeit:** Alle Fügestellen, Schrauben und Justageelemente müssen für Montagewerkzeuge gut erreichbar und idealerweise auch gut sichtbar sein.
-
-Die Kenntnis dieser spezifischen Gestaltungsregeln ist unerlässlich, um die theoretischen Prinzipien der fertigungsgerechten Konstruktion erfolgreich in die Praxis umzusetzen und wirtschaftliche Produkte zu entwickeln.
-
 ## 3. Synthese: Übergreifende Erfolgsfaktoren in der Konstruktion
 
 Obwohl jedes Fertigungsverfahren seine eigenen spezifischen Regeln hat, existiert eine Reihe von universellen, übergreifenden Prinzipien, die den Erfolg einer Konstruktion maßgeblich bestimmen. Sie ziehen sich wie ein roter Faden durch alle Gestaltungsphasen und dienen als eine Art übergeordnete Checkliste für den Konstrukteur. Die konsequente Anwendung dieser Erfolgsfaktoren führt zu robusten, wirtschaftlichen und qualitativ hochwertigen Produkten.
