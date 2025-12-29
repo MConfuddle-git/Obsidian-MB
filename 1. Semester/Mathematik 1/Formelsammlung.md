@@ -1,12 +1,8 @@
 ## 1.0 Mathematische Grundlagen
 
-Das Verständnis mathematischer Grundlagen ist das Fundament für alle weiterführenden ingenieurwissenschaftlichen und technischen Disziplinen. Konzepte wie die Mengenlehre, das Rechnen mit verschiedenen Zahlenmengen und grundlegende algebraische Operationen bilden die Sprache, in der technische Probleme formuliert und gelöst werden. Eine solide Beherrschung dieser Werkzeuge ist daher von strategischer Bedeutung für den Erfolg in Studium und Praxis.
-
 ### 1.1 Mengenlehre
 
 #### 1. Definition und Darstellung
-
-Eine Menge ist nach Cantor eine Zusammenfassung von bestimmten, wohl unterschiedenen Objekten unserer Anschauung oder unseres Denkens zu einem Ganzen. Die Objekte, aus denen eine Menge besteht, werden als ihre Elemente bezeichnet.
 
 | Darstellungsform             | Beispiel                                                               |
 | ---------------------------- | ---------------------------------------------------------------------- |
@@ -26,7 +22,6 @@ Eine Menge ist nach Cantor eine Zusammenfassung von bestimmten, wohl unterschied
 | `A ⊆ B`  | A ist eine Teilmenge von B | `x ∈ A ⇒ x ∈ B`    |
 | `A ⊇ B`  | A ist eine Obermenge von B | `B ⊆ A`            |
 | `A = B`  | A ist gleich B             | `x ∈ A ⇔ x ∈ B`    |
-
 #### 4. Mengenoperationen
 
 | Operation        | Schreibweise | Definition | Beschreibung       |
@@ -34,7 +29,6 @@ Eine Menge ist nach Cantor eine Zusammenfassung von bestimmten, wohl unterschied
 | **Durchschnitt** | `A ∩ B`      | `{x        | x ∈ A und x ∈ B}`  |
 | **Vereinigung**  | `A ∪ B`      | `{x        | x ∈ A oder x ∈ B}` |
 | **Differenz**    | `A \ B`      | `{x        | x ∈ A und x ∉ B}`  |
-
 #### 5. Produktmenge
 
 Die Produktmenge (auch Kreuzprodukt) zweier Mengen A und B ist die Menge aller **geordneten Paare** `(x, y)`, bei denen das erste Element aus A und das zweite aus B stammt. `A × B := {(x, y) | x ∈ A, y ∈ B}`
@@ -399,7 +393,6 @@ Winkel werden über das Skalarprodukt der relevanten Vektoren (Richtungs- oder N
 | **Zwei Ebenen**      | `cos(φ) = |
 
 --------------------------------------------------------------------------------
-
 ## 5.0 Elementare Funktionen und ihre Eigenschaften
 
 ### 5.1 Polynome und Gebrochen Rationale Funktionen
