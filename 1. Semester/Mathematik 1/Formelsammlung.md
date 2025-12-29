@@ -187,7 +187,7 @@ Der Logarithmus von `b` zur Basis `a`, geschrieben `log_a(b)`, ist die Lösung `
 
 Ein lineares Gleichungssystem besteht aus `m` linearen Gleichungen mit `n` Unbekannten. Es kann in Matrixform als `A·x = b` geschrieben werden.
 
-- **Koeffizientenmatrix** `**A**`**:** Enthält die Koeffizienten `a_ij` der Unbekannten.
+- **Koeffizientenmatrix** `A`**:** Enthält die Koeffizienten `a_ij` der Unbekannten.
 - **Erweiterte Koeffizientenmatrix** `**[A|b]**`**:** Enthält zusätzlich die rechte Seite `b` des Systems.
 
 #### 2. Gauß-Algorithmus
@@ -205,13 +205,8 @@ Ein LGS kann genau eine der drei folgenden Lösungsmengen haben:
 2. **Keine Lösung:** Das System ist unlösbar. In der Zeilen-Stufen-Form tritt ein Widerspruch auf, typischerweise eine Zeile der Form `0 0 ... 0 | c` mit `c ≠ 0`.
 3. **Unendlich viele Lösungen:** Das System hat eine unendliche Lösungsmenge. In der Zeilen-Stufen-Form gibt es mindestens eine Variable, die nicht als führendes Element (Pivot) einer Zeile auftritt und somit frei wählbar ist.
 
-Die Beherrschung dieser fundamentalen algebraischen Konzepte ist eine wesentliche Voraussetzung für die Analyse von Funktionen und deren Änderungsraten, welche das Kernstück des nächsten Kapitels bildet.
-
 --------------------------------------------------------------------------------
-
 ## 2.0 Differential- und Integralrechnung
-
-Die Differential- und Integralrechnung sind die zwei zentralen Säulen der Analysis. Die Differentialrechnung beschäftigt sich mit der Beschreibung momentaner Änderungsraten und liefert Werkzeuge, um die Steigung oder das Verhalten von Funktionen an einem einzigen Punkt zu analysieren. Im Gegensatz dazu analysiert die Integralrechnung die Akkumulation von Größen über ein Intervall, was der Berechnung von Flächen oder Volumina entspricht. Der Hauptsatz der Analysis offenbart die fundamentale Verbindung zwischen diesen beiden scheinbar getrennten Konzepten: sie sind Umkehroperationen voneinander.
 
 ### 2.1 Differentialrechnung
 
@@ -228,32 +223,25 @@ Die Ableitung `f'(x₀)` einer Funktion `f` an einer Stelle `x₀` ist definiert
 
 Die folgenden Regeln ermöglichen die systematische Berechnung von Ableitungen, ohne auf die Grenzwertdefinition zurückgreifen zu müssen.
 
-|   |   |
-|---|---|
-|Regel|Formel|
-|**Potenzregel**|`(x^r)' = r · x^(r-1)`|
-|**Faktorregel**|`(c · f(x))' = c · f'(x)`|
-|**Summenregel**|`(f(x) ± g(x))' = f'(x) ± g'(x)`|
-|**Produktregel**|`(f(x) · g(x))' = f'(x)g(x) + f(x)g'(x)`|
-|**Quotientenregel**|`(f(x) / g(x))' = (f'(x)g(x) - f(x)g'(x)) / (g(x))²`|
-|**Kettenregel**|`(f(g(x)))' = f'(g(x)) · g'(x)`|
-
+| Regel               | Formel                                               |
+| ------------------- | ---------------------------------------------------- |
+| **Potenzregel**     | `(x^r)' = r · x^(r-1)`                               |
+| **Faktorregel**     | `(c · f(x))' = c · f'(x)`                            |
+| **Summenregel**     | `(f(x) ± g(x))' = f'(x) ± g'(x)`                     |
+| **Produktregel**    | `(f(x) · g(x))' = f'(x)g(x) + f(x)g'(x)`             |
+| **Quotientenregel** | `(f(x) / g(x))' = (f'(x)g(x) - f(x)g'(x)) / (g(x))²` |
+| **Kettenregel**     | `(f(g(x)))' = f'(g(x)) · g'(x)`                      |
 #### 3. Ableitungen elementarer Funktionen
 
-|   |   |
-|---|---|
-|Funktion `f(x)`|Ableitung `f'(x)`|
-|`sin(x)`|`cos(x)`|
-|`cos(x)`|`-sin(x)`|
-|`e^x`|`e^x`|
-|`ln(x)`|`1/x`|
-
+| Funktion `f(x)` | Ableitung `f'(x)` |
+| --------------- | ----------------- |
+| `sin(x)`        | `cos(x)`          |
+| `cos(x)`        | `-sin(x)`         |
+| `e^x`           | `e^x`             |
+| `ln(x)`         | `1/x`             |
 #### 4. Tangentengleichung
 
 Die Gleichung der Tangente an den Graphen von `f` an der Stelle `x₀` lautet: `y = f(x₀) + f'(x₀) · (x - x₀)`
-
-Während die Differentialrechnung Funktionen analysiert, indem sie sie in infinitesimale Teile zerlegt, löst die Integralrechnung das inverse Problem: die Rekonstruktion einer Funktion aus ihrer bekannten Änderungsrate.
-
 ### 2.2 Integralrechnung
 
 #### 1. Das bestimmte Integral
@@ -266,7 +254,6 @@ Das bestimmte Integral `∫_a^b f(x)dx` ist formal als Grenzwert von Riemann-Sum
 
 - Eine Funktion `F(x)` heißt **Stammfunktion** von `f(x)`, wenn ihre Ableitung wieder `f(x)` ergibt: `F'(x) = f(x)`.
 - Das **unbestimmte Integral** `∫f(x)dx` bezeichnet die Menge aller Stammfunktionen von `f(x)`, die sich nur durch eine additive Konstante `C` unterscheiden: `F(x) + C`.
-
 #### 3. Hauptsatz der Differential- und Integralrechnung
 
 Der Hauptsatz verbindet die Konzepte von Ableitung und Integral. Sein zweiter Teil bietet ein mächtiges Werkzeug zur Berechnung bestimmter Integrale: Ist `F` eine beliebige Stammfunktion von `f`, so gilt: `∫_a^b f(x)dx = [F(x)]_a^b = F(b) - F(a)`
@@ -275,28 +262,21 @@ Der Hauptsatz verbindet die Konzepte von Ableitung und Integral. Sein zweiter Te
 
 Die folgende Tabelle listet Stammfunktionen für wesentliche elementare Funktionen auf.
 
-|   |   |
-|---|---|
-|Funktion `f(x)`|Stammfunktion `∫f(x)dx`|
-|`x^n` (für `n ≠ -1`)|`(1/(n+1)) · x^(n+1) + C`|
-|`1/x`|`ln|
-|`e^x`|`e^x + C`|
-|`sin(x)`|`-cos(x) + C`|
-|`cos(x)`|`sin(x) + C`|
-
+| Funktion `f(x)`      | Stammfunktion `∫f(x)dx`   |
+| -------------------- | ------------------------- |
+| `x^n` (für `n ≠ -1`) | `(1/(n+1)) · x^(n+1) + C` |
+| `1/x`                | `ln                       |
+| `e^x`                | `e^x + C`                 |
+| `sin(x)`             | `-cos(x) + C`             |
+| `cos(x)`             | `sin(x) + C`              |
 #### 5. Rechenregeln für Integrale
 
 - **Linearität:** `∫(c·f(x) ± g(x))dx = c·∫f(x)dx ± ∫g(x)dx`
 - **Vertauschen der Grenzen:** `∫_a^b f(x)dx = -∫_b^a f(x)dx`
 - **Aufspalten des Intervalls:** `∫_a^b f(x)dx = ∫_a^c f(x)dx + ∫_c^b f(x)dx`
 
-Nachdem wir nun die zentralen Konzepte der Analysis für eindimensionale Funktionen betrachtet haben, wenden wir diese Denkweise auf mehrdimensionale Objekte wie Vektoren an, um komplexe geometrische und physikalische Probleme im Raum zu lösen.
-
 --------------------------------------------------------------------------------
-
 ## 3.0 Vektorrechnung im ℝ³
-
-In den Natur- und Ingenieurwissenschaften wird zwischen skalaren und vektoriellen Größen unterschieden. Skalare Größen wie Masse oder Temperatur sind vollständig durch eine einzige Maßzahl bestimmt. Vektorielle Größen hingegen, wie Kraft oder Geschwindigkeit, sind durch einen **Betrag** und eine **Richtung** definiert. Vektoren sind daher ein unverzichtbares Werkzeug, um physikalische Phänomene und räumliche Beziehungen mathematisch präzise zu beschreiben.
 
 ### 3.1 Vektoroperationen
 
@@ -309,8 +289,8 @@ In den Natur- und Ingenieurwissenschaften wird zwischen skalaren und vektorielle
 
 #### 2. Addition und Subtraktion
 
-- **Addition** `**a⃗ + b⃗**`**:** Grafisch durch Aneinandersetzen der Vektoren ("Pfeil-an-Spitze"-Methode) oder durch die Diagonale des von `a⃗` und `b⃗` aufgespannten Parallelogramms (Parallelogrammregel).
-- **Subtraktion** `**a⃗ - b⃗**`**:** Definiert als Addition des Gegenvektors: `a⃗ + (-b⃗)`.
+- **Addition** `a⃗ + b⃗`**:** Grafisch durch Aneinandersetzen der Vektoren ("Pfeil-an-Spitze"-Methode) oder durch die Diagonale des von `a⃗` und `b⃗` aufgespannten Parallelogramms (Parallelogrammregel).
+- **Subtraktion** `a⃗ - b⃗`**:** Definiert als Addition des Gegenvektors: `a⃗ + (-b⃗)`
 
 #### 3. Skalare Multiplikation
 
@@ -363,13 +343,9 @@ Das Spatprodukt kombiniert Vektor- und Skalarprodukt.
 - **Geometrische Bedeutung:** Der Betrag des Spatprodukts `|[a⃗, b⃗, c⃗]|` entspricht dem **Volumen des Spats** (Parallelepipeds), das von den drei Vektoren `a⃗`, `b⃗` und `c⃗` aufgespannt wird.
 - **Eigenschaft:** Drei Vektoren sind genau dann komplanar (liegen in einer Ebene), wenn ihr Spatprodukt Null ist: `[a⃗, b⃗, c⃗] = 0`.
 
-Vektoren und die Werkzeuge der Analysis ermöglichen es nun, geometrische Objekte wie Geraden und Ebenen im Raum präzise zu beschreiben und zu analysieren, was den Kern der analytischen Geometrie ausmacht.
-
 --------------------------------------------------------------------------------
 
 ## 4.0 Analytische Geometrie
-
-Die analytische Geometrie schlägt eine Brücke zwischen Algebra und Geometrie. Sie ermöglicht es, geometrische Objekte wie Geraden und Ebenen durch algebraische Gleichungen zu beschreiben. Dieser Ansatz erlaubt die präzise Berechnung von Schnittpunkten, Abständen und Winkeln, die in rein geometrischen Betrachtungen oft nur qualitativ erfasst werden können.
 
 ### 4.1 Darstellung von Geraden und Ebenen
 
@@ -377,23 +353,20 @@ Die analytische Geometrie schlägt eine Brücke zwischen Algebra und Geometrie. 
 
 Eine Gerade im Raum ist durch einen Punkt und eine Richtung eindeutig bestimmt.
 
-|   |   |
-|---|---|
-|Darstellungsform|Gleichung|
-|**Parameterform (Punkt-Richtung)**|`g: x⃗ = p⃗ + t · v⃗, t ∈ ℝ` <br> (`p⃗` ist der Stützvektor, `v⃗` der Richtungsvektor)|
-|**Zwei-Punkte-Form**|`g: x⃗ = p⃗₁ + t · (p⃗₂ - p⃗₁), t ∈ ℝ` <br> (Gerade durch die Punkte mit Ortsvektoren `p⃗₁` und `p⃗₂`)|
-
+| Darstellungsform                   | Gleichung                                                                                              |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Parameterform (Punkt-Richtung)** | `g: x⃗ = p⃗ + t · v⃗, t ∈ ℝ` <br> (`p⃗` ist der Stützvektor, `v⃗` der Richtungsvektor)                 |
+| **Zwei-Punkte-Form**               | `g: x⃗ = p⃗₁ + t · (p⃗₂ - p⃗₁), t ∈ ℝ` <br> (Gerade durch die Punkte mit Ortsvektoren `p⃗₁` und `p⃗₂`) |
 #### 2. Ebenen im ℝ³
 
 Ebenen können auf verschiedene Weisen beschrieben werden, je nachdem, welche Informationen gegeben sind.
 
-|   |   |
-|---|---|
-|Darstellungsform|Gleichung und Bedingungen|
-|**Parameterform**|`E: x⃗ = p⃗ + t · v⃗₁ + s · v⃗₂, t, s ∈ ℝ` <br> (`p⃗` ist der Stützvektor, `v⃗₁` und `v⃗₂` sind zwei nicht-kollineare Richtungsvektoren)|
-|**Normalenform**|`E: (x⃗ - p⃗) · n⃗ = 0` <br> (`p⃗` ist der Stützvektor, `n⃗` ist ein Normalenvektor, der senkrecht auf der Ebene steht)|
-|**Koordinatenform**|`E: n₁x + n₂y + n₃z = d` <br> (Die Koeffizienten `n₁, n₂, n₃` bilden den Normalenvektor `n⃗`)|
-|**Hesse-Normalform**|`E: n⃗₀ · x⃗ = d` <br> (Eine spezielle Normalenform, bei der `|
+| Darstellungsform     | Gleichung und Bedingungen                                                                                                                |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Parameterform**    | `E: x⃗ = p⃗ + t · v⃗₁ + s · v⃗₂, t, s ∈ ℝ` <br> (`p⃗` ist der Stützvektor, `v⃗₁` und `v⃗₂` sind zwei nicht-kollineare Richtungsvektoren) |
+| **Normalenform**     | `E: (x⃗ - p⃗) · n⃗ = 0` <br> (`p⃗` ist der Stützvektor, `n⃗` ist ein Normalenvektor, der senkrecht auf der Ebene steht)                  |
+| **Koordinatenform**  | `E: n₁x + n₂y + n₃z = d` <br> (Die Koeffizienten `n₁, n₂, n₃` bilden den Normalenvektor `n⃗`)                                            |
+| **Hesse-Normalform** | `E: n⃗₀ · x⃗ = d` <br> (Eine spezielle Normalenform, bei der `                                                                           |
 
 ### 4.2 Lagebeziehungen, Abstände und Winkel
 
@@ -401,14 +374,12 @@ Ebenen können auf verschiedene Weisen beschrieben werden, je nachdem, welche In
 
 Zwei Geraden im Raum können vier verschiedene Lagen zueinander einnehmen:
 
-|   |   |
-|---|---|
-|Lagebeziehung|Beschreibung|
-|**Identisch**|Die Geraden fallen zusammen.|
-|**Parallel**|Die Geraden haben keine gemeinsamen Punkte, ihre Richtungsvektoren sind kollinear.|
-|**Schneidend**|Die Geraden haben genau einen gemeinsamen Schnittpunkt.|
-|**Windschief**|Die Geraden sind nicht parallel und haben keine gemeinsamen Punkte.|
-
+| Lagebeziehung  | Beschreibung                                                                       |
+| -------------- | ---------------------------------------------------------------------------------- |
+| **Identisch**  | Die Geraden fallen zusammen.                                                       |
+| **Parallel**   | Die Geraden haben keine gemeinsamen Punkte, ihre Richtungsvektoren sind kollinear. |
+| **Schneidend** | Die Geraden haben genau einen gemeinsamen Schnittpunkt.                            |
+| **Windschief** | Die Geraden sind nicht parallel und haben keine gemeinsamen Punkte.                |
 #### 2. Abstandsberechnungen
 
 Mit Vektorprodukten lassen sich Abstände elegant berechnen.
@@ -421,20 +392,15 @@ Mit Vektorprodukten lassen sich Abstände elegant berechnen.
 
 Winkel werden über das Skalarprodukt der relevanten Vektoren (Richtungs- oder Normalenvektoren) bestimmt.
 
-|   |   |
-|---|---|
-|Winkel zwischen|Formel|
-|**Zwei Geraden**|`cos(φ) =|
-|**Gerade und Ebene**|`sin(φ) =|
-|**Zwei Ebenen**|`cos(φ) =|
-
-Diese geometrischen und algebraischen Werkzeuge werden nun auf die Untersuchung der fundamentalen Bausteine der mathematischen Modellierung angewendet: den elementaren Funktionen und ihren charakteristischen Eigenschaften.
+| Winkel zwischen      | Formel    |
+| -------------------- | --------- |
+| **Zwei Geraden**     | `cos(φ) = |
+| **Gerade und Ebene** | `sin(φ) = |
+| **Zwei Ebenen**      | `cos(φ) = |
 
 --------------------------------------------------------------------------------
 
 ## 5.0 Elementare Funktionen und ihre Eigenschaften
-
-Elementare Funktionen – wie Polynome, Exponential-, Logarithmus- und trigonometrische Funktionen – sind die fundamentalen Bausteine, mit denen reale Phänomene in Wissenschaft und Technik modelliert werden. Das Verständnis ihrer charakteristischen Eigenschaften, wie Nullstellen, Symmetrien und asymptotisches Verhalten, ist entscheidend für die Analyse und Anwendung dieser Modelle.
 
 ### 5.1 Polynome und Gebrochen Rationale Funktionen
 
@@ -443,7 +409,7 @@ Elementare Funktionen – wie Polynome, Exponential-, Logarithmus- und trigonome
 - **Definition:** Ein Polynom n-ten Grades hat die allgemeine Form: `P(x) = a_n x^n + a_{n-1} x^{n-1} + ... + a₁x + a₀`
 - **Nullstellen:** Eine Stelle `x₀`, an der `P(x₀) = 0` ist, wird Nullstelle genannt. Jeder Nullstelle `x₀` entspricht ein Linearfaktor `(x - x₀)`.
     - **Vielfachheit:** Die Vielfachheit einer Nullstelle gibt an, wie oft der entsprechende Linearfaktor vorkommt. Bei ungerader Vielfachheit schneidet der Graph die x-Achse (mit Vorzeichenwechsel). Bei gerader Vielfachheit berührt der Graph die x-Achse (ohne Vorzeichenwechsel).
-- **Verhalten für** `**|x| → ∞**`**:** Das Verhalten für betragsmäßig große `x` wird ausschließlich durch den Leitterm `a_n x^n` bestimmt.
+- **Verhalten für** `|x| → ∞`**:** Das Verhalten für betragsmäßig große `x` wird ausschließlich durch den Leitterm `a_n x^n` bestimmt.
 
 #### 2. Gebrochen Rationale Funktionen
 
@@ -451,7 +417,7 @@ Elementare Funktionen – wie Polynome, Exponential-, Logarithmus- und trigonome
 - **Definitionslücken:** Die Nullstellen des Nenners `Q(x)` sind Definitionslücken.
     - **Hebbare Lücken:** Eine Nullstelle des Nenners, die auch eine Nullstelle des Zählers ist, führt zu einer hebbaren Lücke, wenn der entsprechende Linearfaktor gekürzt werden kann.
     - **Pole:** Eine Nullstelle des Nenners, die nach dem Kürzen verbleibt, ist ein Pol. An dieser Stelle hat der Graph eine vertikale Asymptote.
-- **Asymptotisches Verhalten (**`**|x| → ∞**`**):**
+- **Asymptotisches Verhalten (**`|x| → ∞`**):**
     - **Zählergrad < Nennergrad:** Die x-Achse (`y = 0`) ist eine horizontale Asymptote.
     - **Zählergrad = Nennergrad:** Die horizontale Gerade `y = a_m / b_n` (Verhältnis der Leitkoeffizienten) ist eine Asymptote.
     - **Zählergrad > Nennergrad:** Das asymptotische Verhalten entspricht dem Polynom, das sich aus der Polynomdivision `P(x) : Q(x)` ergibt (schräge oder polynomielle Asymptote).
@@ -482,14 +448,13 @@ Elementare Funktionen – wie Polynome, Exponential-, Logarithmus- und trigonome
 
 Die Funktionen Sinus, Cosinus und Tangens beschreiben periodische Vorgänge.
 
-|   |   |   |   |
-|---|---|---|---|
-|Eigenschaft|`sin(x)`|`cos(x)`|`tan(x) = sin(x)/cos(x)`|
-|**Definitionsbereich**|`ℝ`|`ℝ`|`ℝ \ {π/2 + kπ, k ∈ ℤ}`|
-|**Wertebereich**|`[-1, 1]`|`[-1, 1]`|`ℝ`|
-|**Periode**|`2π`|`2π`|`π`|
-|**Symmetrie**|Punktsymmetrisch (ungerade)|Achsensymmetrisch (gerade)|Punktsymmetrisch (ungerade)|
-|**Nullstellen**|`kπ, k ∈ ℤ`|`π/2 + kπ, k ∈ ℤ`|`kπ, k ∈ ℤ`|
+| Eigenschaft            | `sin(x)`                    | `cos(x)`                   | `tan(x) = sin(x)/cos(x)`    |
+| ---------------------- | --------------------------- | -------------------------- | --------------------------- |
+| **Definitionsbereich** | `ℝ`                         | `ℝ`                        | `ℝ \ {π/2 + kπ, k ∈ ℤ}`     |
+| **Wertebereich**       | `[-1, 1]`                   | `[-1, 1]`                  | `ℝ`                         |
+| **Periode**            | `2π`                        | `2π`                       | `π`                         |
+| **Symmetrie**          | Punktsymmetrisch (ungerade) | Achsensymmetrisch (gerade) | Punktsymmetrisch (ungerade) |
+| **Nullstellen**        | `kπ, k ∈ ℤ`                 | `π/2 + kπ, k ∈ ℤ`          | `kπ, k ∈ ℤ`                 |
 
 - **Allgemeine Cosinus-Funktion:** `f(t) = A cos(ωt + φ)`
     - `A`: Amplitude (maximale Auslenkung)
@@ -515,13 +480,8 @@ Diese Funktionen sind Kombinationen der e-Funktion und weisen Analogien zu den t
     - `tanh(x) = sinh(x) / cosh(x)` (Tangens Hyperbolicus)
 - **Fundamentale Identität:** `cosh²(x) - sinh²(x) = 1`
 
-Matrizen und Determinanten bieten nun ein leistungsfähiges algebraisches Framework, um lineare Gleichungssysteme, die in vielen technischen Modellen als Funktionszusammenhänge auftreten, systematisch zu lösen und zu analysieren.
-
 --------------------------------------------------------------------------------
-
 ## 6.0 Matrizen und Determinanten
-
-Matrizen sind rechteckige Anordnungen von Zahlen, die eine effiziente Organisation von Daten und die Beschreibung linearer Abbildungen ermöglichen. Sie sind ein zentrales Werkzeug in fast allen Bereichen der Ingenieurwissenschaften. Determinanten sind eine wichtige Kennzahl für quadratische Matrizen, die sowohl geometrische Informationen (wie Fläche oder Volumen) als auch algebraische Eigenschaften (wie die Lösbarkeit von Gleichungssystemen) kodiert.
 
 ### 6.1 Rechnen mit Matrizen
 
@@ -542,7 +502,7 @@ Das Produkt `C = A · B` ist nur definiert, wenn die Spaltenanzahl von `A` (Typ 
 #### 3. Spezielle Matrizen
 
 - **Nullmatrix:** Eine Matrix, deren Elemente alle Null sind.
-- **Einheitsmatrix** `**E**`**:** Eine quadratische Matrix mit Einsen auf der Hauptdiagonale und Nullen ansonsten. Sie ist das neutrale Element der Matrixmultiplikation (`A · E = A`).
+- **Einheitsmatrix** `E`**:** Eine quadratische Matrix mit Einsen auf der Hauptdiagonale und Nullen ansonsten. Sie ist das neutrale Element der Matrixmultiplikation (`A · E = A`).
 - **Transponierte Matrix** `**Aᵀ**`**:** Entsteht durch Vertauschen von Zeilen und Spalten von `A`.
 - **Symmetrische Matrix:** Eine quadratische Matrix, für die `A = Aᵀ` gilt.
 
@@ -587,5 +547,3 @@ Eine rekursive Methode zur Berechnung der Determinante einer n×n-Matrix. Die De
 Eine explizite Lösungsformel für quadratische lineare Gleichungssysteme `A·x = b` mit `det(A) ≠ 0`. Die i-te Komponente der Lösung `x` ist gegeben durch: `x_i = det(A_i) / det(A)` wobei `A_i` die Matrix ist, die entsteht, wenn die i-te Spalte von `A` durch den Vektor `b` ersetzt wird.
 
 --------------------------------------------------------------------------------
-
-Die hier zusammengestellten mathematischen Werkzeuge bilden ein universelles und fundamentales Rüstzeug, dessen sichere Anwendung die Basis für die erfolgreiche Analyse und Lösung komplexer Probleme in den Ingenieurwissenschaften und der technischen Praxis darstellt.
