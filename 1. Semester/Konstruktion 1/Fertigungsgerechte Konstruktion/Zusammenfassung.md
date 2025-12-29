@@ -1,8 +1,6 @@
 ## 1. Fundamentale Prinzipien der fertigungsgerechten Konstruktion
 
-Die fertigungsgerechte Konstruktion ist kein nachgelagerter Optimierungsschritt, sondern ein strategischer Kernprozess, der bereits in den frühesten Phasen der Produktentwicklung über Erfolg oder Misserfolg entscheidet. Der Konstrukteur legt mit der Gestalt und dem Werkstoff eines Bauteils den entscheidenden Hebel für die Kosten- und Qualitätskontrolle über den gesamten Produktlebenszyklus fest.
-
-Der zentrale Konflikt beim Konstruieren liegt in der Notwendigkeit, zwischen zahlreichen, oft widersprüchlichen Anforderungen den besten Kompromiss zu finden. Die **"beste Konstruktion"** ist demnach nicht die technisch aufwendigste, sondern jene Lösung, die eine optimale Balance zwischen Funktion, Kosten, Herstellbarkeit und Qualität erreicht.
+Die **"beste Konstruktion"** ist demnach nicht die technisch aufwendigste, sondern jene Lösung, die eine optimale Balance zwischen Funktion, Kosten, Herstellbarkeit und Qualität erreicht.
 
 Aus wirtschaftlicher Sicht ist die Unterscheidung zwischen **Einmalkosten** und **wiederkehrenden Kosten** fundamental. Während die Kosten der Konstruktion nur einmal anfallen, wiederholen sich die Fertigungskosten bei jedem einzelnen produzierten Bauteil. Daraus folgt: Je höher die geplante Stückzahl, desto größer ist der wirtschaftliche Anreiz, in der Konstruktionsphase einen signifikanten Aufwand zu betreiben, um den Fertigungsprozess zu optimieren und die wiederkehrenden Kosten zu minimieren.
 

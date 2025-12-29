@@ -1,9 +1,5 @@
 1.0 Grundlagen der Fertigungstechnik
 
-1.1 Einleitender Überblick
-
-Die Fertigungstechnik stellt eine Kernkompetenz im Maschinenbau dar und bildet die Grundlage für die Herstellung von Produkten. Die strategische Auswahl und Anwendung des richtigen Fertigungsverfahrens ist entscheidend, da sie den gesamten Wertschöpfungsprozess, die Wirtschaftlichkeit und letztendlich die Qualität des Endprodukts maßgeblich bestimmt. Ein tiefes Verständnis dieser Verfahren ist daher unerlässlich, um innovative und wettbewerbsfähige Produkte zu entwickeln und zu produzieren.
-
 1.2 Produktion als Wertschöpfungsprozess
 
 Produktion wird als ein Prozess der Wertschöpfung verstanden, bei dem aus Rohstoffen und Wertstoffen durch gezielte Bearbeitung und Formgebung höherwertige Produkte entstehen. Dieser Transformationsprozess steht im Zentrum der industriellen Fertigung und zielt darauf ab, den Wert der eingesetzten Materialien durch die Erfüllung spezifischer Funktionen und Qualitätsanforderungen zu steigern.
@@ -57,9 +53,7 @@ Die **Rentabilitätsrechnung** setzt den erzielten Gewinn ins Verhältnis zum 
 
 Die **Amortisationsrechnung** ermittelt den Zeitraum, innerhalb dessen die ursprüngliche Investition durch die generierten Rückflüsse wieder ausgeglichen wird.
 
-• **Formel:** `AZ [Jahre] = Kapitaleinsatz / jährlicher Rückfluss (RF)`
-
-    ◦ wobei `RF = Gewinn + freiwerdende Mittel aus Abschreibung + kalk. Zins auf Eigenkapital`
+• **Formel:** `AZ [Jahre] = Kapitaleinsatz / jährlicher Rückfluss (RF)`  wobei `RF = Gewinn + freiwerdende Mittel aus Abschreibung + kalk. Zins auf Eigenkapital`
 
 1.5 Klassifizierung nach DIN 8580
 
@@ -175,28 +169,27 @@ Gießen ist eines der wichtigsten Urformverfahren, bei dem flüssiges Metall in 
 
 • **Gießen in Dauerformen (wiederverwendbare Formen)**
 
-    ◦ **Mit Schwerkraft:** Kokillenguss, Stranggießen
+   **Mit Schwerkraft:** Kokillenguss, Stranggießen
 
-    ◦ **Mit Druck:** Druckguss
+   **Mit Druck:** Druckguss
 
-    ◦ **Mit Zentrifugalkraft:** Schleuderguss
+   **Mit Zentrifugalkraft:** Schleuderguss
 
 • **Gießen in Einmal-Formen (verlorene Formen)**
 
-    ◦ **Mit Dauermodellen:** Handformen, Maschinenformen (z.B. Sandguss)
+   **Mit Dauermodellen:** Handformen, Maschinenformen (z.B. Sandguss)
 
-    ◦ **Mit verlorenen Modellen:** Feinguss, Vollformguss
+   **Mit verlorenen Modellen:** Feinguss, Vollformguss
 
 Analyse ausgewählter Gießverfahren
 
-|   |   |   |
-|---|---|---|
-|Verfahren|Merkmale/Vorteile|Typische Anwendung/Werkstoffe|
-|**Kokillenguss**|Gießen in metallische Dauerformen (Kokillen). Führt zu feinkörnigem, dichtem Gefüge und guter Oberflächengüte. Hohe Maßgenauigkeit.|Armaturen (dichtes Gefüge), Bauteile aus Al-, Zn-, Cu-, Mg-Legierungen.|
-|**Druckguss**|Schmelze wird unter hohem Druck in die Form gepresst (Kalt- oder Warmkammerverfahren). Produziert endkonturnahe Bauteile, die nur minimale oder keine nachfolgende Zerspanung erfordern. Sehr rationell für Massenfertigung.|Gehäuse, komplexe Bauteile aus Al-, Mg-, Zn-Legierungen.|
-|**Schleuderguss**|Die Schmelze wird in eine rotierende Form gegossen. Durch die Zentrifugalkraft entsteht ein dichter, lunkerfreier Hohlkörper mit sauberer Außenfläche.|Rotationssymmetrische Hohlkörper wie Rohre, Buchsen, Zylinderlaufbuchsen.|
-|**Feinguss**|Nutzt ein **verlorenes Modell** aus Wachs, das mit Keramik ummantelt wird. Das Wachs wird ausgeschmolzen, die Schmelze eingegossen und die Keramikform nach dem Erstarren zerstört. Ermöglicht sehr präzise, gratfreie Werkstücke ohne Nacharbeit.|Komplexe Bauteile wie Turboladerräder, für alle gießbaren Werkstoffe geeignet.|
-|**Vollformguss**|Verwendet ein Modell aus Polystyrol-Schaum, das im Formsand verbleibt und beim Gießen vergast. Erlaubt komplexe Konturen ohne Formteilung und Entformungsschrägen.|Prototypen und Einzelstücke, da die Modellherstellung kostengünstig ist.|
+| Verfahren         | Merkmale/Vorteile                                                                                                                                                                                                                                  | Typische Anwendung/Werkstoffe                                                  |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Kokillenguss**  | Gießen in metallische Dauerformen (Kokillen). Führt zu feinkörnigem, dichtem Gefüge und guter Oberflächengüte. Hohe Maßgenauigkeit.                                                                                                                | Armaturen (dichtes Gefüge), Bauteile aus Al-, Zn-, Cu-, Mg-Legierungen.        |
+| **Druckguss**     | Schmelze wird unter hohem Druck in die Form gepresst (Kalt- oder Warmkammerverfahren). Produziert endkonturnahe Bauteile, die nur minimale oder keine nachfolgende Zerspanung erfordern. Sehr rationell für Massenfertigung.                       | Gehäuse, komplexe Bauteile aus Al-, Mg-, Zn-Legierungen.                       |
+| **Schleuderguss** | Die Schmelze wird in eine rotierende Form gegossen. Durch die Zentrifugalkraft entsteht ein dichter, lunkerfreier Hohlkörper mit sauberer Außenfläche.                                                                                             | Rotationssymmetrische Hohlkörper wie Rohre, Buchsen, Zylinderlaufbuchsen.      |
+| **Feinguss**      | Nutzt ein **verlorenes Modell** aus Wachs, das mit Keramik ummantelt wird. Das Wachs wird ausgeschmolzen, die Schmelze eingegossen und die Keramikform nach dem Erstarren zerstört. Ermöglicht sehr präzise, gratfreie Werkstücke ohne Nacharbeit. | Komplexe Bauteile wie Turboladerräder, für alle gießbaren Werkstoffe geeignet. |
+| **Vollformguss**  | Verwendet ein Modell aus Polystyrol-Schaum, das im Formsand verbleibt und beim Gießen vergast. Erlaubt komplexe Konturen ohne Formteilung und Entformungsschrägen.                                                                                 | Prototypen und Einzelstücke, da die Modellherstellung kostengünstig ist.       |
 
 Gestaltungsregeln für Gussteile
 
@@ -268,19 +261,19 @@ Die Umformverfahren werden nach der Art der vorherrschenden Beanspruchung in fü
 
 • **Druckumformen:**
 
-    ◦ **Walzen:** Reduzierung des Querschnitts durch Walzenpaare zur Herstellung von Blechen, Bändern und Profilen.
+   **Walzen:** Reduzierung des Querschnitts durch Walzenpaare zur Herstellung von Blechen, Bändern und Profilen.
 
-    ◦ **Schmieden:** Formgebung durch schlagartige oder pressende Krafteinwirkung. Ein entscheidender Vorteil ist der ununterbrochene **Faserverlauf**, der den Konturen des Bauteils folgt. Dies verbessert die Dauerfestigkeit und Belastbarkeit signifikant im Vergleich zu Gussteilen mit zufälliger Kornstruktur oder zerspanten Teilen, bei denen der Faserverlauf durchtrennt wird.
+   **Schmieden:** Formgebung durch schlagartige oder pressende Krafteinwirkung. Ein entscheidender Vorteil ist der ununterbrochene **Faserverlauf**, der den Konturen des Bauteils folgt. Dies verbessert die Dauerfestigkeit und Belastbarkeit signifikant im Vergleich zu Gussteilen mit zufälliger Kornstruktur oder zerspanten Teilen, bei denen der Faserverlauf durchtrennt wird.
 
-    ◦ **Fließpressen:** Ein Rohling wird durch einen Stempel durch eine formgebende Öffnung (Matrize) gedrückt. Man unterscheidet **Vorwärtsfließpressen** (Werkstoff fließt in Stempelrichtung) und **Rückwärtsfließpressen** (Werkstoff fließt entgegen der Stempelrichtung).
+   **Fließpressen:** Ein Rohling wird durch einen Stempel durch eine formgebende Öffnung (Matrize) gedrückt. Man unterscheidet **Vorwärtsfließpressen** (Werkstoff fließt in Stempelrichtung) und **Rückwärtsfließpressen** (Werkstoff fließt entgegen der Stempelrichtung).
 
 • **Zug-Druckumformen:**
 
-    ◦ **Tiefziehen:** Umformen eines Blechzuschnitts (Platine) zu einem Hohlkörper. Ein **Stempel** drückt das Blech in eine **Matrize**, während ein **Blechhalter** das unkontrollierte Nachfließen des Materials und Faltenbildung verhindert.
+   **Tiefziehen:** Umformen eines Blechzuschnitts (Platine) zu einem Hohlkörper. Ein **Stempel** drückt das Blech in eine **Matrize**, während ein **Blechhalter** das unkontrollierte Nachfließen des Materials und Faltenbildung verhindert.
 
 • **Innenhochdruckumformen (IHU):**
 
-    ◦ Bei diesem Verfahren wird ein rohrförmiger Rohling in ein geschlossenes Werkzeug eingelegt und mit einem flüssigen Wirkmedium unter sehr hohen Druck gesetzt. Das Rohr weitet sich auf und legt sich an die Innenkontur des Werkzeugs an. So können komplexe, leichte und hochfeste Hohlkörper (z. B. für den Automobilbau) hergestellt werden.
+   Bei diesem Verfahren wird ein rohrförmiger Rohling in ein geschlossenes Werkzeug eingelegt und mit einem flüssigen Wirkmedium unter sehr hohen Druck gesetzt. Das Rohr weitet sich auf und legt sich an die Innenkontur des Werkzeugs an. So können komplexe, leichte und hochfeste Hohlkörper (z. B. für den Automobilbau) hergestellt werden.
 
 4.4 Maschinen und Automatisierung
 
@@ -318,11 +311,11 @@ Die Anforderungen an Schneidwerkstoffe sind widersprüchlich: Sie müssen zuglei
 
 • **Weitere Verfahren:**
 
-    ◦ **Räumen:** Erzeugt mit einem vielzahnigen Werkzeug in einem einzigen Hub eine profilierte Innen- oder Außenkontur.
+   **Räumen:** Erzeugt mit einem vielzahnigen Werkzeug in einem einzigen Hub eine profilierte Innen- oder Außenkontur.
 
-    ◦ **Läppen:** Ein Feinstbearbeitungsverfahren mit einem losen, in einer Paste oder Flüssigkeit verteilten Korn zur Erzielung sehr hoher Oberflächengüten.
+   **Läppen:** Ein Feinstbearbeitungsverfahren mit einem losen, in einer Paste oder Flüssigkeit verteilten Korn zur Erzielung sehr hoher Oberflächengüten.
 
-    ◦ **Honen:** Ein Zerspanungsverfahren mit gebundenem Korn zur Verbesserung von Maß- und Formgenauigkeit sowie der Oberfläche von Bohrungen.
+   **Honen:** Ein Zerspanungsverfahren mit gebundenem Korn zur Verbesserung von Maß- und Formgenauigkeit sowie der Oberfläche von Bohrungen.
 
 Nachdem Werkstücke durch Trennen ihre endgültige Form erhalten haben, werden sie im nächsten Schritt oft zu komplexeren Baugruppen verbunden, was das Thema Fügen einleitet.
 
@@ -338,11 +331,11 @@ Fügen ist das auf Dauer angelegte Verbinden von zwei oder mehr einzelnen Werkst
 
 • **Unlösbare Verbindungen:**
 
-    ◦ **Stoffschlüssig:** Die Werkstücke werden durch atomare oder molekulare Kräfte verbunden (Schweißen, Löten, Kleben).
+   **Stoffschlüssig:** Die Werkstücke werden durch atomare oder molekulare Kräfte verbunden (Schweißen, Löten, Kleben).
 
-    ◦ **Formschlüssig:** Die Form der Fügeteile verhindert deren Trennung (Nieten, Falzen, Durchsetzfügen).
+   **Formschlüssig:** Die Form der Fügeteile verhindert deren Trennung (Nieten, Falzen, Durchsetzfügen).
 
-    ◦ **Kraftschlüssig:** Die Verbindung wird durch eine konstante Kraft aufrechterhalten (Aufschrumpfen).
+   **Kraftschlüssig:** Die Verbindung wird durch eine konstante Kraft aufrechterhalten (Aufschrumpfen).
 
 6.2 Analyse ausgewählter Schweißverfahren
 
@@ -356,14 +349,13 @@ Schweißverfahren lassen sich grob in zwei Gruppen einteilen:
 
 Verfahrensbeschreibung
 
-|   |   |   |
-|---|---|---|
-|Verfahren|Funktionsprinzip|Anwendung/Besonderheit|
-|**Gasschmelzschweißen**|Die zum Schmelzen der Werkstücke benötigte Wärme wird durch die Verbrennung eines Gasgemisches (z.B. Acetylen-Sauerstoff) erzeugt.|Manuelles Verfahren, gut für Reparaturen und dünne Bleche geeignet.|
-|**Lichtbogenhandschweißen**|Ein Lichtbogen zwischen einer abschmelzenden Stabelektrode und dem Werkstück erzeugt die Schweißwärme. Die **Umhüllung** der Elektrode schützt die Schmelze vor der Atmosphäre und stabilisiert den Lichtbogen.|Flexibles und weit verbreitetes Verfahren für Stahlbau und Montage.|
-|**Schutzgasschweißen**|Ein Lichtbogen brennt zwischen einer kontinuierlich zugeführten Drahtelektrode und dem Werkstück. Ein Schutzgas umströmt den Lichtbogen und schützt das Schmelzbad vor der Atmosphäre.|Sehr wirtschaftliches und gut automatisierbares Verfahren für die Serienfertigung.|
-|**Widerstandspunktschweißen**|Zwei Elektroden pressen Bleche aufeinander. Ein hoher Stromfluss erzeugt an der Kontaktstelle Wärme, die die Bleche aufschmilzt und verbindet.|Hauptverfahren im Karosseriebau zur Verbindung von Blechteilen.|
-|**Laserstrahlschweißen**|Ein hochkonzentrierter Laserstrahl dient als Wärmequelle. Ermöglicht sehr schmale, tiefe Schweißnähte mit geringem Wärmeeintrag und Verzug.|Hochpräzise Schweißungen; Anwendung bei **"tailored blanks"** (platinen- oder maßgeschneiderte Bleche).|
+| Verfahren                     | Funktionsprinzip                                                                                                                                                                                                | Anwendung/Besonderheit                                                                                  |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Gasschmelzschweißen**       | Die zum Schmelzen der Werkstücke benötigte Wärme wird durch die Verbrennung eines Gasgemisches (z.B. Acetylen-Sauerstoff) erzeugt.                                                                              | Manuelles Verfahren, gut für Reparaturen und dünne Bleche geeignet.                                     |
+| **Lichtbogenhandschweißen**   | Ein Lichtbogen zwischen einer abschmelzenden Stabelektrode und dem Werkstück erzeugt die Schweißwärme. Die **Umhüllung** der Elektrode schützt die Schmelze vor der Atmosphäre und stabilisiert den Lichtbogen. | Flexibles und weit verbreitetes Verfahren für Stahlbau und Montage.                                     |
+| **Schutzgasschweißen**        | Ein Lichtbogen brennt zwischen einer kontinuierlich zugeführten Drahtelektrode und dem Werkstück. Ein Schutzgas umströmt den Lichtbogen und schützt das Schmelzbad vor der Atmosphäre.                          | Sehr wirtschaftliches und gut automatisierbares Verfahren für die Serienfertigung.                      |
+| **Widerstandspunktschweißen** | Zwei Elektroden pressen Bleche aufeinander. Ein hoher Stromfluss erzeugt an der Kontaktstelle Wärme, die die Bleche aufschmilzt und verbindet.                                                                  | Hauptverfahren im Karosseriebau zur Verbindung von Blechteilen.                                         |
+| **Laserstrahlschweißen**      | Ein hochkonzentrierter Laserstrahl dient als Wärmequelle. Ermöglicht sehr schmale, tiefe Schweißnähte mit geringem Wärmeeintrag und Verzug.                                                                     | Hochpräzise Schweißungen; Anwendung bei **"tailored blanks"** (platinen- oder maßgeschneiderte Bleche). |
 
 Gestaltungsregeln
 
@@ -374,5 +366,3 @@ Eine schweißgerechte Konstruktion ist entscheidend, um Spannungen und Verzug zu
 • **Durchsetzfügen (Clinchen):** Bei diesem Kaltumformverfahren werden Bleche ohne Zusatzwerkstoff durch einen Stempel und eine Matrize so verformt, dass eine unlösbare form- und kraftschlüssige Verbindung entsteht. Im Vergleich zum Punktschweißen zeigt das Clinchen im **Dauerschwingversuch** eine höhere Lebensdauer und ist **wirtschaftlicher** in Bezug auf Investitions- und Betriebskosten.
 
 • **Stanznieten:** Ein Halbhohlniet wird durch das obere Blech gestanzt und im unteren Blech ohne Durchdringung aufgespreizt, wodurch eine formschlüssige Verbindung entsteht. Dieses Verfahren zeichnet sich durch hohe **statische und dynamische Festigkeit** sowie ein gutes **Energieaufnahmevermögen** bei Crashbelastungen aus und wird daher häufig im modernen Karosseriebau eingesetzt.
-
-Die vorgestellte Vielfalt der Fertigungsverfahren, von der Formgebung bis zur Montage, verdeutlicht ihre zentrale und unverzichtbare Rolle als Grundlage der modernen Industrieproduktion.
