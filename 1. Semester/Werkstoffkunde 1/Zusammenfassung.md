@@ -176,3 +176,122 @@ X=Hochlegiert C~0,05% Cr18% Ni8%
 Niedriglegierter Stahl 42CrMo4
 C~0,42% Cr 4/4 ~ 1% (Multiplikationsfaktoren) Mo: Spuren
 (Merksatz: *W*o *si*eht *m*a*n* das *Cr*o*co*dil am *Ni*l es hat 4 Beine.)
+
+Bedingungen der martensitbildung
+- Überschreiten einer kritischen Abkühlgeschwindingkeit für diffusionslose Umwandlung
+- Unterschreiten der Martensitstart- Ms und der Martensitfinishtemperatur Mf 
+- Austinitisierungstemperatur 50°C oberhalb Ac3
+	- Nicht zu hoch, sonst sind die ehemaligen Austinitkörner zu grob
+Keine 100% martensitische Umwandlung wenn Temperatur 0°C (Martensit und Restaustinit).
+Möglichkeit zur Umwandlung: Untschreiten der Mf mit flüssigen Stickstoff
+
+Kohlenstoff fungiert beim Härten als auf Härter. Legierungselemente fungieren als Einhärter, weil sie die kritische Abkühlgeschwindingkeit für die Martensitbildung herabsetzen.
+
+Allg. Aufbau eines ZTU Diagramms
+
+```handdrawn-ink
+{
+	"versionAtEmbed": "0.3.4",
+	"filepath": "Ink/Drawing/2025.12.9 - 9.06am.drawing",
+	"width": 509.06640625,
+	"aspectRatio": 1.1900608717811596
+}
+```
+1. Untere kritische Abkühlgeschwindingkeit 
+	1. Es entsteht das erste Mal Martensit 
+2. Obere kritische Abkühlgeschwindingkeit 
+	1. Es entsteht das erste Mal 100% Martensit!
+
+Problem:
+Härte, Festigkeit nimmt zu 
+Sprödigkeit nimmt zu
+
+Lösung:
+Nachträgliches Anlassen (200-250°C)
+Vergüten = Härten + Anlassen
+
+Beim Anlassen nimmt Zähigkeit und Duktilität zu, Festigkeit und Härte nimmt ab.
+
+Anlassen: C-Diffusion 
+Tetragonaler Martensit
+	angelassener kubischer Martensit
+	Entstehung von Karbiden
+
+Einteilung der Stähle 
+Einsatzstahl (C < 0,3)
+Vergütungsstahl (0,3 ≤ C < 0,6)
+Werkzeugstahl (C ≥ 0,6)
+C-Anteil ist entscheiden!
+
+Alternative zu einsatzhärten, ist bspw. Induktive Randschichthärten oder Laser Randschichthärten.
+Aber dafür Verwendung von Vergütung statt Einsatzstahl. Erhöhter C-Anteil notwendig und Cr, Mu, Ni zur Modellierung des Einhärteprofils notwendig.
+
+Mechanische Einwirkung
+- Kugelstrahlen/Hämmern
+	- Oberflächenverfestigung
+	- Druckeigenspannung werden induziert
+
+Einsatzhärten 
+- Gut für die Serienproduktion geeignet
+- Durch C-Diffusion entstehen Druckeigenspannungen an der Oberfläche 
+	- Volumenzunahme durch martensitische Umwandlung 
+S und Pb im Stahl gleich Automatenstahl, Schwefel bildet mit Mu, Mangansulfide (nichtmetallische Einschlüsse).
+Pb ist im Stahl, Aluminium, Kupfer unlöslich > positiv auf Zerspannung und Notlaufeigenschaften.
+Mechanische Eigenschaften werden dadurch verschlechtert.
+
+
+```handdrawn-ink
+{
+	"versionAtEmbed": "0.3.4",
+	"filepath": "Ink/Drawing/2025.12.16 - 8.40am.drawing",
+	"width": 698.3763427734375,
+	"aspectRatio": 1.2922425678703597
+}
+```
+Nitrieren
+500°C Gasnitrieren/250°C Plasmanitrieren kleiner als Ac1
+Keine Umwandlung gleich geringer Maßverzug hohe Maßgenaugigkeit
+Vergütete Stähle können nitriert werden
+
+C45: Martensit wird während dem Einsatz angelassen, Festigkeit nimmt ab
+X30CrMoVNbN13-3-1: hoher Anteil an Karbidbildungen, thermisch sehr stabil und hohe Härte. Versetzungsbewegungen werden behindert. Ausscheidungshärtung bzw. Dispersionsverfestigung 
+
+Kaltarbeitsstähle
+Mit zunehmender Anlasstemperatur entsteht angelassener (kubischer) Martensit.
+
+Warmarbeitsstahl
+Martensit wird angelassen, Härte nimmt ab bis zur Bildung von Sonderkarbiden (Sekundärhärtemaximum)!!! Schnellarbeitsstahl folgt dem gleichen Prinzip.
+
+Ausscheidungshärtung von Aluminium
+
+Korrosionsbeständige Stähle
+Grundprinzip: min. 10,5-12% Cr
+Bildung einer schützenden Passivierungsschicht 
+
+Ferritische Stähle 
+Bsp. X6Cr17
+- Cr fördert die Bildung von Ferrit (Alpha-Stabilisator)
+- geringe Zugfestigkeit
+- Preisgünstig durch kein Nickel (Ressourcen)
+
+Austenitischen Stähle 
+Bsp. X5CrNi18-100
+- kfz
+- hohe Duktilität
+- hohe Zähigkeit auch bei tiefen Temperaturen 
+- hohe Verfestigung 
+
+Martensitische Stähle 
+Bsp. X20Cr13
+- Stähle mit Alpha - Gamma - Alpha Umwandlung 
+- hohe Härte 
+- hohe Festigkeit 
+- hohe Verschleißbeständigkeit 
+
+Zum Thema Korrosionsbeständigkeit 
+- Gefahr der interkristallinen Korrosion unter thermischen Einfluß
+	- Bildung von Chromkarbiden an den Korngrenzen 
+		- Elementare Chromanteil der für die Korrosionsbeständigkeit verantwortlich ist nimmt ab.
+Zwei Ansätze zur Vermeidung von interkristallinen Korrosion 
+- Ti oder Nb stabilisierende Stähle, höhere Affinität zu C als Cr
+- low carbon Stähle, C≤ 0,03% 
