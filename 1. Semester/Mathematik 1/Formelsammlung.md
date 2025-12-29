@@ -55,14 +55,13 @@ Von diesen abstrakten Mengenkonzepten leiten wir nun die konkreten Zahlenmengen 
 
 Die fundamentalen Zahlenmengen werden sukzessive erweitert, um immer komplexere Operationen zu ermöglichen.
 
-|   |   |   |   |
-|---|---|---|---|
-|Menge|Symbol|Definition|Charakterisierung|
-|**Natürliche Zahlen**|`ℕ`|`{1, 2, 3, ...}`|Die grundlegenden Zählzahlen.|
-|**Nat. Zahlen inkl. 0**|`ℕ₀`|`{0, 1, 2, 3, ...}`||
-|**Ganze Zahlen**|`ℤ`|`{..., -2, -1, 0, 1, 2, ...}`|Erweitert `ℕ₀` um die negativen Zahlen. Uneingeschränkte Subtraktion wird möglich.|
-|**Rationale Zahlen**|`ℚ`|`{m/n|m, n ∈ ℤ, n ≠ 0}`|
-|**Reelle Zahlen**|`ℝ`|Menge aller Dezimalzahlen|Umfasst rationale und irrationale Zahlen (z.B. `√2`, `π`) und füllt den Zahlenstrahl lückenlos aus.|
+| Menge                   | Symbol | Definition                    | Charakterisierung                                                                                   |
+| ----------------------- | ------ | ----------------------------- | --------------------------------------------------------------------------------------------------- |
+| **Natürliche Zahlen**   | `ℕ`    | `{1, 2, 3, ...}`              | Die grundlegenden Zählzahlen.                                                                       |
+| **Nat. Zahlen inkl. 0** | `ℕ₀`   | `{0, 1, 2, 3, ...}`           |                                                                                                     |
+| **Ganze Zahlen**        | `ℤ`    | `{..., -2, -1, 0, 1, 2, ...}` | Erweitert `ℕ₀` um die negativen Zahlen. Uneingeschränkte Subtraktion wird möglich.                  |
+| **Rationale Zahlen**    | `ℚ`    | `{m/n                         | m, n ∈ ℤ, n ≠ 0}`                                                                                   |
+| **Reelle Zahlen**       | `ℝ`    | Menge aller Dezimalzahlen     | Umfasst rationale und irrationale Zahlen (z.B. `√2`, `π`) und füllt den Zahlenstrahl lückenlos aus. |
 
 Die Teilmengenbeziehung lässt sich wie folgt visualisieren: `ℕ ⊂ ℕ₀ ⊂ ℤ ⊂ ℚ ⊂ ℝ`.
 
@@ -149,14 +148,12 @@ Die n-te Wurzel `ⁿ√a` ist die nicht-negative Lösung der Gleichung `xⁿ = a
 
 - **Ausnahme:** Für ungerade `n` ist `ⁿ√a` auch für `a < 0` als die eindeutige reelle Lösung definiert.
 
-|   |   |
-|---|---|
-|Regel|Formel|
-|**Produkt**|`ⁿ√(a·b) = ⁿ√a · ⁿ√b`|
-|**Potenz**|`ⁿ√(a^m) = (ⁿ√a)^m`|
-|**Quotient**|`ⁿ√(a/b) = ⁿ√a / ⁿ√b`|
-|**Verschachtelung**|`ᵐ√(ⁿ√a) = ᵐⁿ√a`|
-
+| Regel               | Formel                |
+| ------------------- | --------------------- |
+| **Produkt**         | `ⁿ√(a·b) = ⁿ√a · ⁿ√b` |
+| **Potenz**          | `ⁿ√(a^m) = (ⁿ√a)^m`   |
+| **Quotient**        | `ⁿ√(a/b) = ⁿ√a / ⁿ√b` |
+| **Verschachtelung** | `ᵐ√(ⁿ√a) = ᵐⁿ√a`      |
 #### 4. Logarithmen
 
 Der Logarithmus von `b` zur Basis `a`, geschrieben `log_a(b)`, ist die Lösung `x` der Gleichung `a^x = b`.
@@ -181,14 +178,9 @@ Der Logarithmus von `b` zur Basis `a`, geschrieben `log_a(b)`, ist die Lösung `
 
 #### 6. Binomische Formeln
 
-Diese Formeln sind essenzielle Werkzeuge zur Termumformung:
-
 1. `(a + b)² = a² + 2ab + b²`
 2. `(a - b)² = a² - 2ab + b²`
 3. `(a + b)(a - b) = a² - b²`
-
-Diese grundlegenden algebraischen Werkzeuge werden nun zur systematischen Lösung von Gleichungen und insbesondere von linearen Gleichungssystemen angewendet, die in unzähligen technischen Modellen auftreten.
-
 ### 1.5 Lineare Gleichungssysteme (LGS)
 
 #### 1. Definition
