@@ -1,10 +1,9 @@
-1.0 Grundlagen der Fertigungstechnik
+## 1.0 Grundlagen der Fertigungstechnik
 
-1.2 Produktion als Wertschöpfungsprozess
+### 1.1 Produktion als Wertschöpfungsprozess
 
 Produktion wird als ein Prozess der Wertschöpfung verstanden, bei dem aus Rohstoffen und Wertstoffen durch gezielte Bearbeitung und Formgebung höherwertige Produkte entstehen. Dieser Transformationsprozess steht im Zentrum der industriellen Fertigung und zielt darauf ab, den Wert der eingesetzten Materialien durch die Erfüllung spezifischer Funktionen und Qualitätsanforderungen zu steigern.
-
-1.3 Wirtschaftliche Betrachtung und Verfahrensauswahl
+### 1.2 Wirtschaftliche Betrachtung und Verfahrensauswahl
 
 Die Wirtschaftlichkeit eines Herstellungsprozesses wird durch eine Vielzahl von Faktoren bestimmt. Die zentralen Kostenfaktoren, die in die Kalkulation einfließen, sind:
 
@@ -33,7 +32,7 @@ Die Auswahl eines geeigneten Fertigungsverfahrens erfordert eine systematische B
 |                |                   | Entwicklungsaufwand      |                   |
 |                |                   | Patente / Lizenzen       |                   |
 
-1.4 Methoden zum Vergleich von Fertigungsverfahren
+### 1.3 Methoden zum Vergleich von Fertigungsverfahren
 
 Zur quantitativen Bewertung und zum Vergleich von Fertigungsalternativen werden einfache betriebswirtschaftliche Methoden herangezogen:
 
@@ -55,7 +54,7 @@ Die **Amortisationsrechnung** ermittelt den Zeitraum, innerhalb dessen die urs
 
 • **Formel:** `AZ [Jahre] = Kapitaleinsatz / jährlicher Rückfluss (RF)`  wobei `RF = Gewinn + freiwerdende Mittel aus Abschreibung + kalk. Zins auf Eigenkapital`
 
-1.5 Klassifizierung nach DIN 8580
+### 1.4 Klassifizierung nach DIN 8580
 
 Um die Vielfalt der Fertigungsverfahren zu strukturieren, werden sie nach DIN 8580 in sechs Hauptgruppen eingeteilt, die jeweils auf einer fundamentalen Wirkungsweise basieren:
 
@@ -75,13 +74,13 @@ Die erfolgreiche Anwendung dieser Verfahren ist jedoch untrennbar mit der Fähig
 
 --------------------------------------------------------------------------------
 
-2.0 Qualitätssicherung in der Fertigung
+## 2.0 Qualitätssicherung in der Fertigung
 
-2.1 Strategische Bedeutung der Qualitätssicherung
+### 2.1 Strategische Bedeutung der Qualitätssicherung
 
 Qualitätssicherung ist weit mehr als eine reine Endkontrolle zur Fehlererkennung. Sie ist eine strategische Notwendigkeit, die auf **Fehlervermeidung** und **kontinuierliche Prozessverbesserung** abzielt. Wie das Verhältnis von Einflussmöglichkeiten und Kosten für Änderungen zeigt, sind Korrekturen in frühen Phasen (z. B. in der Entwicklung) mit geringem Aufwand möglich, während Fehler, die erst in der Serienproduktion entdeckt werden, exponentiell höhere Kosten verursachen. Eine proaktive Qualitätssicherung sichert somit nicht nur die Produktgüte, sondern auch die Wirtschaftlichkeit des Unternehmens.
 
-2.2 Qualitätsmanagementsysteme und -philosophien
+### 2.2 Qualitätsmanagementsysteme und -philosophien
 
 Das Idealbild eines umfassenden Qualitätsmanagementsystems ist das **Total Quality Management (TQM)**, eine Managementphilosophie, die Qualität in den Mittelpunkt aller Unternehmensaktivitäten stellt und jeden Mitarbeiter einbezieht.
 
@@ -95,7 +94,7 @@ Ein zentrales Werkzeug zur Umsetzung ist der **PDCA-Zyklus (Plan-Do-Check-Act)*
 
 4. **Act (Agieren):** Bei Erfolg werden die Maßnahmen als neuer Standard etabliert. Andernfalls wird der Zyklus mit angepassten Plänen erneut durchlaufen, um weitere Verbesserungen zu erzielen.
 
-2.3 Messtechnik als Grundlage der Qualität
+### 2.3 Messtechnik als Grundlage der Qualität
 
 Präzise Messtechnik ist die Voraussetzung für eine objektive Qualitätsbewertung. Die historische Entwicklung der Längeneinheit „Meter“ illustriert das wissenschaftliche Streben nach einem unveränderlichen Standard und zunehmender Präzision. Der Weg führte von einer konzeptionellen Definition (ein Bruchteil des Erdumfangs) über ein physisches Artefakt (das **Urmeter** aus Platin-Iridium, 1799) hin zu einer Definition, die auf einer fundamentalen Eigenschaft des Lichts basiert – einer universellen, unveränderlichen Naturkonstante. Seit 1983 ist der Meter über die **Laufzeit des Lichts** im Vakuum definiert, was eine ungleich höhere Genauigkeit ermöglicht.
 
@@ -117,7 +116,7 @@ Jede Messung unterliegt jedoch potenziellen Abweichungen. Zu den wesentlichen Ur
 
 • Fehler beim Messen (z. B. durch den Bediener)
 
-2.4 Statistische Prozessregelung (SPC)
+### 2.4 Statistische Prozessregelung (SPC)
 
 Die SPC nutzt statistische Methoden, um Fertigungsprozesse zu überwachen und zu steuern. Eine Schlüsselrolle spielt dabei die **Normalverteilung (Gauß'sche Glockenkurve)**, die die Streuung von Merkmalen beschreibt.
 
@@ -133,7 +132,7 @@ Zwei zentrale Begriffe beschreiben den Zustand eines Prozesses:
 
 Die **Prozessfähigkeitskenngrößen Cp und Cpk** quantifizieren diese Zustände. Der **Cp-Wert** misst das Verhältnis von Toleranzbreite zu Prozessstreuung, während der **Cpk-Wert** zusätzlich die Lage des Mittelwerts berücksichtigt. In der Praxis werden Werte von **Cp > 1,33** oder höher angestrebt, um sicherzustellen, dass praktisch alle gefertigten Teile innerhalb der Toleranzgrenzen liegen.
 
-2.5 Fehlermöglichkeits- und Einfluss-Analyse (FMEA)
+### 2.5 Fehlermöglichkeits- und Einfluss-Analyse (FMEA)
 
 Die FMEA ist eine präventive Methode zur systematischen Analyse von potenziellen Fehlern in Produkten oder Prozessen. Ihr Ziel ist es, Risiken frühzeitig zu identifizieren, zu bewerten und durch gezielte Maßnahmen zu reduzieren, bevor sie auftreten.
 
@@ -157,13 +156,13 @@ Die Anwendung dieser Qualitätsprinzipien ist in allen Fertigungsbereichen von f
 
 --------------------------------------------------------------------------------
 
-3.0 Hauptgruppe 1: Urformen
+## 3.0 Hauptgruppe 1: Urformen
 
-3.1 Einführung in das Urformen
+### 3.1 Einführung in das Urformen
 
 Das Urformen umfasst alle Fertigungsverfahren, bei denen aus einem formlosen Stoff (z. B. flüssig, pulverförmig) ein fester Körper mit einer geometrisch bestimmten Form geschaffen wird. Diese Verfahrensgruppe steht am Anfang vieler Produktionsketten und ist grundlegend für die Erstherstellung von Bauteilen, sogenannten Rohlingen, die anschließend weiterverarbeitet werden können.
 
-3.2 Verfahren 1: Gießen
+### 3.2 Verfahren 1: Gießen
 
 Gießen ist eines der wichtigsten Urformverfahren, bei dem flüssiges Metall in eine Form gefüllt wird und dort erstarrt. Die Verfahren lassen sich wie folgt klassifizieren:
 
@@ -201,7 +200,7 @@ Um Gussfehler zu vermeiden und eine hohe Bauteilqualität zu erreichen, müssen 
 
 • **Sicherstellung der Entformbarkeit:** Bauteilflächen, die in Aushebrichtung der Form liegen, müssen **Formschrägen** aufweisen, um eine problemlose Entformung ohne Beschädigung von Form oder Gussteil zu ermöglichen.
 
-3.3 Verfahren 2: Sintern (Pulvermetallurgie)
+### 3.3 Verfahren 2: Sintern (Pulvermetallurgie)
 
 Sintern ist ein Urformverfahren, bei dem Bauteile aus metallischen oder keramischen Pulvern hergestellt werden.
 
@@ -237,13 +236,13 @@ Vom Schaffen einer Form aus formlosem Stoff führt der nächste Schritt der Fert
 
 --------------------------------------------------------------------------------
 
-4.0 Hauptgruppe 2: Umformen
+## 4.0 Hauptgruppe 2: Umformen
 
-4.1 Prinzipien des Umformens
+### 4.1 Prinzipien des Umformens
 
 Umformen ist die gezielte plastische (bleibende) Veränderung der Form eines festen Körpers, wobei sowohl die Masse als auch der Stoffzusammenhalt erhalten bleiben. Ein grundlegendes Prinzip dabei ist die **Volumenkonstanz**: Das Volumen des Werkstücks bleibt während des gesamten Prozesses konstant.
 
-4.2 Klassifizierung der Umformverfahren
+### 4.2 Klassifizierung der Umformverfahren
 
 Die Umformverfahren werden nach der Art der vorherrschenden Beanspruchung in fünf Hauptkategorien unterteilt:
 
@@ -257,7 +256,7 @@ Die Umformverfahren werden nach der Art der vorherrschenden Beanspruchung in fü
 
 • **Schubumformen:** Verdrehen, Verschieben
 
-4.3 Analyse ausgewählter Umformverfahren
+### 4.3 Analyse ausgewählter Umformverfahren
 
 • **Druckumformen:**
 
@@ -275,7 +274,7 @@ Die Umformverfahren werden nach der Art der vorherrschenden Beanspruchung in fü
 
    Bei diesem Verfahren wird ein rohrförmiger Rohling in ein geschlossenes Werkzeug eingelegt und mit einem flüssigen Wirkmedium unter sehr hohen Druck gesetzt. Das Rohr weitet sich auf und legt sich an die Innenkontur des Werkzeugs an. So können komplexe, leichte und hochfeste Hohlkörper (z. B. für den Automobilbau) hergestellt werden.
 
-4.4 Maschinen und Automatisierung
+### 4.4 Maschinen und Automatisierung
 
 Für Umformprozesse werden hauptsächlich Pressen eingesetzt, die sich in ihrer Gestellform (z.B. C-Gestell, O-Gestell) unterscheiden. In der Serienfertigung ist die Automatisierung des Bauteiltransports entscheidend. Hierfür werden Systeme wie der **Dreiachs-Transfer** verwendet, der die Werkstücke präzise und schnell von einer Bearbeitungsstation zur nächsten bewegt.
 
@@ -283,13 +282,13 @@ Im Gegensatz zur formgebenden Umformung, die den Materialzusammenhalt bewahrt, b
 
 --------------------------------------------------------------------------------
 
-5.0 Hauptgruppe 3: Trennen
+## 5.0 Hauptgruppe 3: Trennen
 
-5.1 Einführung in trennende Fertigungsverfahren
+### 5.1 Einführung in trennende Fertigungsverfahren
 
 Trennen bezeichnet das Fertigen durch Ändern der Form eines Werkstücks, indem der Stoffzusammenhalt lokal aufgehoben wird. Man unterscheidet grundlegend zwischen **spanlosen Trennverfahren** (z.B. Scherschneiden) und **spanenden Trennverfahren**, bei denen Material in Form von Spänen abgetragen wird. Ziel ist die Erreichung hoher Maßhaltigkeit, Oberflächenqualität und Wirtschaftlichkeit.
 
-5.2 Spanen mit geometrisch bestimmter Schneide
+### 5.2 Spanen mit geometrisch bestimmter Schneide
 
 Grundlagen der Zerspanung
 
@@ -303,7 +302,7 @@ Schneidwerkstoffe
 
 Die Anforderungen an Schneidwerkstoffe sind widersprüchlich: Sie müssen zugleich hart und verschleißfest bei hohen Temperaturen sein (**thermische Beständigkeit**) und eine ausreichende Zähigkeit besitzen, um nicht zu brechen (**Biegefestigkeit**). Dieser Zielkonflikt bestimmt die Werkstoffauswahl: Harte, aber spröde Werkstoffe wie Schneidkeramik eignen sich für die Hochgeschwindigkeits-Schlichtbearbeitung, während zähere Werkstoffe wie HSS für unterbrochene Schnitte oder Bearbeitungen bei niedrigeren Geschwindigkeiten erforderlich sind, bei denen die Bruchfestigkeit im Vordergrund steht.
 
-5.3 Analyse ausgewählter Zerspanungsverfahren
+### 5.3 Analyse ausgewählter Zerspanungsverfahren
 
 • **Drehen:** Ein rotierendes Werkstück wird mit einem feststehenden Werkzeug bearbeitet. Man unterscheidet **Längsdrehen** (Bearbeitung parallel zur Drehachse) und **Plandrehen** (Bearbeitung senkrecht zur Drehachse). Die wichtigsten Parameter sind die **Schnitttiefe (ap)** und der **Vorschub (f)** pro Umdrehung.
 
@@ -321,9 +320,9 @@ Nachdem Werkstücke durch Trennen ihre endgültige Form erhalten haben, werden s
 
 --------------------------------------------------------------------------------
 
-6.0 Hauptgruppe 4: Fügen
+## 6.0 Hauptgruppe 4: Fügen
 
-6.1 Grundlagen der Fügetechnik
+### 6.1 Grundlagen der Fügetechnik
 
 Fügen ist das auf Dauer angelegte Verbinden von zwei oder mehr einzelnen Werkstücken zu einer Baugruppe. Die Fügeverfahren werden nach der Art der Verbindung klassifiziert:
 
@@ -337,7 +336,7 @@ Fügen ist das auf Dauer angelegte Verbinden von zwei oder mehr einzelnen Werkst
 
    **Kraftschlüssig:** Die Verbindung wird durch eine konstante Kraft aufrechterhalten (Aufschrumpfen).
 
-6.2 Analyse ausgewählter Schweißverfahren
+### 6.2 Analyse ausgewählter Schweißverfahren
 
 Kategorisierung
 
@@ -346,8 +345,6 @@ Schweißverfahren lassen sich grob in zwei Gruppen einteilen:
 • **Pressschweißen:** Die Teile werden unter Krafteinwirkung und Wärme verbunden, ohne dass eine Schmelze entsteht (z.B. Widerstandspunktschweißen, Reibschweißen).
 
 • **Schmelzschweißen:** Die Fügestellen der Werkstücke werden aufgeschmolzen und verbinden sich, oft unter Zugabe eines Zusatzwerkstoffes (z.B. Lichtbogenschweißen, Laserstrahlschweißen).
-
-Verfahrensbeschreibung
 
 | Verfahren                     | Funktionsprinzip                                                                                                                                                                                                | Anwendung/Besonderheit                                                                                  |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -360,8 +357,7 @@ Verfahrensbeschreibung
 Gestaltungsregeln
 
 Eine schweißgerechte Konstruktion ist entscheidend, um Spannungen und Verzug zu minimieren. Ungünstig sind beispielsweise direkt aufeinandertreffende Nähte, die zu hohen Spannungskonzentrationen führen. Günstiger ist eine versetzte Anordnung oder die Integration von Versteifungselementen, die eine bessere Krafteinleitung ermöglichen.
-
-6.3 Analyse mechanischer Fügeverfahren
+## 6.3 Analyse mechanischer Fügeverfahren
 
 • **Durchsetzfügen (Clinchen):** Bei diesem Kaltumformverfahren werden Bleche ohne Zusatzwerkstoff durch einen Stempel und eine Matrize so verformt, dass eine unlösbare form- und kraftschlüssige Verbindung entsteht. Im Vergleich zum Punktschweißen zeigt das Clinchen im **Dauerschwingversuch** eine höhere Lebensdauer und ist **wirtschaftlicher** in Bezug auf Investitions- und Betriebskosten.
 
