@@ -5,14 +5,14 @@
 - [ ] Physik - Formelsammlung #project/Physik-1 🛫 2025-11-30  📅 2026-01-29
 - [x] Physik - Eingangstest A 🛫 2025-11-30 #project/Physik-1 📅 2025-12-14 ✅ 2025-11-30
 - [x] Physik - Eingangstest B 🛫 2025-11-30 #project/Physik-1 📅 2025-12-14 ✅ 2025-11-30
-- [/] Physik - Eingangstest C #project/Physik-1 🛫 2025-11-30 📅 2025-12-14
+- [x] Physik - Eingangstest C #project/Physik-1 🛫 2025-11-30 📅 2025-12-14 ✅ 2025-12-08
 - [x] Eingangstest A 🛫 2025-11-30 #project/Mathe-1 📅 2025-12-14 ✅ 2025-11-30
 - [/] Eingangstest B #project/Mathe-1 🛫 2025-11-30 📅 2025-12-14
-- [/] Eingangstest C 🛫 2025-11-30 📅 2025-12-14
+- [/] Eingangstest C  #project/Mathe-1 🛫 2025-11-30 📅 2025-12-14
 - [/] Formelsammlung #project/Mathe-1 🛫 2025-11-30 📅 2026-02-01
 - [x] Anmeldung Klausur 🛫 2025-11-16 📅 2025-12-14  🔺 #project/Mathe-1 ✅ 2025-12-01
-- [ ] Klausur 🔺 #project/Mathe-1
-- [ ] Klausur Physik 🔺 #project/Physik-1
+- [ ] Klausur #Prüfung #project/Mathe-1 🔺 📅 2026-01-30
+- [ ] Klausur Physik 1 #Prüfung #project/Physik-1 🔺 📅 2026-02-03
 - [x] Anmeldung Klausur Physik 🛫 2025-11-16 📅 2025-12-14 🔺 #project/Physik-1 ✅ 2025-12-01
 - [ ] Test zu Kapitel 5 📅 2025-12-15 ⏫ #project/Mathe-1
 - [x] Test zu Kapitel 4 16/20 📅 2025-11-24 ⏫ #project/Mathe-1  ✅ 2025-11-30
@@ -21,16 +21,16 @@
 - [x] Test zu Kapitel 1 19.5/20   ⏫ #project/Mathe-1  ✅ 2025-11-30
 - [ ] Visualisierung Entwurf #project/CAD-1
 - [x] CAD Modelle #project/CAD-1 🛫 2025-10-06  📅 2026-02-02 
-- [x] CAD Baugruppe #project/CAD-1 🛫 2025-10-06 02:00 📅 2026-02-02 01:00 ✅ 2025-11-30
+- [x] CAD Baugruppe #project/CAD-1 🛫 2025-10-06 📅 2026-02-02 01:00 ✅ 2025-11-30
 - [ ] Formelsammlung #project/TM-1 📅 2026-02-02
 - [x] Anmeldung Entwurf 📅 2025-12-14 #project/CAD-1 ✅ 2025-12-01
 - [ ] Scheinklausur Chemie (1-2 Seiten Formelsammlungen) #project/Physik-1 🔺 📅 2026-02-09
 - [x] Anmeldung Chemie #project/Physik-1 📅 2025-12-14 01:00 ✅ 2025-12-01
-- [ ] Klausur #project/TM-1
+- [ ] Klausur #Prüfung #project/TM-1 🔺 📅 2026-02-05
 - [x] Anmeldung Klausur 📅 2025-12-14 #project/TM-1 ✅ 2025-12-01
 - [ ] Zusammenfassung #project/Werkstoffkunde-1
 - [x] Anmeldung Klausur 🛫 2025-11-16 📅 2025-12-14 🔺 #project/Werkstoffkunde-1 ✅ 2025-12-01
-- [ ] Klausur (keine Hilfsmittel) #project/Werkstoffkunde-1 🔺 📅 2026-01-28
+- [ ] Klausur (keine Hilfsmittel) #Prüfung #project/Werkstoffkunde-1 🔺 📅 2026-01-28
 - [x] Anmeldung Klausur #project/Konstruktion-1 🔺 🛫 2025-11-16 📅 2025-12-14  ✅ 2025-12-01
-- [ ] Klausur (kein Hilfsmittel) #project/Konstruktion-1 🔺 📅 2026-02-26
+- [ ] Klausur (kein Hilfsmittel) #Prüfung #project/Konstruktion-1 🔺 📅 2026-01-26
 - [ ] Hausaufgabe Chemie Folie 13 📅 2025-12-09

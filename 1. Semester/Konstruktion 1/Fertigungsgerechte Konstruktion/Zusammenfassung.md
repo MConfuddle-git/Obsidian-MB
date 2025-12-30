@@ -1,8 +1,6 @@
 ## 1. Fundamentale Prinzipien der fertigungsgerechten Konstruktion
 
-Die fertigungsgerechte Konstruktion ist kein nachgelagerter Optimierungsschritt, sondern ein strategischer Kernprozess, der bereits in den frühesten Phasen der Produktentwicklung über Erfolg oder Misserfolg entscheidet. Der Konstrukteur legt mit der Gestalt und dem Werkstoff eines Bauteils den entscheidenden Hebel für die Kosten- und Qualitätskontrolle über den gesamten Produktlebenszyklus fest.
-
-Der zentrale Konflikt beim Konstruieren liegt in der Notwendigkeit, zwischen zahlreichen, oft widersprüchlichen Anforderungen den besten Kompromiss zu finden. Die **"beste Konstruktion"** ist demnach nicht die technisch aufwendigste, sondern jene Lösung, die eine optimale Balance zwischen Funktion, Kosten, Herstellbarkeit und Qualität erreicht.
+Die **"beste Konstruktion"** ist demnach nicht die technisch aufwendigste, sondern jene Lösung, die eine optimale Balance zwischen Funktion, Kosten, Herstellbarkeit und Qualität erreicht.
 
 Aus wirtschaftlicher Sicht ist die Unterscheidung zwischen **Einmalkosten** und **wiederkehrenden Kosten** fundamental. Während die Kosten der Konstruktion nur einmal anfallen, wiederholen sich die Fertigungskosten bei jedem einzelnen produzierten Bauteil. Daraus folgt: Je höher die geplante Stückzahl, desto größer ist der wirtschaftliche Anreiz, in der Konstruktionsphase einen signifikanten Aufwand zu betreiben, um den Fertigungsprozess zu optimieren und die wiederkehrenden Kosten zu minimieren.
 
@@ -114,9 +112,6 @@ Fügeverfahren verbinden mehrere Einzelteile zu einer Baugruppe. Die Gestaltung 
 - **Standardisierung:** Die Verwendung möglichst **weniger unterschiedlicher Normteile** (z. B. Schraubengrößen) reduziert die Teilevielfalt, erhöht die Losgrößen im Einkauf und minimiert die Verwechslungsgefahr in der Montage.
 - **Poka Yoke:** Dieses Prinzip der "fehler-sicheren" Konstruktion stellt durch asymmetrische Gestaltungsmerkmale sicher, dass ein Bauteil **nicht falsch zusammengebaut werden kann**.
 - **Zugänglichkeit:** Alle Fügestellen, Schrauben und Justageelemente müssen für Montagewerkzeuge gut erreichbar und idealerweise auch gut sichtbar sein.
-
-Die Kenntnis dieser spezifischen Gestaltungsregeln ist unerlässlich, um die theoretischen Prinzipien der fertigungsgerechten Konstruktion erfolgreich in die Praxis umzusetzen und wirtschaftliche Produkte zu entwickeln.
-
 ## 3. Synthese: Übergreifende Erfolgsfaktoren in der Konstruktion
 
 Obwohl jedes Fertigungsverfahren seine eigenen spezifischen Regeln hat, existiert eine Reihe von universellen, übergreifenden Prinzipien, die den Erfolg einer Konstruktion maßgeblich bestimmen. Sie ziehen sich wie ein roter Faden durch alle Gestaltungsphasen und dienen als eine Art übergeordnete Checkliste für den Konstrukteur. Die konsequente Anwendung dieser Erfolgsfaktoren führt zu robusten, wirtschaftlichen und qualitativ hochwertigen Produkten.
