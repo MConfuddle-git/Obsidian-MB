@@ -181,7 +181,7 @@ Der Logarithmus von `b` zur Basis `a`, geschrieben `log_a(b)`, ist die Lösung `
 Ein lineares Gleichungssystem besteht aus `m` linearen Gleichungen mit `n` Unbekannten. Es kann in Matrixform als `A·x = b` geschrieben werden.
 
 - **Koeffizientenmatrix** `A`**:** Enthält die Koeffizienten `a_ij` der Unbekannten.
-- **Erweiterte Koeffizientenmatrix** `**[A|b]**`**:** Enthält zusätzlich die rechte Seite `b` des Systems.
+- **Erweiterte Koeffizientenmatrix** `[A|b]`**:** Enthält zusätzlich die rechte Seite `b` des Systems.
 
 #### 2. Gauß-Algorithmus
 
