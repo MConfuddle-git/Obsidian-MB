@@ -118,13 +118,12 @@ Von diesen allgemeinen Notationen wenden wir uns nun den spezifischen Regeln fü
 
 Potenzen sind eine Kurzschreibweise für wiederholte Multiplikation.
 
-|   |   |   |
-|---|---|---|
-|Exponent|Definition|Anmerkung|
-|**Positiv ganzzahlig (**`**n ∈ ℕ**`**)**|`a^n := a · a · ... · a` (n Faktoren)||
-|**Null**|`a^0 := 1`|für `a ≠ 0`|
-|**Negativ ganzzahlig (**`**n ∈ ℕ**`**)**|`a^-n := 1 / a^n`|für `a ≠ 0`|
-|**Rational (**`**m/n**`**)**|`a^(m/n) := ⁿ√(a^m)`|für `a > 0`|
+| Exponent                             | Definition                            | Anmerkung   |
+| ------------------------------------ | ------------------------------------- | ----------- |
+| **Positiv ganzzahlig (**`n ∈ ℕ`**)** | `a^n := a · a · ... · a` (n Faktoren) |             |
+| **Null**                             | `a^0 := 1`                            | für `a ≠ 0` |
+| **Negativ ganzzahlig (**`n ∈ ℕ`**)** | `a^-n := 1 / a^n`                     | für `a ≠ 0` |
+| **Rational (**`m/n`**)**             | `a^(m/n) := ⁿ√(a^m)`                  | für `a > 0` |
 
 #### 2. Potenzgesetze
 
