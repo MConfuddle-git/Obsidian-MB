@@ -27,6 +27,8 @@
     - [ ] Kontrolle des Kostenziels durchführen
 - **Fertigung**
     - [ ] Nachkalkulation durchführen
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## Nachhaltigkeit in der Produktentwicklung
 
 - **Grundlegende Aspekte der Lebenszyklusbetrachtung**
@@ -61,7 +63,8 @@
 - **Bearbeitung**
     - [ ] Bearbeitungsflächen absetzen und in eine Ebene legen, um den Bearbeitungsaufwand zu verringern
     - [ ] Zum sicheren Spannen Zenter- und Spannansätze vorsehen (die ggf. später entfernt werden)
-    - [ ] Bei Flächen mit Bohrungen auf einen rechtwinkligen Bohreransatz achten
+    - [ ] Bei Flächen mit Bohrungen auf einen rechtwinkligen Bohreransatz achten<div class="page-break" style="page-break-before: always;"></div>
+
 ## Gestaltung für Additive Fertigungsverfahren
 
 - [ ] Bauteil so ausrichten, dass die Druckebenen parallel zur Hauptlastrichtung liegen.
@@ -83,6 +86,8 @@
 - [ ] Sicken so gestalten, dass sie am Rand auslaufen.
 - [ ] Scharfkantige Sicken und Sickenenden vermeiden.
 - [ ] Sich kreuzende Sicken wegen der Gefahr von Spannungsspitzen vermeiden.
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## Trennende Fertigung (Zerspanung)
 
 - **Spannmöglichkeiten vorsehen**
@@ -105,6 +110,8 @@
     - [ ] Sacklochgewinde vermeiden oder, falls unumgänglich, ausreichende Gewindefreistiche nach DIN 76 vorsehen.
     - [ ] Ausrundungen (konvexe Formen) nicht tangierend, sondern im stumpfen Winkel an Flächen anschließen lassen.
     - [ ] Zur Vermeidung enger Toleranzen elastische oder nachstellbare Elemente verwenden.
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## Stanzgerechtes Gestalten
 
 - [ ] Anstelle von abgerundeten Ecken abgeschrägte Ecken vorsehen.
@@ -123,6 +130,8 @@
 - [ ] Starke Blechdickenunterschiede vermeiden; stattdessen allmähliche Übergänge vorsehen.
 - [ ] Gute Zugänglichkeit der Schweißstellen sicherstellen.
 - [ ] Schweißnähte nicht in Passflächen oder andere nachträglich zu bearbeitende Funktionsflächen legen.
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## Gestaltung von Lötverbindungen
 
 - [ ] Bauteile überlappend anordnen, um eine Belastung auf Schub zu ermöglichen.
