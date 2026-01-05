@@ -110,7 +110,7 @@
     - [ ] Sacklochgewinde vermeiden oder, falls unumgänglich, ausreichende Gewindefreistiche nach DIN 76 vorsehen.
     - [ ] Ausrundungen (konvexe Formen) nicht tangierend, sondern im stumpfen Winkel an Flächen anschließen lassen.
     - [ ] Zur Vermeidung enger Toleranzen elastische oder nachstellbare Elemente verwenden.
-<div class="page-break" style="page-break-before: always;"></div>
+
 
 ## Stanzgerechtes Gestalten
 
@@ -120,6 +120,9 @@
 - [ ] Filigrane Formen vermeiden, da sie bruchgefährdete, dünne Stempel erfordern.
 - [ ] Stanzteile für eine nahezu abfalllose Herstellung gestalten.
 - [ ] Gleichartige Ausstanzungen vorsehen, um Werkzeugvielfalt zu reduzieren.
+
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## Schweißgerechte Gestaltung
 
 - [ ] Günstige Vormaterialien (Bleche, Profile) verwenden.
@@ -130,8 +133,6 @@
 - [ ] Starke Blechdickenunterschiede vermeiden; stattdessen allmähliche Übergänge vorsehen.
 - [ ] Gute Zugänglichkeit der Schweißstellen sicherstellen.
 - [ ] Schweißnähte nicht in Passflächen oder andere nachträglich zu bearbeitende Funktionsflächen legen.
-<div class="page-break" style="page-break-before: always;"></div>
-
 ## Gestaltung von Lötverbindungen
 
 - [ ] Bauteile überlappend anordnen, um eine Belastung auf Schub zu ermöglichen.

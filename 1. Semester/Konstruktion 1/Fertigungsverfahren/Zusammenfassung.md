@@ -71,8 +71,7 @@ Um die Vielfalt der Fertigungsverfahren zu strukturieren, werden sie nach DIN 85
 6. **Stoffeigenschaften ändern:** Verändern der Eigenschaften des Werkstoffes selbst.
 
 Die erfolgreiche Anwendung dieser Verfahren ist jedoch untrennbar mit der Fähigkeit verbunden, ihre Ergebnisse präzise zu messen und zu steuern, was die Qualitätssicherung zu einem integralen Bestandteil der Fertigungstechnik macht.
-
---------------------------------------------------------------------------------
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 2.0 Qualitätssicherung in der Fertigung
 
@@ -131,6 +130,7 @@ Zwei zentrale Begriffe beschreiben den Zustand eines Prozesses:
 • **Beherrschtheit:** Ein Prozess ist beherrscht, wenn sein Mittelwert stabil in der Mitte des Toleranzfeldes liegt.
 
 Die **Prozessfähigkeitskenngrößen Cp und Cpk** quantifizieren diese Zustände. Der **Cp-Wert** misst das Verhältnis von Toleranzbreite zu Prozessstreuung, während der **Cpk-Wert** zusätzlich die Lage des Mittelwerts berücksichtigt. In der Praxis werden Werte von **Cp > 1,33** oder höher angestrebt, um sicherzustellen, dass praktisch alle gefertigten Teile innerhalb der Toleranzgrenzen liegen.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 2.5 Fehlermöglichkeits- und Einfluss-Analyse (FMEA)
 
@@ -153,8 +153,7 @@ Die Höhe der RPZ bestimmt die Dringlichkeit von Gegenmaßnahmen:
 • **RPZ > 100:** Maßnahmen sind zwingend erforderlich.
 
 Die Anwendung dieser Qualitätsprinzipien ist in allen Fertigungsbereichen von fundamentaler Bedeutung, beginnend mit der ersten Hauptgruppe, dem Urformen.
-
---------------------------------------------------------------------------------
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 3.0 Hauptgruppe 1: Urformen
 
@@ -199,6 +198,7 @@ Um Gussfehler zu vermeiden und eine hohe Bauteilqualität zu erreichen, müssen 
 • **Reduzierung von Spannungen:** Scharfe Kanten und abrupte Querschnittsänderungen führen zu Spannungsspitzen. **Sanfte Übergänge** und Radien reduzieren diese Gefahr.
 
 • **Sicherstellung der Entformbarkeit:** Bauteilflächen, die in Aushebrichtung der Form liegen, müssen **Formschrägen** aufweisen, um eine problemlose Entformung ohne Beschädigung von Form oder Gussteil zu ermöglichen.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 3.3 Verfahren 2: Sintern (Pulvermetallurgie)
 
@@ -233,8 +233,7 @@ Das Sintern bietet mehrere Vorteile:
 Als Werkstoffe dienen **metallische Pulver** (Eisen, Kupfer, Nickel, Aluminium) und **keramische Pulver** (Aluminiumoxid, Siliziumkarbid).
 
 Vom Schaffen einer Form aus formlosem Stoff führt der nächste Schritt der Fertigungstechnik zum gezielten Verändern einer bereits bestehenden festen Form: dem Umformen.
-
---------------------------------------------------------------------------------
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 4.0 Hauptgruppe 2: Umformen
 
@@ -279,8 +278,7 @@ Die Umformverfahren werden nach der Art der vorherrschenden Beanspruchung in fü
 Für Umformprozesse werden hauptsächlich Pressen eingesetzt, die sich in ihrer Gestellform (z.B. C-Gestell, O-Gestell) unterscheiden. In der Serienfertigung ist die Automatisierung des Bauteiltransports entscheidend. Hierfür werden Systeme wie der **Dreiachs-Transfer** verwendet, der die Werkstücke präzise und schnell von einer Bearbeitungsstation zur nächsten bewegt.
 
 Im Gegensatz zur formgebenden Umformung, die den Materialzusammenhalt bewahrt, basieren die Verfahren der nächsten Hauptgruppe auf dem gezielten Trennen von Material.
-
---------------------------------------------------------------------------------
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 5.0 Hauptgruppe 3: Trennen
 
@@ -301,6 +299,7 @@ Die hohen mechanischen und thermischen Belastungen führen zu Verschleiß am Wer
 Schneidwerkstoffe
 
 Die Anforderungen an Schneidwerkstoffe sind widersprüchlich: Sie müssen zugleich hart und verschleißfest bei hohen Temperaturen sein (**thermische Beständigkeit**) und eine ausreichende Zähigkeit besitzen, um nicht zu brechen (**Biegefestigkeit**). Dieser Zielkonflikt bestimmt die Werkstoffauswahl: Harte, aber spröde Werkstoffe wie Schneidkeramik eignen sich für die Hochgeschwindigkeits-Schlichtbearbeitung, während zähere Werkstoffe wie HSS für unterbrochene Schnitte oder Bearbeitungen bei niedrigeren Geschwindigkeiten erforderlich sind, bei denen die Bruchfestigkeit im Vordergrund steht.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 5.3 Analyse ausgewählter Zerspanungsverfahren
 
@@ -317,8 +316,7 @@ Die Anforderungen an Schneidwerkstoffe sind widersprüchlich: Sie müssen zuglei
    **Honen:** Ein Zerspanungsverfahren mit gebundenem Korn zur Verbesserung von Maß- und Formgenauigkeit sowie der Oberfläche von Bohrungen.
 
 Nachdem Werkstücke durch Trennen ihre endgültige Form erhalten haben, werden sie im nächsten Schritt oft zu komplexeren Baugruppen verbunden, was das Thema Fügen einleitet.
-
---------------------------------------------------------------------------------
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 6.0 Hauptgruppe 4: Fügen
 
@@ -356,7 +354,8 @@ Schweißverfahren lassen sich grob in zwei Gruppen einteilen:
 
 Gestaltungsregeln
 
-Eine schweißgerechte Konstruktion ist entscheidend, um Spannungen und Verzug zu minimieren. Ungünstig sind beispielsweise direkt aufeinandertreffende Nähte, die zu hohen Spannungskonzentrationen führen. Günstiger ist eine versetzte Anordnung oder die Integration von Versteifungselementen, die eine bessere Krafteinleitung ermöglichen.
+Eine schweißgerechte Konstruktion ist entscheidend, um Spannungen und Verzug zu minimieren. Ungünstig sind beispielsweise direkt aufeinandertreffende Nähte, die zu hohen Spannungskonzentrationen führen. Günstiger ist eine versetzte Anordnung oder die Integration von Versteifungselementen, die eine bessere Krafteinleitung ermöglichen.<div class="page-break" style="page-break-before: always;"></div>
+
 ## 6.3 Analyse mechanischer Fügeverfahren
 
 • **Durchsetzfügen (Clinchen):** Bei diesem Kaltumformverfahren werden Bleche ohne Zusatzwerkstoff durch einen Stempel und eine Matrize so verformt, dass eine unlösbare form- und kraftschlüssige Verbindung entsteht. Im Vergleich zum Punktschweißen zeigt das Clinchen im **Dauerschwingversuch** eine höhere Lebensdauer und ist **wirtschaftlicher** in Bezug auf Investitions- und Betriebskosten.
