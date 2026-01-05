@@ -12,6 +12,7 @@ Bewegungen auf gekrümmten Bahnen sind immer beschleunigte Bewegungen, selbst we
 
 - **Tangentialbeschleunigung** `a_t`: Beschreibt die Änderung des _Betrags_ der Geschwindigkeit. `a_t = d|v|/dt`
 - **Normal-/Radialbeschleunigung** `a_n`: Beschreibt die Änderung der _Richtung_ der Geschwindigkeit. Sie steht senkrecht auf der Bahn und zeigt zum Krümmungsmittelpunkt. `a_n = |v|²/ρ` (wobei `ρ` der Krümmungsradius der Bahn ist)
+<div class="page-break" style="page-break-before: always;"></div>
 
 #### Formeln der Kreisbewegung
 Für den Spezialfall der Kreisbewegung (konstanter Radius `r = ρ`) gelten folgende Zusammenhänge:
@@ -39,8 +40,8 @@ Viele Gesetze der geradlinigen Bewegung (Translation) lassen sich direkt auf die
 - **Winkel:** `φ(t) = ½ ∙ α_φ ∙ t² + ω₀ ∙ t + φ₀`
 - **Winkelgeschwindigkeit:** `ω(t) = α_φ ∙ t + ω₀`
 - **Winkelbeschleunigung:** `α_φ(t) = konst.`
+<div class="page-break" style="page-break-before: always;"></div>
 
---------------------------------------------------------------------------------
 ## 2.0 Dynamik: Ursachen von Bewegungen
 Die Dynamik beschäftigt sich mit den Ursachen von Bewegungsänderungen. Die zentrale Größe hierfür ist die **Kraft**, die einem Körper eine Beschleunigung erteilt oder ihn verformt.
 ### 2.1 Newtonsche Axiome und Impuls
@@ -59,6 +60,7 @@ In beschleunigten Bezugssystemen treten für einen mit bewegten Beobachter sogen
   (tritt bei Kreisbewegungen auf und wirkt nach außen)
 - **Coriolis-Kraft:** `F_C = 2 ∙ m ∙ (v × ω)` 
   (tritt bei einer Bewegung `v` in einem rotierenden System `ω` auf)
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 2.2 Arbeit, Energie und Leistung
 Arbeit, Energie und Leistung sind zentrale Größen zur Beschreibung von mechanischen Prozessen. **Arbeit** und **Leistung** sind Prozessgrößen, die einen Vorgang beschreiben, während **Energie** eine Zustandsgröße ist, die die gespeicherte Arbeitsfähigkeit eines Systems charakterisiert.
@@ -88,6 +90,8 @@ Energie ist die Fähigkeit eines Systems, Arbeit zu verrichten. In der Mechanik 
     - **Definition:** `P = dW/dt`
     - **Praktische Formel:** `P = F ∙ v` (für Kraft parallel zur Geschwindigkeit)
 - **Wirkungsgrad** `η`: Das Verhältnis von nutzbarer Arbeit/Leistung `W_N / P_N` zur zugeführten Gesamt-Arbeit/Leistung `W_ges / P_ges`. `η = W_N / W_ges = P_N / P_ges`
+<div class="page-break" style="page-break-before: always;"></div>
+
 ### 2.3 Stoßvorgänge
 Stoßvorgänge sind kurzzeitige Wechselwirkungen zwischen Körpern. In einem abgeschlossenen System (ohne äußere Kräfte) ist der **Gesamtimpuls** eine Erhaltungsgröße, was die Analyse von Stößen ermöglicht.
 
@@ -100,8 +104,8 @@ Stoßvorgänge sind kurzzeitige Wechselwirkungen zwischen Körpern. In einem abg
 | **Vollkommen unelastischer Stoß** | Kinetische Energie wird in Verformungsarbeit/Wärme umgewandelt (`ΔW_kin ≠ 0`). | Beide Körper bewegen sich gemeinsam weiter: <br>`v₁' = v₂' = v'` <br>`v' = (m₁v₁ + m₂v₂)/(m₁ + m₂)` | Maximaler Energieverlust. Die Körper "kleben" aneinander. `ΔW = m₁m₂/(2(m₁+m₂)) ∙ (v₁ - v₂)²`                                                                                                  |
 | **Vollkommen elastischer Stoß**   | Die kinetische Gesamtenergie bleibt erhalten (`ΔW_kin = 0`).                   | `v₁' = ((m₁-m₂)v₁ + 2m₂v₂)/(m₁+m₂)` <br>`v₂' = ((m₂-m₁)v₂ + 2m₁v₁)/(m₁+m₂)`                         | Idealisierter Stoß ohne Energieverlust (z.B. Billardkugeln).                                                                                                                                   |
 | **Teilelastischer Stoß**          | Ein Teil der kinetischen Energie geht verloren.                                | Die Geschwindigkeiten hängen von der Stoßziffer `k` ab.                                             | Realer Stoßvorgang. Die Elastizität wird durch die **Stoßziffer** `k` beschrieben (`0 ≤ k ≤ 1`). `k = 0` (unelastisch), `k = 1` (elastisch). <br> `k = sqrt(h₂/h₁)` (Rückprallhöhe / Fallhöhe) |
+<div class="page-break" style="page-break-before: always;"></div>
 
---------------------------------------------------------------------------------
 ## 3.0 Rotation starrer Körper
 Bei der Drehung starrer Körper kann die Masse nicht mehr als einzelner Punkt betrachtet werden, da die Verteilung der Masse um die Drehachse entscheidend ist. An die Stelle der Masse `m` tritt das **Massenträgheitsmoment** `J`. Die kinetische Energie eines rollenden Körpers setzt sich aus dem Translations- und dem Rotationsanteil zusammen.
 ### 3.1 Rotationsenergie und Massenträgheitsmoment
@@ -110,7 +114,7 @@ Bei der Drehung starrer Körper kann die Masse nicht mehr als einzelner Punkt be
 - **Gesamte kinetische Energie (Rollbewegung):** 
   `W_kin = W_kin,tr + W_kin,rot = ½ ∙ m ∙ v² + ½ ∙ J ∙ ω²`
 - **Massenträgheitsmoment** `J` **(Definition):** `J = ∫ r² dm`
-- **Satz von Steiner:** Erlaubt die Berechnung des Trägheitsmoments `J_A` für eine Achse A, die parallel im Abstand `a` zu einer Achse durch den Schwerpunkt (mit Trägheitsmoment `J_S`) verläuft. `J_A = J_S + m ∙ a²`
+- **Satz von Steiner:** Erlaubt die Berechnung des Trägheitsmoments `J_A` für eine Achse A, die parallel im Abstand `a` zu einer Achse durch den Schwerpunkt (mit Trägheitsmoment `J_S`) verläuft. `J_A = J_S + m ∙ a²` **Wichtiger Sonderfall:** Für einen langen, dünnen Stab, der um ein Ende rotiert, ergibt sich das Trägheitsmoment zu `J_Ende = ⅓ ∙ m ∙ l²`.
 #### Trägheitsmomente wichtiger Körper (Achse durch Schwerpunkt S)
 
 | Körperform                                      | Trägheitsmoment `J_S` |
@@ -118,8 +122,6 @@ Bei der Drehung starrer Körper kann die Masse nicht mehr als einzelner Punkt be
 | **Vollzylinder** (um Symmetrieachse)            | `J_S = ½ ∙ m ∙ R²`    |
 | **Langer, dünner Stab** (senkrecht durch Mitte) | `J_S = 1/12 ∙ m ∙ l²` |
 | **Vollkugel** (durch Mittelpunkt)               | `J_S = ⅖ ∙ m ∙ R²`    |
-
-**Wichtiger Sonderfall (mit Satz von Steiner):** Für einen langen, dünnen Stab, der um ein Ende rotiert, ergibt sich das Trägheitsmoment zu `J_Ende = ⅓ ∙ m ∙ l²`.
 ### 3.2 Drehmoment und Drehimpuls
 Analog zur Kraft `F`, die eine translatorische Beschleunigung verursacht, bewirkt ein **Drehmoment** `M` eine Winkelbeschleunigung (Änderung der Rotation). Der **Drehimpuls** `L` ist das Rotations-Analogon zum Impuls `p`.
 
@@ -128,13 +130,10 @@ Analog zur Kraft `F`, die eine translatorische Beschleunigung verursacht, bewirk
 - **Drehimpuls** `L`**:** `L = J ∙ ω`
 - **Beziehung Drehmoment und Drehimpuls:** `M = dL/dt`
 #### Drehimpulserhaltungssatz
-In einem abgeschlossenen System, auf das kein äußeres Drehmoment wirkt (`M_ext = 0`), bleibt der Gesamtdrehimpuls `L` konstant.
+In einem abgeschlossenen System, auf das kein äußeres Drehmoment wirkt (`M_ext = 0`), bleibt der Gesamtdrehimpuls `L` konstant. `Wenn M_ext = 0, dann L = J ∙ ω = konst.`
+Dies führt zu der Beziehung `J₁ω₁ = J₂ω₂`. Eine Verringerung des Trägheitsmoments führt demnach zu einer Erhöhung der Winkelgeschwindigkeit.
+<div class="page-break" style="page-break-before: always;"></div>
 
-`Wenn M_ext = 0, dann L = J ∙ ω = konst.`
-
-Dies führt zu der Beziehung `J₁ω₁ = J₂ω₂`. Eine Verringerung des Trägheitsmoments (z.B. durch Anziehen der Arme bei einer Pirouette) führt demnach zu einer Erhöhung der Winkelgeschwindigkeit.
-
---------------------------------------------------------------------------------
 ## 4.0 Mechanische Schwingungen
 Eine mechanische Schwingung ist eine zeitlich periodische Bewegung eines Körpers um seine Ruhelage. Die grundlegendste und wichtigste Form ist die **harmonische Schwingung**, die sich durch eine Sinus- oder Kosinusfunktion beschreiben lässt.
 
@@ -162,6 +161,7 @@ Bei einer ungedämpften harmonischen Schwingung wird potentielle Energie periodi
 - **Potentielle Energie:** `W_pot(t) = ½ ∙ k ∙ y(t)²`
 - **Kinetische Energie:** `W_kin(t) = ½ ∙ m ∙ v(t)²`
 - **Gesamtenergie:** `W_ges = W_pot + W_kin = ½ ∙ k ∙ ŷ² = konst.`
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 4.3 Spezifische schwingende Systeme
 
@@ -172,6 +172,7 @@ Bei einer ungedämpften harmonischen Schwingung wird potentielle Energie periodi
 | **Mathematisches Pendel**       | `T = 2π ∙ sqrt(l/g)`            | Punktmasse an masselosem Faden, **kleine Auslenkung (**`sin φ ≈ φ`**)**. Für große Winkel ist die Schwingung nicht mehr harmonisch! |
 | **Physikalisches Pendel**       | `T = 2π ∙ sqrt(J_P / (mgl))`    | Starrer Körper, der um einen Punkt P außerhalb des Schwerpunkts S schwingt (`l` = Abstand P-S). Kleine Auslenkung.                  |
 | **Flüssigkeitspendel (U-Rohr)** | `T = 2π ∙ sqrt(l / (2g))`       | `l` = Länge der gesamten Flüssigkeitssäule. Reibungsfrei.                                                                           |
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 4.4 Gedämpfte Schwingung
 In realen Systemen führt Reibung zu Energieverlusten, wodurch die Amplitude einer freien Schwingung mit der Zeit abnimmt. Eine häufige Form ist die geschwindigkeitsproportionale Reibungskraft `F_R = -β ∙ ẏ`.

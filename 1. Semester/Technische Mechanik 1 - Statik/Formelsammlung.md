@@ -16,9 +16,13 @@ Die gesamte klassische Mechanik basiert auf vier fundamentalen, durch Beobachtun
 2. **Verschiebungsaxiom:** Die Wirkung einer Kraft auf einen **starren Körper** ändert sich nicht, wenn ihr Angriffspunkt entlang ihrer Wirkungslinie verschoben wird. Eine Kraft ist somit ein "linienflüchtiger" Vektor.
 3. **Reaktionsaxiom (3. Newtonsches Gesetz / Wechselwirkungsgesetz):** Übt ein Körper 1 auf einen Körper 2 eine Kraft aus (actio), so übt der Körper 2 auf den Körper 1 eine gleich große, aber entgegengesetzt gerichtete Kraft aus (reactio). Kurz: _actio gleich reactio_. Als Vektorgleichung formuliert: 𝐹⃗1 = − 𝐹⃗2.
 4. **Parallelogrammaxiom (4. Newtonsches Gesetz):** Die Wirkung zweier Kräfte, die an einem gemeinsamen Punkt angreifen, ist äquivalent zur Wirkung einer einzelnen Kraft, der Resultierenden 𝐹⃑𝑅. Diese Resultierende entspricht der Diagonalen des Parallelogramms, das aus den beiden Einzelkräften gebildet wird.
+<div class="page-break" style="page-break-before: always;"></div>
+
 ### 1.3 Kraftübertragungselemente in der Ebene
 
 ![[Pasted image 20251222174307.png]]
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## 2.0 Kräftesysteme und Gleichgewicht in der Ebene
 
 ### 2.1 Zentrales ebenes Kräftesystem (gemeinsamer Angriffspunkt)
@@ -30,13 +34,15 @@ Bei einem zentralen Kräftesystem ist für das Gleichgewicht nur das Kräfteglei
     - **Fy = F · sin(α)**
 - **Betrag und Richtung:** Berechnung von Betrag und Richtung aus den gegebenen Komponenten:
     - **F = √𝐹𝑥 2 + 𝐹𝑦 2**
-    - **α = arctan (Fy / Fx)  (Achtung: Vorzeichen beachten!)
+    - **α = arctan (Fy / Fx)  (Achtung: Vorzeichen beachten!)**
 - **Addition von Kräften (Resultierende):** Die resultierende Kraft 𝐹⃗𝑅 = ∑ 𝐹⃗i wird durch die komponentenweise Addition der Einzelkräfte ermittelt:
     - **F{Rx} = ∑ F{ix}**
     - **F{Ry} = ∑ F{iy}**
 - **Gleichgewichtsbedingungen:** Ein zentrales ebenes Kräftesystem ist im Gleichgewicht, wenn die Resultierende eine Nullkraft ist. Daraus folgen zwei skalare Gleichungen:
     - **∑ F{ix} = 0**
     - **∑ F{iy} = 0**
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 2.2 Allgemeines ebenes Kräftesystem
 
@@ -57,6 +63,10 @@ Bei einem allgemeinen Kräftesystem muss zusätzlich zum Kräftegleichgewicht au
 	    - **∑ F{ix} = 0**
 	    - **∑ F{iy} = 0**
 	    - **∑ M{iA} = 0**
+
+<div style="page-break-after: always;"></div>
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## 3.0 Ebene Tragwerke und statische Bestimmtheit
 
 ### 3.1 Statische Bestimmtheit
@@ -78,6 +88,8 @@ Die statische Bestimmtheit wird durch den Freiheitsgrad `f` des Systems beschrie
     - `n`: Anzahl der Starrkörper des Tragwerks
     - `z`: Anzahl der Zwischenreaktionen in den Gelenken/Verbindungen
 
+<div class="page-break" style="page-break-before: always;"></div>
+
 ### 3.2 Ebene Fachwerke (Knotenpunktverfahren)
 
 Fachwerke sind Tragwerke, die idealisiert nur aus zug- oder druckbeanspruchten Stäben bestehen. Die Berechnung der Stabkräfte erfolgt unter folgenden Annahmen:
@@ -91,6 +103,8 @@ Beim **Knotenpunktverfahren** wird jeder einzelne Knoten freigeschnitten und die
 1. An einem **unbelasteten Knoten** mit **zwei Stäben** (nicht auf einer Linie) sind beide Stäbe Nullstäbe.
 2. An einem Knoten mit **zwei Stäben**, bei dem eine **äußere Kraft** in Richtung des einen Stabes wirkt, ist der andere Stab ein Nullstab.
 3. An einem **unbelasteten Knoten** mit **drei Stäben**, von denen zwei auf einer Linie liegen, ist der dritte Stab ein Nullstab.
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## 4.0 Räumliche Statik
 
 ### 4.1 Einleitung und strategische Bedeutung
@@ -108,6 +122,7 @@ Die Beschreibung von Kräften und Momenten erfolgt konsequent über Vektoren in 
     - Das Moment einer Kraft F⃗, die am Punkt mit dem Ortsvektor  angreift, bezüglich des Koordinatenursprungs wird durch das Vektorprodukt (Kreuzprodukt) berechnet: M⃗ = r⃗ × F⃗ 
     - In Komponentenschreibweise ergibt sich das Moment zu:
      ![[Pasted image 20251222175101.png]]
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 4.3 Gleichgewichtsbedingungen im Raum
 
@@ -125,6 +140,8 @@ Ein Körper im Raum ist im Gleichgewicht, wenn die Vektorsumme aller Kräfte und
 Um die resultierende Kraft einer verteilten Last (wie der Gewichtskraft) korrekt ansetzen zu können, wird die Berechnung von Schwerpunkten benötigt.
 ### 4.4 Kraftübertragungselemente in der Ebene
 ![[Pasted image 20251222181422.png]]
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## 5.0 Schwerpunkte
 ### 5.1 Schwerpunkte von Linien, Flächen und Volumen
 
@@ -152,6 +169,7 @@ Der Schwerpunkt eines Körpers, der sich aus mehreren einfachen Teilgebilden zus
 Dabei sind x{Si} und y{Si} die bekannten Schwerpunktkoordinaten und Ai die Flächeninhalte der Teilgebilde. Ausschnitte oder Löcher werden in der Summe als negative Flächen behandelt.
 
 Nachdem die äußeren Kräfte und deren Angriffspunkte bestimmt sind, folgt die Analyse der inneren Beanspruchungen eines Bauteils – der sogenannten Schnittgrößen.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 6.0 Schnittgrößen
 ### 6.1 Schnittgrößen am geraden Balken (Ebene)
@@ -184,6 +202,7 @@ An einem Schnitt durch ein räumlich belastetes Bauteil können insgesamt sechs 
 - Biegemomente (um die Querachsen): **My = M{Sy}**, **Mz = M{Sz}**
 
 Das letzte Kapitel dieser Formelsammlung widmet sich der Reibung, einer wichtigen, nicht-idealen Kraft, die in realen Kontaktflächen auftritt.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 7.0 Reibung
 
