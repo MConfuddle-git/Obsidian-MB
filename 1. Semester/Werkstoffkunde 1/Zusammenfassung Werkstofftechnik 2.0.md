@@ -13,6 +13,8 @@ Werkstoffe werden üblicherweise in vier Hauptgruppen eingeteilt, die sich durch
 ### 1.2. Der Werkstoff-Engineering-Ansatz
 
 Der Kern des Werkstoff-Engineerings liegt in der Optimierung des Zusammenspiels von **Leistung** (z.B. Festigkeit, Zähigkeit), **Kosten**, **Werkstoff/Chemie** (Legierungszusammensetzung), **Konstruktion/Fertigung** (Herstellungsverfahren) und der resultierenden **Mikrostruktur** (Gefüge). Diese Faktoren beeinflussen sich gegenseitig und bestimmen letztendlich die finalen Eigenschaften und die Wirtschaftlichkeit eines Bauteils.
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## 2. Allgemeine Werkstoffeigenschaften
 
 ### 2.1. Kategorien von Werkstoffeigenschaften
@@ -39,6 +41,7 @@ Die Eigenschaften von Werkstoffen lassen sich in vier Hauptkategorien einteilen:
 
 - **Definition:** Der thermische Ausdehnungskoeffizient beschreibt die relative Längenänderung (Δl) eines Werkstoffs pro Grad Temperaturänderung (ΔT). `Δl = l₀ · α · ΔT`
 - **Technische Relevanz:** Dieser Koeffizient muss in Konstruktionen berücksichtigt werden, die Temperaturschwankungen ausgesetzt sind. Werden unterschiedliche Materialien kombiniert, können unterschiedliche Ausdehnungskoeffizienten zu Wärmespannungen führen. Beispiele sind Dehnungsfugen bei Eisenbahnschienen oder Schiebesitze bei doppelwandigen Abgasrohren.
+<div class="page-break" style="page-break-before: always;"></div>
 
 #### Elektrische Leitfähigkeit (σ)
 
@@ -49,6 +52,8 @@ Die Eigenschaften von Werkstoffen lassen sich in vier Hauptkategorien einteilen:
 
 - **Definition:** Die Wärmeleitfähigkeit gibt an, welche Wärmemenge pro Zeit durch eine definierte Fläche bei einem bestimmten Temperaturgefälle transportiert wird.
 - **Technische Relevanz:** Für Metalle besteht ein direkter Zusammenhang zwischen elektrischer und thermischer Leitfähigkeit, beschrieben durch das **Wiedemann-Franz'sche Gesetz**. Elektronen transportieren sowohl Ladung als auch Wärme. Werkstoffe mit hoher Wärmeleitfähigkeit (z.B. Kupfer) werden für Kühlkörper eingesetzt, während Materialien mit geringer Leitfähigkeit (z.B. Keramiken, Polymere) zur Wärmeisolierung dienen.
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## 3. Aufbau metallischer Werkstoffe
 
 Die einzigartigen Eigenschaften von Metallen wie ihre hohe Leitfähigkeit, ihr Glanz und ihre Verformbarkeit resultieren direkt aus ihrer atomaren Struktur und der Art der chemischen Bindung zwischen den Atomen.
@@ -61,6 +66,7 @@ Im Gegensatz zur gerichteten **kovalenten Bindung** (Elektronenpaarbindung, typi
 
 - **Kristalline Werkstoffe:** Die Atome sind in einer regelmäßigen, sich periodisch wiederholenden dreidimensionalen Struktur angeordnet. Man spricht von **Nah- und Fernordnung**. Fast alle Metalle erstarren kristallin. Die plastische Verformung erfolgt durch das Verschieben von Atomen entlang dicht gepackter Ebenen, den sogenannten **Gleitebenen**.
 - **Amorphe Werkstoffe:** Die Atome weisen weder eine Fern- noch eine definierte Nahordnung auf; ihre Anordnung ist unregelmäßig (z.B. Glas). Metalle können durch extrem schnelles Abkühlen (ca. 10⁶ K/s) amorph erstarren ("metallische Gläser"), was zu einzigartigen Eigenschaften wie hoher Härte bei gleichzeitiger Elastizität führt.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 3.3. Kristallgitter und Gleitsysteme
 
@@ -83,6 +89,7 @@ Ein **Idealkristall** mit einem perfekt periodischen Aufbau existiert in der Rea
     - **Versetzung:** Eine eingeschobene oder fehlende Halbebene von Atomen im Kristallgitter.
 - **2D (flächenförmig):**
     - **Korngrenzen:** Grenzflächen zwischen unterschiedlich orientierten Kristallen (Körnern) in einem polykristallinen Gefüge.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 3.5. Bedeutung von Gitterbaufehlern
 
@@ -93,6 +100,7 @@ Gitterbaufehler sind entscheidend für viele technologisch relevante Prozesse un
 - **Leerstellen & Zwischengitteratome:** Sie sind die Voraussetzung für die **Diffusion** im festen Zustand, also den Materialtransport durch Atomwanderung. Beim **Leerstellenmechanismus** springen Atome auf benachbarte freie Gitterplätze. Beim **Zwischengittermechanismus** wandern kleine Atome (wie C in Fe) von einem Zwischengitterplatz zum nächsten.
 
 Der Übergang vom flüssigen in den festen Zustand ist der Prozess, bei dem sich diese Kristallstrukturen und ihre Fehler ausbilden. Dieser wird im nächsten Kapitel behandelt.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 4. Mechanismus der Erstarrung
 
@@ -117,6 +125,7 @@ Ein feinkörniges Gefüge führt in der Regel zu besseren mechanischen Eigenscha
 2. **Zugabe von Fremdkeimen ("Impfen"):** Durch gezieltes Einbringen von feinen Partikeln (z.B. Al-Ti-B-Legierungen in Aluminiumschmelzen) werden künstlich heterogene Keimbildungsstellen geschaffen.
 
 Während reine Metalle bei einer festen Temperatur erstarren, ist der Prozess bei Legierungen komplexer und wird durch Zustandsdiagramme beschrieben.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 5. Zustandsdiagramme
 
@@ -141,6 +150,7 @@ Viele Legierungssysteme, wie Blei-Zinn (Pb-Sn), weisen nur eine begrenzte Lösli
 
 - **Eutektikum:** Ein Punkt im Diagramm, der eine spezifische Legierungszusammensetzung und Temperatur definiert. Bei dieser **eutektischen Temperatur** erstarrt die Schmelze mit eutektischer Zusammensetzung direkt zu einem feinen Gemisch aus zwei festen Phasen (α + β), ohne einen Erstarrungsbereich zu durchlaufen.
 - **Eutektische Reaktion:** Der isotherme (bei konstanter Temperatur) Zerfall der Schmelze in zwei feste Phasen: `Schmelze → α + β`. Das resultierende Gefüge ist oft lamellar.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 5.4. Weitere Reaktionen und Phasen
 
@@ -152,6 +162,7 @@ Viele Legierungssysteme, wie Blei-Zinn (Pb-Sn), weisen nur eine begrenzte Lösli
 Zustandsdiagramme gelten streng genommen nur für unendlich langsame Abkühlungen. In der Praxis kühlen Bauteile schneller ab, sodass Diffusionsprozesse nicht vollständig ablaufen können. Dies führt zu Konzentrationsunterschieden im Gefüge, einem Phänomen, das als **Seigerung** bekannt ist. Die zuerst erstarrten Bereiche sind reicher an der höher schmelzenden Komponente, während die zuletzt erstarrte Restschmelze an der niedriger schmelzenden Komponente angereichert ist.
 
 Die in den Zustandsdiagrammen dargestellten Phasen und Gefüge sind nicht statisch. Das folgende Kapitel beleuchtet, wie diese Mikrostrukturen durch gezielte thermomechanische Prozesse manipuliert werden, um die mechanischen Eigenschaften über **Ver- und Entfestigungsmechanismen** gezielt einzustellen.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 6. Mechanismen der Ver- und Entfestigung
 
@@ -168,6 +179,7 @@ Alle Verfestigungsmechanismen beruhen auf dem Prinzip, die Bewegung von Versetzu
 | **Ausscheidungshärtung** | Bildung fein verteilter, kohärenter Teilchen einer zweiten Phase im Matrixgitter durch eine gezielte Wärmebehandlung (Lösungsglühen, Abschrecken, Auslagern). | Sehr effektiver Mechanismus, zentral für hochfeste Al-Legierungen. Bei Überalterung (zu lange/heiße Auslagerung) nimmt die Festigkeit wieder ab. |
 | **Dispersionshärtung**   | Einlagerung von thermisch stabilen, inkohärenten Fremdpartikeln (z.B. Oxide) in die Matrix (oft pulvermetallurgisch).                                         | Behält die Festigkeit auch bei sehr hohen Temperaturen bei, da sich die Partikel nicht auflösen.                                                 |
 | **Feinkornhärtung**      | Blockade der Versetzungsbewegung an Korngrenzen. Je kleiner das Korn, desto mehr Korngrenzen existieren.                                                      | **Einziger Mechanismus, der gleichzeitig Festigkeit und Zähigkeit steigert.** Die Beziehung wird durch die Hall-Petch-Gleichung beschrieben.     |
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 6.2. Entfestigungsmechanismen (Glühverfahren)
 
@@ -184,6 +196,7 @@ Glühverfahren sind Wärmebehandlungen, die darauf abzielen, die Effekte der Ver
     - **Mechanismus:** Langzeitiges Glühen bei sehr hohen Temperaturen (knapp unter der Solidustemperatur), um den Konzentrationsausgleich durch Diffusion zu ermöglichen.
 
 Diese Mechanismen sind von zentraler Bedeutung für die wichtigste und meistverwendete Werkstoffgruppe, die Stähle.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 7. Stahl: Herstellung, Fe-C-Diagramm und Einteilung
 
@@ -223,6 +236,7 @@ Die Vielfalt der Stähle erfordert ein systematisches Bezeichnungssystem. Nach D
 | **4. Hochlegierte Stähle (≥ 5% eines Leg.elements)** | Beginnt mit 'X', gefolgt vom 100-fachen C-Gehalt, den chem. Symbolen und den direkten Prozentangaben der Legierungselemente.                                                                   | **X10CrNi18-8**: Nichtrostender Stahl mit 0,10% C, 18% Chrom und 8% Nickel.   |
 
 Die im Fe-C-Diagramm gezeigten Gleichgewichtsgefüge können durch gezielte Wärmebehandlung grundlegend verändert werden, um ein breites Spektrum an Eigenschaften zu erzielen.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## 8. Wärmebehandlung und Oberflächenhärtung von Stahl
 
@@ -245,7 +259,8 @@ Diese Verfahren zielen auf eine maximale Festigkeits- und Härtesteigerung ab un
 - **Härten:** Der Prozess besteht aus zwei Schritten:
     1. **Austenitisieren:** Erwärmen des Stahls in das Austenitgebiet, um den Kohlenstoff im kfz-Gitter zu lösen.
     2. **Abschrecken:** Sehr schnelles Abkühlen (in Wasser, Öl oder Luft), das die diffusionsgesteuerte Bildung von Ferrit und Perlit unterdrückt. Stattdessen klappt das Gitter diffusionslos in eine tetragonal verzerrte, mit Kohlenstoff zwangsgelöste Struktur um. Dieses Gefüge nennt man **Martensit**. Es ist extrem hart, aber auch sehr spröde.
-- **Anlassen:** Ein auf das Härten folgender Erwärmungsschritt auf moderate Temperaturen (z.B. 200-600°C). Ziel ist es, die extreme Sprödigkeit des Martensits zu reduzieren und die Zähigkeit zu erhöhen. Dabei wird ein Teil der Härte und Festigkeit kontrolliert "geopfert".
+- **Anlassen:** Ein auf das Härten folgender Erwärmungsschritt auf moderate Temperaturen (z.B. 200-600°C). Ziel ist es, die extreme Sprödigkeit des Martensits zu reduzieren und die Zähigkeit zu erhöhen. Dabei wird ein Teil der Härte und Festigkeit kontrolliert "geopfert".<div class="page-break" style="page-break-before: always;"></div>
+
 - **Vergüten:** Dies ist die Kombination aus Härten und anschließendem Anlassen auf höhere Temperaturen (z.B. 500-700°C). Das Ziel ist nicht maximale Härte, sondern ein optimaler Kompromiss aus hoher Festigkeit und guter Zähigkeit, wie er für dynamisch beanspruchte Bauteile erforderlich ist.
 
 ### 8.3. Verfahren der Oberflächenhärtung
@@ -256,6 +271,7 @@ Für viele Bauteile (z.B. Zahnräder) ist es ideal, eine sehr harte, verschleiß
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Thermochemisch** | **Prinzip:** Änderung der chemischen Zusammensetzung der Randschicht durch Eindiffundieren von Elementen bei hoher Temperatur.<br>**Beispiele:**<ul><li>**Einsatzhärten** (Anreicherung mit Kohlenstoff - _Aufkohlen_)</li><li>**Nitrieren** (Anreicherung mit Stickstoff - _Aufsticken_)</li></ul>        |
 | **Thermisch**      | **Prinzip:** Keine Änderung der chemischen Zusammensetzung. Nur die Randschicht wird lokal kurzzeitig austenitisiert und dann abgeschreckt.<br>**Beispiele:**<ul><li>**Induktionshärten** (Erwärmung durch ein magnetisches Wechselfeld)</li><li>**Flammhärten** (Erwärmung mit einer Gasflamme)</li></ul> |
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 8.4. Vergleich: Vergüten vs. Einsatzhärten
 
