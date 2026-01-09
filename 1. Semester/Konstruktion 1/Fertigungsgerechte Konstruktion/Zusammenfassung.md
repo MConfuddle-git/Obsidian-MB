@@ -11,6 +11,7 @@ Die korrekte Gestaltung von Toleranzen ist ein weiterer kritischer Erfolgsfaktor
 - **Toleranzen so groß wie möglich und so fein wie nötig wählen:** Jede unnötige Präzision führt zu exponentiell steigenden Fertigungskosten.
 - **Fertigung knapp vor dem nächsten Kostensprung auslegen:** Die Fertigungsgenauigkeit sollte so gewählt werden, dass sie mit normalem Aufwand erreichbar ist, ohne in einen teureren Prozess wechseln zu müssen. Dies bedeutet beispielsweise, eine Genauigkeit zu wählen, die noch durch Drehen erreichbar ist, anstatt eine minimal engere Toleranz zu fordern, die einen teuren, zusätzlichen Schleifprozess notwendig machen würde.
 - **Grobtolerant fertigen und feintolerant montieren:** Dieses Prinzip erlaubt es, einzelne Bauteile kostengünstig herzustellen und die geforderte Präzision erst im Zusammenbau der Baugruppe zu realisieren.
+<div class="page-break" style="page-break-before: always;"></div>
 
 Über die reinen Fertigungskosten hinaus gewinnt die Nachhaltigkeit zunehmend an Bedeutung. Für eine umweltgerechte Produktgestaltung gelten folgende Gestaltungsprinzipien:
 
@@ -23,10 +24,7 @@ Die korrekte Gestaltung von Toleranzen ist ein weiterer kritischer Erfolgsfaktor
 - Kreislauffähigkeit (Recyclingfähigkeit)
 
 Diese allgemeinen Prinzipien bilden das Fundament, das nun durch die spezifischen Gestaltungsregeln für die Hauptfertigungsverfahren nach DIN 8580 konkretisiert wird.
-
-## 2. Gestaltungsgrundsätze für Hauptfertigungsverfahren
-
-Die spezifische Gestalt eines Bauteils ist untrennbar mit dem für seine Herstellung gewählten Fertigungsverfahren verbunden. Ein Bauteil, das für den Guss optimal gestaltet ist, wäre für eine spanende Fertigung unwirtschaftlich und umgekehrt. Die folgenden Abschnitte fassen die zentralen Gestaltungsregeln für die wichtigsten Verfahrensgruppen zusammen und liefern dem Konstrukteur das notwendige Rüstzeug für prozessgerechte Entscheidungen.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 2.1 Urformgerechte Gestaltung (Gießen & Additive Fertigung)
 
@@ -46,6 +44,7 @@ Beim Urformen wird ein Bauteil aus formlosem Stoff (z. B. einer Schmelze) gescha
 - **Überhänge:** Ein kritischer Winkel von **45°** sollte nicht überschritten werden, da andernfalls Stützstrukturen (Support) notwendig werden, die Material- und Zeitaufwand erhöhen und nachbearbeitet werden müssen.
 - **Minimale Dimensionen:** Es gibt prozessbedingte Grenzen. Für Wandstärken gilt ein Richtwert von **≥ 0,8 mm**, während Brücken ohne Support eine Länge von **max. 10 mm** nicht überschreiten sollten.
 - **Löcher:** Für eine optimale Rundheit sollten Löcher **senkrecht zu den Druckschichten** ausgerichtet werden, da sie andernfalls stufig werden und Support benötigen.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 2.2 Umformgerechte Gestaltung (Biegen & Tiefziehen)
 
@@ -64,6 +63,7 @@ Bei der Umformung wird die Form eines festen Körpers plastisch verändert. Die 
 - **Radien:** Die Radien am Ziehring (`rr`) und am Ziehstempel (`rst`) sind prozesskritisch. Sie müssen ausreichend groß sein, um ein Reißen des Blechs zu verhindern, dürfen aber auch nicht so groß sein, dass Faltenbildung einsetzt.
 - **Ziehverhältnisse:** Das maximale Ziehverhältnis beschreibt, wie stark das Blech in einem einzigen Zug umgeformt werden kann. Bei komplexen Teilen mit großer Ziehtiefe sind oft mehrere aufeinanderfolgende Ziehstufen notwendig.
 - **Sicken:** Diese rinnenförmigen Vertiefungen dienen der Erhöhung der Bauteilsteifigkeit. Sie sollten zur Vermeidung von Spannungsspitzen stets sanft am Rand auslaufen und sich nicht kreuzen.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 2.3 Gestaltung für trennende Fertigung (Drehen, Schleifen & Stanzen)
 
@@ -86,6 +86,7 @@ Trennende Verfahren erzeugen eine Form durch das Abtragen von Material. Das ober
 - **Materialeffizienz:** Die Kontur der Stanzteile sollte so gestaltet werden, dass sie durch eine geschickte Anordnung auf dem Blechband eine **abfalllose oder abfallarme** Herstellung ermöglichen.
 - **Konturen:** **Einfache, geradlinige Konturen** und abgeschrägte Ecken sind Radien vorzuziehen, da sie einfacher und kostengünstiger im Werkzeugbau umzusetzen sind.
 - **Stempel:** Filigrane Formen und zu eng beieinander liegende Löcher sind zu vermeiden, da sie die Stabilität des Schneidstempels schwächen und zu vorzeitigem Werkzeugbruch führen können.
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 2.4 Fügegerechte Gestaltung (Schweißen, Löten & Montieren)
 
@@ -104,6 +105,7 @@ Fügeverfahren verbinden mehrere Einzelteile zu einer Baugruppe. Die Gestaltung 
 - **Verbindungsart:** Aufgrund der schubfesten Verbindung im Lötspalt sind **überlappende Verbindungen** Stumpfstößen immer vorzuziehen.
 - **Kapillarwirkung:** Der Lötspalt muss so dimensioniert sein, dass das flüssige Lot durch Kapillarwirkung vollständig in den Spalt gesaugt wird. Hohlräume, die dies verhindern, sind zu vermeiden.
 - **Lotanhäufung:** Große Lotmengen sind zu vermeiden, da sie beim Erstarren zu Schwindungslunkern führen und die Festigkeit der Verbindung schwächen.
+<div class="page-break" style="page-break-before: always;"></div>
 
 **Aspekte der montagegerechten Konstruktion:**
 
@@ -112,6 +114,8 @@ Fügeverfahren verbinden mehrere Einzelteile zu einer Baugruppe. Die Gestaltung 
 - **Standardisierung:** Die Verwendung möglichst **weniger unterschiedlicher Normteile** (z. B. Schraubengrößen) reduziert die Teilevielfalt, erhöht die Losgrößen im Einkauf und minimiert die Verwechslungsgefahr in der Montage.
 - **Poka Yoke:** Dieses Prinzip der "fehler-sicheren" Konstruktion stellt durch asymmetrische Gestaltungsmerkmale sicher, dass ein Bauteil **nicht falsch zusammengebaut werden kann**.
 - **Zugänglichkeit:** Alle Fügestellen, Schrauben und Justageelemente müssen für Montagewerkzeuge gut erreichbar und idealerweise auch gut sichtbar sein.
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## 3. Synthese: Übergreifende Erfolgsfaktoren in der Konstruktion
 
 Obwohl jedes Fertigungsverfahren seine eigenen spezifischen Regeln hat, existiert eine Reihe von universellen, übergreifenden Prinzipien, die den Erfolg einer Konstruktion maßgeblich bestimmen. Sie ziehen sich wie ein roter Faden durch alle Gestaltungsphasen und dienen als eine Art übergeordnete Checkliste für den Konstrukteur. Die konsequente Anwendung dieser Erfolgsfaktoren führt zu robusten, wirtschaftlichen und qualitativ hochwertigen Produkten.
