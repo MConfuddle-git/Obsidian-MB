@@ -275,29 +275,29 @@ Im `ℝⁿ` wird ein Vektor durch ein n-Tupel seiner Koordinaten dargestellt, me
 ### 3.2 Produkte von Vektoren
 
 #### 1. Skalarprodukt
-Das Skalarprodukt zweier Vektoren `a⃗` und `b⃗` ist eine skalare Größe.
-- **Geometrische Definition:** `a⃗ · b⃗ = |a⃗| · |b⃗| · cos(φ)`, wobei `φ` der von den Vektoren eingeschlossene Winkel ist.
-- **Koordinatenform:** `a⃗ · b⃗ = a₁b₁ + a₂b₂ + ... + aₙbₙ`
+Das Skalarprodukt zweier Vektoren a⃗ und b⃗ ist eine skalare Größe.
+- **Geometrische Definition:** a⃗ · b⃗ = |a⃗| · |b⃗| · cos(φ), wobei `φ` der von den Vektoren eingeschlossene Winkel ist.
+- **Koordinatenform:** a⃗ · b⃗ = a₁b₁ + a₂b₂ + ... + aₙbₙ
 
 **Anwendungen und Eigenschaften:**
-- **Längenberechnung:** `|a⃗| = √a⃗·a⃗`
-- **Winkelberechnung:** `cos(φ) = (a⃗ · b⃗) / (|a⃗| · |b⃗|)`
-- **Orthogonalitätstest:** Zwei Vektoren sind genau dann orthogonal (senkrecht) zueinander, wenn ihr Skalarprodukt Null ist: `a⃗ ⊥ b⃗ ⇔ a⃗ · b⃗ = 0` (für `a⃗, b⃗ ≠ 0⃗`).
+- **Längenberechnung:** |a⃗| = √a⃗·a⃗
+- **Winkelberechnung:** cos(φ) = (a⃗ · b⃗) / (|a⃗| · |b⃗|)
+- **Orthogonalitätstest:** Zwei Vektoren sind genau dann orthogonal (senkrecht) zueinander, wenn ihr Skalarprodukt Null ist: a⃗ ⊥ b⃗ ⇔ a⃗ · b⃗ = 0 (für a⃗, b⃗ ≠ 0⃗ ).
 
 #### 2. Vektorprodukt (Kreuzprodukt) im ℝ³
-Das Vektorprodukt `a⃗ × b⃗` ist nur im `ℝ³` definiert und sein Ergebnis ist wieder ein Vektor.
-- **Definition:** Der Ergebnisvektor `a⃗ × b⃗` steht senkrecht auf der von `a⃗` und `b⃗` aufgespannten Ebene. Seine Orientierung wird durch die **Rechte-Hand-Regel** bestimmt.
-- **Betrag und Anwendung:** Der Betrag `|a⃗ × b⃗| = |a⃗| · |b⃗| · sin(φ)` entspricht der **Fläche des Parallelogramms**, das von `a⃗` und `b⃗` aufgespannt wird.
-- **Koordinatenform:** Für `a⃗ = (a₁, a₂, a₃)ᵀ` und `b⃗ = (b₁, b₂, b₃)ᵀ` werden die Komponenten des Ergebnisvektors `c⃗ = a⃗ × b⃗` mithilfe von `2x2`-Determinanten berechnet:
+Das Vektorprodukt a⃗ × b⃗ ist nur im ℝ³ definiert und sein Ergebnis ist wieder ein Vektor.
+- **Definition:** Der Ergebnisvektor a⃗ × b⃗ steht senkrecht auf der von a⃗ und b⃗ aufgespannten Ebene. Seine Orientierung wird durch die **Rechte-Hand-Regel** bestimmt.
+- **Betrag und Anwendung:** Der Betrag |a⃗ × b⃗| = |a⃗| · |b⃗| · sin(φ) entspricht der **Fläche des Parallelogramms**, das von a⃗ und b⃗ aufgespannt wird.
+- **Koordinatenform:** Für a⃗ = (a₁, a₂, a₃)ᵀ und b⃗ = (b₁, b₂, b₃)ᵀ werden die Komponenten des Ergebnisvektors c⃗ = a⃗ × b⃗ mithilfe von 2x2-Determinanten berechnet:
     - `c₁ = |a₂ b₂| / |a₃ b₃| = a₂b₃ - a₃b₂`
     - `c₂ = |a₃ b₃| / |a₁ b₁| = a₃b₁ - a₁b₃`
     - `c₃ = |a₁ b₁| / |a₂ b₂| = a₁b₂ - a₂b₁`
-- **Eigenschaft:** Zwei Vektoren sind genau dann parallel, wenn ihr Vektorprodukt der Nullvektor ist: `a⃗ || b⃗ ⇔ a⃗ × b⃗ = 0⃗`.
+- **Eigenschaft:** Zwei Vektoren sind genau dann parallel, wenn ihr Vektorprodukt der Nullvektor ist: a⃗ || b⃗ ⇔ a⃗ × b⃗ = 0⃗.
 #### 3. Spatprodukt im ℝ³
 Das Spatprodukt kombiniert Vektor- und Skalarprodukt.
-- **Definition:** `[a⃗, b⃗, c⃗] := a⃗ · (b⃗ × c⃗)`
-- **Geometrische Bedeutung:** Der Betrag des Spatprodukts `|[a⃗, b⃗, c⃗]|` entspricht dem **Volumen des Spats** (Parallelepipeds), das von den drei Vektoren `a⃗`, `b⃗` und `c⃗` aufgespannt wird.
-- **Eigenschaft:** Drei Vektoren sind genau dann komplanar (liegen in einer Ebene), wenn ihr Spatprodukt Null ist: `[a⃗, b⃗, c⃗] = 0`.
+- **Definition:** [a⃗, b⃗, c⃗] := a⃗ · (b⃗ × c⃗)
+- **Geometrische Bedeutung:** Der Betrag des Spatprodukts |[a⃗, b⃗, c⃗]| entspricht dem **Volumen des Spats** (Parallelepipeds), das von den drei Vektoren a⃗, b⃗ und c⃗ aufgespannt wird.
+- **Eigenschaft:** Drei Vektoren sind genau dann komplanar (liegen in einer Ebene), wenn ihr Spatprodukt Null ist: [a⃗, b⃗, c⃗] = 0.
 <div class="page-break" style="page-break-before: always;"></div>
 
 ## 4.0 Analytische Geometrie
