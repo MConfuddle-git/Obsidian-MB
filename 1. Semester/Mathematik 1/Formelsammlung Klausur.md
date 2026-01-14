@@ -1,20 +1,19 @@
 ---
 cssclasses:
-  - tufte-sidenotes
   - cornell-left
 ---
+### Gebrochen Rationale Funktionen
+- **Definition:** Eine Funktion der Form `f(x) = P(x) / Q(x)`, wobei `P(x)` und `Q(x)` Polynome sind.
+- **Definitionslücken:** Die Nullstellen des Nenners `Q(x)` sind Definitionslücken.
+    - **Hebbare Lücken:** Eine Nullstelle des Nenners, die auch eine Nullstelle des Zählers ist, führt zu einer hebbaren Lücke, wenn der entsprechende Linearfaktor gekürzt werden kann.
+    - **Pole:** Eine Nullstelle des Nenners, die nach dem Kürzen verbleibt, ist ein Pol. An dieser Stelle hat der Graph eine vertikale Asymptote.
+- **Asymptotisches Verhalten (**`|x| → ∞`**):**
+    - **Zählergrad < Nennergrad:** Die x-Achse (`y = 0`) ist eine horizontale Asymptote.
+    - **Zählergrad = Nennergrad:** Die horizontale Gerade `y = a_m / b_n` (Verhältnis der Leitkoeffizienten) ist eine Asymptote.
+    - **Zählergrad > Nennergrad:** Das asymptotische Verhalten entspricht dem Polynom, das sich aus der Polynomdivision `P(x) : Q(x)` ergibt (schräge oder polynomielle Asymptote).
 
-# Unecht gebrochene Funktionen
-x e R mit Ausnahme x0 des Nennerpolynoms h(x)
-f(x) = g(x)^m / h(x)^n
-g(x) Zähler
-h(x) Nenner
-
-n>m = Echt gebrochen!
-
->[!cue] Definitionslücke bestimmen
-
-Die Nullstellen des Nennerpolynoms q(x) liefern die **Definitionslücken** einer gebrochen rationalen Funktion f. Der **maximale Definitionsbereich** einer gebrochen rationalen Funktion ![[Pasted image 20260114164823.png]] ist also![[Pasted image 20260114165010.png]]. Das Nennerpolynom gleich 0 setzen.
+Die Nullstellen des Nennerpolynoms q(x) liefern die **D
+efinitionslücken** einer gebrochen rationalen Funktion f. Der **maximale Definitionsbereich** einer gebrochen rationalen Funktion ![[Pasted image 20260114164823.png]] ist also![[Pasted image 20260114165010.png]]. Das Nennerpolynom gleich 0 setzen.
 
 >[!cue] Verhalten an Definitionslücken
 
@@ -34,6 +33,11 @@ Die Nullstellen des Nennerpolynoms q(x) liefern die **Definitionslücken** e
 >[!cue] Vorzeichenschema
 
 ----------------------------------------
+**Allgemeine Cosinus-Funktion:** `f(t) = A cos(ωt + φ) + b`
+    - `A`: Amplitude (maximale Auslenkung)
+    - `ω`: Kreisfrequenz
+    - `φ`: Phasenwinkel
+    - Periode `T = 2π / ω`
 
 >[!cue] Ruhelage b
 
