@@ -50,8 +50,6 @@ Die Nullstellen des Nennerpolynoms q(x) liefern die **Definitionslücken** e
 
 ----------------------------------------
 
->[!cue] Funktionsvorschrift
-
 >[!cue] Ableitungsregeln
 
 | Regel               | Formel                                               |
@@ -75,25 +73,38 @@ Die Nullstellen des Nennerpolynoms q(x) liefern die **Definitionslücken** e
 >[!cue] Tangente
 
 
+-------
 >[!cue] Grenzwert berechnen
 
->[!cue] Matrix
+Um einen Grenzwert zu bestimmen, gehst du so vor:
+1. Prüfe, ob du den Grenzwert gegen **unendlich** oder gegen eine **Zahl** (z.B. 2) suchst.
+2. Erstelle eine Wertetabelle mit **großen** x-Werten (z.B. 1.000.000) 
+   oder x-Werten **nah an der Zahl** (z.B. 2,001).
+3. Ließ den Grenzwert an den y-Werten ab.
 
-
+Das x mit dem **meisten Einfluss** bestimmt den **Grenzwert** der gesamten Funktion:
+1. x im Exponent (z.B. e^x) → sehr viel Einfluss
+2. x mit höchstem Exponenten (z.B. x³)
+3. x ohne Exponent
+4. x in der Wurzel → sehr wenig Einfluss
 ----------------------------------------
 >[!cue] Vektoren
-#### Skalarprodukt
-Das Skalarprodukt zweier Vektoren a⃗ und b⃗ ist eine skalare Größe.
-- **Geometrische Definition:** a⃗ · b⃗ = |a⃗| · |b⃗| · cos(φ), wobei `φ` der von den Vektoren eingeschlossene Winkel ist.
+#### Skalarprodukt 
+- **Geometrische Definition:** a⃗ · b⃗ = |a⃗| · |b⃗| · cos(φ), wobei `φ` der von den Vektoren eingeschlossene Winkel ist. 
 - **Koordinatenform:** a⃗ · b⃗ = a₁b₁ + a₂b₂ + ... + aₙbₙ
+- **Betrag eines Vektors:** |𝑎⃗|=√𝑎²𝑥+𝑎²𝑦+𝑎²𝑧
+ 
+**Zusammenhang zwischen Skalarprodukt und Winkel:** 
+- a⃗ · b⃗  > 0: Spitzer Winkel (α < 90°)
+- a⃗ · b⃗  = 0: Rechter Winkel (α =90°)
+- a⃗ · b⃗  < 0: Stumpfer Winkel (α > 90°)
+- Der exakte Winkel lässt sich mit der Formel α = arccos(a⃗⋅b⃗ / |a⃗|⋅|b⃗|) bestimmen.
 
 **Anwendungen und Eigenschaften:**
 - **Längenberechnung:** |a⃗| = √a⃗·a⃗
 - **Winkelberechnung:** cos(φ) = (a⃗ · b⃗) / (|a⃗| · |b⃗|)
 - **Orthogonalitätstest:** Zwei Vektoren sind genau dann orthogonal (senkrecht) zueinander, wenn ihr Skalarprodukt Null ist: a⃗ ⊥ b⃗ ⇔ a⃗ · b⃗ = 0 (für a⃗, b⃗ ≠ 0⃗ ).
-
 #### Vektorprodukt (Kreuzprodukt) im ℝ³
-Das Vektorprodukt a⃗ × b⃗ ist nur im ℝ³ definiert und sein Ergebnis ist wieder ein Vektor.
 - **Definition:** Der Ergebnisvektor a⃗ × b⃗ steht senkrecht auf der von a⃗ und b⃗ aufgespannten Ebene. Seine Orientierung wird durch die **Rechte-Hand-Regel** bestimmt.
 - **Betrag und Anwendung:** Der Betrag |a⃗ × b⃗| = |a⃗| · |b⃗| · sin(φ) entspricht der **Fläche des Parallelogramms**, das von a⃗ und b⃗ aufgespannt wird.
 - **Koordinatenform:** Für a⃗ = (a₁, a₂, a₃)ᵀ und b⃗ = (b₁, b₂, b₃)ᵀ werden die Komponenten des Ergebnisvektors c⃗ = a⃗ × b⃗ mithilfe von 2x2-Determinanten berechnet:
@@ -125,4 +136,12 @@ Ein LGS kann genau eine der drei folgenden Lösungsmengen haben:
 3. **Unendlich viele Lösungen:** Das System hat eine unendliche Lösungsmenge. In der Zeilen-Stufen-Form gibt es mindestens eine Variable, die nicht als führendes Element (Pivot) einer Zeile auftritt und somit frei wählbar ist.
 
 ----------------------------------------
+>[!cue] Inverse Matrix
+
+1. Invertierbar? Quadtratisch + Determinate =/ 0
+2. Einheitsmatrix notieren
+3. Umformen
+4. Inverse Matrix ablesen
+------
 >[!cue] Matrizen
+
