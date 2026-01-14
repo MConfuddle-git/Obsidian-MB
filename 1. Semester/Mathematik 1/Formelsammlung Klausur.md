@@ -1,8 +1,9 @@
 ---
 cssclasses:
+  - tufte-sidenotes
   - cornell-left
-  - cornell-border
 ---
+
 # Unecht gebrochene Funktionen
 x e R mit Ausnahme x0 des Nennerpolynoms h(x)
 f(x) = g(x)^m / h(x)^n
@@ -119,7 +120,6 @@ Das Spatprodukt kombiniert Vektor- und Skalarprodukt.
 - **Eigenschaft:** Drei Vektoren sind genau dann komplanar (liegen in einer Ebene), wenn ihr Spatprodukt Null ist: [a⃗, b⃗, c⃗] = 0.
 
 ----------------------------------------
-
 >[!cue] LGS
 ### 1. Schritt: Finde die Zeilenstufenform
 Beim Umformen darfst du nur diese drei Dinge mit dem linearen Gleichungssystem tun:
