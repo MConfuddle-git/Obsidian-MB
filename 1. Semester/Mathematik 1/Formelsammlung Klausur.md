@@ -4,36 +4,58 @@ cssclasses:
 ---
 ### Gebrochen Rationale Funktionen
 - **Definition:** Eine Funktion der Form `f(x) = P(x) / Q(x)`, wobei `P(x)` und `Q(x)` Polynome sind.
+- Der **maximale Definitionsbereich** einer gebrochen rationalen Funktion ![[Pasted image 20260114164823.png]] ist also![[Pasted image 20260114165010.png]]. 
 - **Definitionslücken:** Die Nullstellen des Nenners `Q(x)` sind Definitionslücken.
     - **Hebbare Lücken:** Eine Nullstelle des Nenners, die auch eine Nullstelle des Zählers ist, führt zu einer hebbaren Lücke, wenn der entsprechende Linearfaktor gekürzt werden kann.
     - **Pole:** Eine Nullstelle des Nenners, die nach dem Kürzen verbleibt, ist ein Pol. An dieser Stelle hat der Graph eine vertikale Asymptote.
+    - **Ordnung**: 
 - **Asymptotisches Verhalten (**`|x| → ∞`**):**
     - **Zählergrad < Nennergrad:** Die x-Achse (`y = 0`) ist eine horizontale Asymptote.
     - **Zählergrad = Nennergrad:** Die horizontale Gerade `y = a_m / b_n` (Verhältnis der Leitkoeffizienten) ist eine Asymptote.
     - **Zählergrad > Nennergrad:** Das asymptotische Verhalten entspricht dem Polynom, das sich aus der Polynomdivision `P(x) : Q(x)` ergibt (schräge oder polynomielle Asymptote).
 
-Die Nullstellen des Nennerpolynoms q(x) liefern die **D
-efinitionslücken** einer gebrochen rationalen Funktion f. Der **maximale Definitionsbereich** einer gebrochen rationalen Funktion ![[Pasted image 20260114164823.png]] ist also![[Pasted image 20260114165010.png]]. Das Nennerpolynom gleich 0 setzen.
-
 >[!cue] Verhalten an Definitionslücken
 
 ![[Pasted image 20260114165412.png]]
->[!cue] Potenzieren
 
 
->[!cue] Potenzieren
+>[!cue] Asymptoten
 
-
->[!cue] Potenzieren
-
-
->[!cue] Potenzieren
+>[!cue] y-Achsenabschnitt
 
 
 >[!cue] Vorzeichenschema
 
+
+------
+>[!cue] Funktionsanalyse (Kurvendiskussion)
+
+1. Nullstellen finden f(x) = 0
+	1. Ordnung
+2. Steigung analysieren f'
+	1. f'(x) > 0 steigt
+	2. f'(x) < 0 fällt
+3. Extrempunkte f'(x) = 0
+4. Krümmung analysieren f''
+	1. f''(x) > 0 linksgekrümmt (konvex)
+	2. f''(x) < 0 rechtsgekrümmt (konkav)
+5. Wendepunkte finden f''(x) = 0
+
+f'(x) = 0 + f''(x0) < 0 Lokales Maximum
+f'(x) = 0 + f''(x0) > 0 Lokales Minimum
+
+>[!cue] Potenzieren
+
+
+>[!cue] Potenzieren
+
+
+
+
 ----------------------------------------
-**Allgemeine Cosinus-Funktion:** `f(t) = A cos(ωt + φ) + b`
+>[!cue] Funktionsvorschrift
+
+**Allgemeine Cosinus-Funktion:** `f(t) = A cos(ωx + φ) + b`
     - `A`: Amplitude (maximale Auslenkung)
     - `ω`: Kreisfrequenz
     - `φ`: Phasenwinkel
@@ -41,17 +63,29 @@ efinitionslücken** einer gebrochen rationalen Funktion f. Der **maximale Defi
 
 >[!cue] Ruhelage b
 
+Bestimmen Sie das Maximum und das Minimum des Graphen. 
+b ist der Mittelwert dieser beiden Werte. b = ymax + ymin / 2
+
 >[!cue] Amplitude A
+
+Messen Sie den vertikalen Abstand von der Ruhelage zu einem Hoch- oder Tiefpunkt.
 
 >[!cue] Primitive Periode T
 
+Lesen Sie die Periodenlänge T direkt aus dem Graphen ab, indem Sie den horizontalen Abstand zwischen zwei aufeinanderfolgenden Hochpunkten oder Tiefpunkten messen.
+
 >[!cue] Kreisfrequenze w
 
->[!cue] Phasenwinkel sigma
+w = 2pi / T
+
+>[!cue] Phasenwinkel/-verschiebung φ
+
+ Suchen Sie den x-Wert des ersten Hochpunkts rechts von der y-Achse. 
+ Dieser Wert ist die Phasenverschiebung φ.
 
 >[!cue] Laufzeitdifferenz L
 
->[!cue] Funktionsvorschrift
+𝐿 = 𝜙 / 𝜔= 𝜙⋅𝑇 / 2𝜋 
 
 ----------------------------------------
 
@@ -67,12 +101,15 @@ efinitionslücken** einer gebrochen rationalen Funktion f. Der **maximale Defi
 | **Kettenregel**     | `(f(g(x)))' = f'(g(x)) · g'(x)`                      |
 >[!cue] Ableitungen elementarer Funktionen
 
-| Funktion `f(x)` | Ableitung `f'(x)` |
-| --------------- | ----------------- |
-| `sin(x)`        | `cos(x)`          |
-| `cos(x)`        | `-sin(x)`         |
-| `e^x`           | `e^x`             |
-| `ln(x)`         | `1/x`             |
+| Funktion `f(x)` | Ableitung `f'(x)`   |
+| --------------- | ------------------- |
+| `sin(x)`        | `cos(x)`            |
+| `cos(x)`        | `-sin(x)`           |
+| `e^x`           | `e^x`               |
+| `ln(x)`         | `1/x`               |
+| `arcsin`        | 1 / √1-x²           |
+| `arccos`        |                     |
+| `arctan (g(x))` | `g'(x) / 1+(g(x))²` |
 
 ----------------------------------------
 >[!cue] Tangente
@@ -108,7 +145,8 @@ Das x mit dem **meisten Einfluss** bestimmt den **Grenzwert** der gesamten F
 **Anwendungen und Eigenschaften:**
 - **Längenberechnung:** |a⃗| = √a⃗·a⃗
 - **Winkelberechnung:** cos(φ) = (a⃗ · b⃗) / (|a⃗| · |b⃗|)
-- **Orthogonalitätstest:** Zwei Vektoren sind genau dann orthogonal (senkrecht) zueinander, wenn ihr Skalarprodukt Null ist: a⃗ ⊥ b⃗ ⇔ a⃗ · b⃗ = 0 (für a⃗, b⃗ ≠ 0⃗ ).
+- **Orthogonalitätstest:** Zwei Vektoren sind genau dann orthogonal (senkrecht) zueinander, 
+  wenn ihr Skalarprodukt Null ist: a⃗ ⊥ b⃗ ⇔ a⃗ · b⃗ = 0 (für a⃗, b⃗ ≠ 0⃗ ).
 #### Vektorprodukt (Kreuzprodukt) im ℝ³
 - **Definition:** Der Ergebnisvektor a⃗ × b⃗ steht senkrecht auf der von a⃗ und b⃗ aufgespannten Ebene. Seine Orientierung wird durch die **Rechte-Hand-Regel** bestimmt.
 - **Betrag und Anwendung:** Der Betrag |a⃗ × b⃗| = |a⃗| · |b⃗| · sin(φ) entspricht der **Fläche des Parallelogramms**, das von a⃗ und b⃗ aufgespannt wird.
