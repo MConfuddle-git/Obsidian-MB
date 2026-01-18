@@ -8,7 +8,9 @@ cssclasses:
 - **Definitionslücken:** Die Nullstellen des Nenners `Q(x)` sind Definitionslücken.
     - **Hebbare Lücken:** Eine Nullstelle des Nenners, die auch eine Nullstelle des Zählers ist, führt zu einer hebbaren Lücke, wenn der entsprechende Linearfaktor gekürzt werden kann.
     - **Pole:** Eine Nullstelle des Nenners, die nach dem Kürzen verbleibt, ist ein Pol. An dieser Stelle hat der Graph eine vertikale Asymptote.
-    - **Ordnung**: 
+    - **Ordnung**: Die Ordnung eines Polynoms ist der höchste Exponent des x-
+![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
+
 - **Asymptotisches Verhalten (**`|x| → ∞`**):**
     - **Zählergrad < Nennergrad:** Die x-Achse (`y = 0`) ist eine horizontale Asymptote.
     - **Zählergrad = Nennergrad:** Die horizontale Gerade `y = a_m / b_n` (Verhältnis der Leitkoeffizienten) ist eine Asymptote.
@@ -17,7 +19,6 @@ cssclasses:
 >[!cue] Verhalten an Definitionslücken
 
 ![[Pasted image 20260114165412.png]]
-
 
 >[!cue] Asymptoten
 
@@ -43,14 +44,6 @@ cssclasses:
 
 f'(x) = 0 + f''(x0) < 0 Lokales Maximum
 f'(x) = 0 + f''(x0) > 0 Lokales Minimum
-
->[!cue] Potenzieren
-
-
->[!cue] Potenzieren
-
-
-
 
 ----------------------------------------
 >[!cue] Funktionsvorschrift
@@ -107,7 +100,6 @@ w = 2pi / T
 4. y-Achsenabschnitt t bestimmen > P und m in f(x) einsetzen, nach t auflösen
 **Punktsteigungsform: y = f'(x0) · (x – x0) + f(x0)**
 - Punkt **(x0|y0)** und die Steigung **f′(x0)**
-1. 
 
 -------
 >[!cue] Grenzwert berechnen
@@ -192,7 +184,7 @@ Zwei Geraden im Raum können vier verschiedene Lagen zueinander einnehmen:
 | **Parallel**   | Nein, kein gemeinsamer Punkt           |
 | **Schneidend** | Ja, LGS hat eine Lösung                |
 | **Windschief** | Nein, LGS hat keine Lösung             |
-Abstandsberechnungen
+**Abstandsberechnungen**
 Mit Vektorprodukten lassen sich Abstände elegant berechnen.
 - **Abstand Punkt-Gerade:** 
   Der Abstand des Punktes Q von der Geraden g (Stützvektor p⃗, Richtungsvektor v⃗): 
@@ -202,7 +194,7 @@ Mit Vektorprodukten lassen sich Abstände elegant berechnen.
 - **Abstand windschiefer Geraden:** 
   Der Abstand der Geraden g₁ (p⃗₁, v⃗₁) und g₂ (p⃗₂, v⃗₂): d(g₁, g₂) = |(p⃗₂ - p⃗₁) · (v⃗₁ × v⃗₂)| / |v⃗₁ × v⃗₂|
 
-Winkelberechnungen
+**Winkelberechnungen**
 Winkel werden über das Skalarprodukt der relevanten Vektoren (Richtungs- oder Normalenvektoren) bestimmt.
 
 | Winkel zwischen      | Formel    |
@@ -210,3 +202,49 @@ Winkel werden über das Skalarprodukt der relevanten Vektoren (Richtungs- oder N
 | **Zwei Geraden**     | `cos(φ) = |
 | **Gerade und Ebene** | `sin(φ) = |
 | **Zwei Ebenen**      | `cos(φ) = |
+
+-----
+# Potenzgesetze
+$n^5=n\cdot n\cdot n\cdot n\cdot n$
+**Basis** n und der **Exponent** **5**.
+>[!cue] Multiplikation
+
+$x^{a}\cdot x^{b}=x^{a+b}$ 
+$a^{n}\cdot b^{n}=\left(a\cdot b\right)^{n}$
+>[!cue] Division
+
+$x^{a}:x^{b}=\frac{x^{a}}{x^{b^{^{}}}}=x^{a-b}$ 
+$a^{n}:b^{n}=\left(a:b\right)^{n}=\left(\frac{a}{b}\right)^{n}=\frac{a^{n}}{b^{n}}$
+>[!cue] Potenzieren
+
+$\left(x^{a}\right)^{b}=x^{a\cdot b}$
+>[!cue] Sonderfälle
+
+$x^0 = 1$
+$x^1 = x$
+$x^{-n}=\frac{1}{x^{n}}$
+$x^{\frac{m}{n}}=\sqrt[n]{x^{m}}$
+# Wurzelgesetze
+$\sqrt[n]{a}=b\leftrightarrow b^{n}=a$
+**Wurzelexponenten** n, **Wurzelzeichen** und dem **Radikand** a.
+
+>[!cue] Addition
+
+$a\sqrt[n]{x}+b\sqrt[n]{x}=\left(a+b\right)\sqrt[n]{x}$
+>[!cue] Subtraktion
+
+$a\sqrt[n]{x}-b\sqrt[n]{x}=\left(a-b\right)\sqrt[n]{x}$
+>[!cue] Multiplikation
+
+$\sqrt[n]{x}\cdot\sqrt[n]{y}=\sqrt[n]{x\cdot y}$
+>[!cue] Division
+
+$\frac{\sqrt[n]{x}}{\sqrt[n]{y}}=\sqrt[n]{\frac{x}{y}}$
+>[!cue] Potenzieren
+
+$\left(\sqrt[n]{x}\right)^{m}=\sqrt[n]{x^{m}}^{}$
+>[!cue] Radizieren
+
+$\sqrt[m]{\sqrt[n]{x}}=\sqrt[m\cdot n]{x}$
+
+![[Pasted image 20260118162910.png]]
