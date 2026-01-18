@@ -91,29 +91,23 @@ w = 2pi / T
 
 >[!cue] Ableitungsregeln
 
-| Regel               | Formel                                               |
-| ------------------- | ---------------------------------------------------- |
-| **Potenzregel**     | `(x^r)' = r · x^(r-1)`                               |
-| **Faktorregel**     | `(c · f(x))' = c · f'(x)`                            |
-| **Summenregel**     | `(f(x) ± g(x))' = f'(x) ± g'(x)`                     |
-| **Produktregel**    | `(f(x) · g(x))' = f'(x)g(x) + f(x)g'(x)`             |
-| **Quotientenregel** | `(f(x) / g(x))' = (f'(x)g(x) - f(x)g'(x)) / (g(x))²` |
-| **Kettenregel**     | `(f(g(x)))' = f'(g(x)) · g'(x)`                      |
->[!cue] Ableitungen elementarer Funktionen
+![[Pasted image 20260115144141.png]]
 
-| Funktion `f(x)` | Ableitung `f'(x)`   |
-| --------------- | ------------------- |
-| `sin(x)`        | `cos(x)`            |
-| `cos(x)`        | `-sin(x)`           |
-| `e^x`           | `e^x`               |
-| `ln(x)`         | `1/x`               |
-| `arcsin`        | 1 / √1-x²           |
-| `arccos`        |                     |
-| `arctan (g(x))` | `g'(x) / 1+(g(x))²` |
+>[!cue] Ableitungen wichtiger Funktionen
+
+![[Pasted image 20260115144743.png]]
 
 ----------------------------------------
 >[!cue] Tangente
 
+**Geradengleichung: y = m · x + t**
+1. **y-Wert** des Berührpunktes > x-Wert in f(x) einsetzen > Ergebnis P(x|y)
+2. f(x) ableiten für die **Steigung der Tangente**
+3. Steigung **m** berechnen > x-Wert in f'(x) einsetzen
+4. y-Achsenabschnitt t bestimmen > P und m in f(x) einsetzen, nach t auflösen
+**Punktsteigungsform: y = f'(x0) · (x – x0) + f(x0)**
+- Punkt **(x0|y0)** und die Steigung **f′(x0)**
+1. 
 
 -------
 >[!cue] Grenzwert berechnen
@@ -177,13 +171,42 @@ Ein LGS kann genau eine der drei folgenden Lösungsmengen haben:
 2. **Keine Lösung:** Das System ist unlösbar. In der Zeilen-Stufen-Form tritt ein Widerspruch auf, typischerweise eine Zeile der Form `0 0 ... 0 | c` mit `c ≠ 0`.
 3. **Unendlich viele Lösungen:** Das System hat eine unendliche Lösungsmenge. In der Zeilen-Stufen-Form gibt es mindestens eine Variable, die nicht als führendes Element (Pivot) einer Zeile auftritt und somit frei wählbar ist.
 
+Der Rang der erweiterten Koeffizientenmatrix ist die Anzahl der nicht-null Zeilen in der Matrix, die aus der Koeffizientenmatrix und der rechten Seite des linearen Gleichungssystems besteht.
+
 ----------------------------------------
 >[!cue] Inverse Matrix
 
-1. Invertierbar? Quadtratisch + Determinate =/ 0
-2. Einheitsmatrix notieren
-3. Umformen
-4. Inverse Matrix ablesen
-------
->[!cue] Matrizen
+( x x x | 1 0 0 )
+( x x x |  0 1 0 )
+( x x x |  0 0 1 )
+Einheitsmatrix nach links bringen. A|E -> A^-1
 
+------
+>[!cue] Lagebeziehungen zweier Geraden
+
+Zwei Geraden im Raum können vier verschiedene Lagen zueinander einnehmen:
+
+| Lagebeziehung  | Punktprobe (Stützvektor 1 in Gerade 2) |
+| -------------- | -------------------------------------- |
+| **Identisch**  | Ja, gleicher Parameterwert             |
+| **Parallel**   | Nein, kein gemeinsamer Punkt           |
+| **Schneidend** | Ja, LGS hat eine Lösung                |
+| **Windschief** | Nein, LGS hat keine Lösung             |
+Abstandsberechnungen
+Mit Vektorprodukten lassen sich Abstände elegant berechnen.
+- **Abstand Punkt-Gerade:** 
+  Der Abstand des Punktes Q von der Geraden g (Stützvektor p⃗, Richtungsvektor v⃗): 
+  d(Q, g) = |v⃗ × (q⃗ - p⃗)| / |v⃗|
+- **Abstand Punkt-Ebene:** 
+  Der Abstand des Punktes Q von der Ebene E (Hesse-Form n⃗₀ · x⃗ = d`): `d(Q, E) = |n⃗₀ · q⃗ - d|
+- **Abstand windschiefer Geraden:** 
+  Der Abstand der Geraden g₁ (p⃗₁, v⃗₁) und g₂ (p⃗₂, v⃗₂): d(g₁, g₂) = |(p⃗₂ - p⃗₁) · (v⃗₁ × v⃗₂)| / |v⃗₁ × v⃗₂|
+
+Winkelberechnungen
+Winkel werden über das Skalarprodukt der relevanten Vektoren (Richtungs- oder Normalenvektoren) bestimmt.
+
+| Winkel zwischen      | Formel    |
+| -------------------- | --------- |
+| **Zwei Geraden**     | `cos(φ) = |
+| **Gerade und Ebene** | `sin(φ) = |
+| **Zwei Ebenen**      | `cos(φ) = |
