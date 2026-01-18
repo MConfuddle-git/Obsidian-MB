@@ -19,7 +19,6 @@ Momente auf der gleichen Achse sind = 0 !!!**
 ![[Pasted image 20260118152631.png]]
 ## Statische Bestimmtheit
 Die statische Bestimmtheit wird durch den Freiheitsgrad `f` des Systems beschrieben.
-
 - **Einteilige Tragwerke:** Für ein einzelnes starres Bauteil in der Ebene gilt die Formel: **f = g - a**
     - `f`: Anzahl der verbleibenden Freiheitsgrade
     - `g`: Anzahl der Gleichgewichtsbedingungen in der Ebene (`In 2D g=3 / In 3D g=6`)
@@ -35,7 +34,6 @@ Die statische Bestimmtheit wird durch den Freiheitsgrad `f` des Systems beschrie
 - **Mehrteilige Tragwerke:** Für Tragwerke, die aus mehreren starren Körpern bestehen, wird die Formel erweitert: **f = g · n - a - z**
     - `n`: Anzahl der Starrkörper des Tragwerks
     - `z`: Anzahl der Zwischenreaktionen in den Gelenken/Verbindungen
-
 <div class="page-break" style="page-break-before: always;"></div>
 
 ### Ebene Fachwerke (Knotenpunktverfahren)
@@ -73,10 +71,9 @@ Beim **Knotenpunktverfahren** wird jeder einzelne Knoten freigeschnitten und die
     - **zS = (∫z \,dV) / (V)**
 
 ![[Pasted image 20260118133140.png]]
+<div class="page-break" style="page-break-before: always;"></div>
 ## Schwerpunkte zusammengesetzter Gebilde
 ![[Pasted image 20260118131027.png]]
-
-<div class="page-break" style="page-break-before: always;"></div>
 
 ![[Pasted image 20260115144141.png]]
 ![[Pasted image 20260115144743.png]]
