@@ -4,9 +4,7 @@
 ![[Pasted image 20251222181422.png]]
 <div class="page-break" style="page-break-before: always;"></div>
 
-Bezugspunkt immer nach Wertigkeit wählen
-
-Ein Körper ist im Gleichgewicht, wenn die Vektorsumme aller Kräfte und die Vektorsumme aller Momente (bezüglich eines beliebigen Punktes A) null sind.
+Ein Körper ist im Gleichgewicht, wenn die Vektorsumme aller Kräfte und die Vektorsumme aller Momente (bezüglich eines beliebigen Punktes A) null sind. **Bezugspunkt am besten immer nach Wertigkeit wählen**.
 - Daraus ergeben sich drei (2D) oder sechs (3D) unabhängige skalare Gleichgewichtsbedingungen:
     - **∑ F{ix} = 0 =**
     - **∑ F{iy} = 0 =**
@@ -14,8 +12,12 @@ Ein Körper ist im Gleichgewicht, wenn die Vektorsumme aller Kräfte und die Vek
     - **∑ M{ix} = 0 =**
     - **∑ M{iy} = 0 =**
     - **∑ M{iz} = 0 =**
-## Statische Bestimmtheit
 
+**Alle Längen in Meter umrechnen!
+Schräge Kräfte müssen in beiden Summen eingerechnet werden!
+Momente auf der gleichen Achse sind = 0 !!!**
+![[Pasted image 20260118152631.png]]
+## Statische Bestimmtheit
 Die statische Bestimmtheit wird durch den Freiheitsgrad `f` des Systems beschrieben.
 
 - **Einteilige Tragwerke:** Für ein einzelnes starres Bauteil in der Ebene gilt die Formel: **f = g - a**
@@ -55,12 +57,16 @@ Beim **Knotenpunktverfahren** wird jeder einzelne Knoten freigeschnitten und die
 
 - **Streckenlast**
     ![[Pasted image 20260118133353.png]]
+<div class="page-break" style="page-break-before: always;"></div>
+
 - **Flächenschwerpunkt:**
     ![[Pasted image 20260118132732.png]]
 - **Linienschwerpunkt:**
     ![[Pasted image 20260118132748.png]]
 
 ![[Pasted image 20260118132829.png]]
+<div class="page-break" style="page-break-before: always;"></div>
+
 - **Volumenschwerpunkt (homogener Körper):**
     - **xS = (∫x \,dV) / (V)**
     - **yS = (∫y \,dV) / (V)**
@@ -72,19 +78,21 @@ Beim **Knotenpunktverfahren** wird jeder einzelne Knoten freigeschnitten und die
 
 <div class="page-break" style="page-break-before: always;"></div>
 
+![[Pasted image 20260115144141.png]]
+![[Pasted image 20260115144743.png]]
+<div class="page-break" style="page-break-before: always;"></div>
+
 ## Schnittgrößen
 ### Schnittgrößen am geraden Balken (Ebene)
 
 An einem gedachten Schnitt durch einen ebenen Balken treten drei Schnittgrößen auf:
 
 - **Normalkraft (N):** Die Kraftkomponente in Längsrichtung der Balkenachse (x-Achse). 
-  Sie verursacht eine Dehnung oder Stauchung.
+  Sie verursacht eine Dehnung oder Stauchung. (Gerader Verlauf)
 - **Querkraft (Q):** Die Kraftkomponente senkrecht zur Balkenachse (in z-Richtung). 
-  Sie verursacht eine Scherung.
+  Sie verursacht eine Scherung. (Gerader Verlauf)
 - **Biegemoment (M):** Das Moment um die Achse, die senkrecht zur Ebene steht (y-Achse). 
-  Es verursacht eine Biegung des Balkens.
-
-**Vorzeichenkonvention beachten!**
+  Es verursacht eine Biegung des Balkens. (Parabelverlauf)
 
 Zwischen der äußeren Belastung (Streckenlast `q(x)`) und den inneren Schnittgrößen (Querkraft `Q(x)`, Biegemoment `M(x)`) bestehen fundamentale Differentialbeziehungen:
 
@@ -92,6 +100,11 @@ Zwischen der äußeren Belastung (Streckenlast `q(x)`) und den inneren Schnittgr
 - **(dM(x)) / (dx) = Q(x)** (Die Ableitung des Biegemoments entspricht der Querkraft.)
 
 Diese Beziehungen bedeuten umgekehrt, dass der Querkraftverlauf durch Integration der negativen Streckenlast und der Momentenverlauf durch Integration des Querkraftverlaufs ermittelt werden kann.
+
+1. Punkte einzeichnen, Ende und Anfang eines Schnitts ist ein Punkt, Kräfte sind Punkte.
+2. Koordinatensysteme lokal anpassen. **Vorzeichenkonvention beachten!**		Positives/negatives Schnittufer
+3. Ablaufen der Punkte von links oder rechts.
+4. Schnittgrößendiagramm aufzeichnen
 ### Räumliche Schnittgrößen
 
 An einem Schnitt durch ein räumlich belastetes Bauteil können insgesamt sechs Schnittgrößen auftreten, die den sechs Freiheitsgraden entsprechen:
