@@ -39,13 +39,11 @@ f) Elastisch-plastische Bruchdehnung (At) 
 
 Die Normung erfolgt primär nach **DIN EN 1560** ff. Ein "G" am Anfang oder in der Mitte steht für Guss. 
 
-- **EN-GJL-XXX (Früher GG - Grauguss):** Gusseisen mit Lamellengraphit.
+- **EN-GJL-XXX (Grauguss):** Gusseisen mit Lamellengraphit.
     - _Beispiel:_ EN-GJL-250 = Gusseisen mit 250 𝑁/𝑚𝑚2 Mindestzugfestigkeit.
-- **EN-GJS-XXX-YY (Früher GGG - Sphäroguss):** Gusseisen mit Kugelgraphit.
+- **EN-GJS-XXX-YY (Sphäroguss):** Gusseisen mit Kugelgraphit.
     - _Beispiel:_ EN-GJS-500-7 = 500 𝑁/𝑚𝑚2 Zugfestigkeit, 7% Bruchdehnung.
 - **EN-GJV-XXX (Früher GGV):** Gusseisen mit Vermikulargraphit.
-- **EN-GJMB-XXX (Früher GTS):** Temperguss (schwarz).
-- **EN-GJMW-XXX (Früher GTW):** Temperguss (weiß).
 - **GX...:** Stahlguss (z.B. GX5CrNi19-10). 
 
 2. Stahlbezeichnungen (Kurznamen) 
