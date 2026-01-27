@@ -174,8 +174,6 @@ Bei einer ungedämpften harmonischen Schwingung wird potentielle Energie periodi
 | **Mathematisches Pendel**       | `T = 2π ∙ sqrt(l/g)`            | Punktmasse an masselosem Faden, **kleine Auslenkung (**`sin φ ≈ φ`**)**. Für große Winkel ist die Schwingung nicht mehr harmonisch! |
 | **Physikalisches Pendel**       | `T = 2π ∙ sqrt(J_P / (mgl))`    | Starrer Körper, der um einen Punkt P außerhalb des Schwerpunkts S schwingt (`l` = Abstand P-S). Kleine Auslenkung.                  |
 | **Flüssigkeitspendel (U-Rohr)** | `T = 2π ∙ sqrt(l / (2g))`       | `l` = Länge der gesamten Flüssigkeitssäule. Reibungsfrei.                                                                           |
-<div class="page-break" style="page-break-before: always;"></div>
-
 ### 4.4 Gedämpfte Schwingung
 In realen Systemen führt Reibung zu Energieverlusten, wodurch die Amplitude einer freien Schwingung mit der Zeit abnimmt. Eine häufige Form ist die geschwindigkeitsproportionale Reibungskraft `F_R = -β ∙ ẏ`.
 
@@ -189,7 +187,7 @@ In realen Systemen führt Reibung zu Energieverlusten, wodurch die Amplitude ein
 - **Kreisfrequenz der gedämpften Schwingung:** `ω_d = sqrt(ω₀² - δ²)`
 - **Logarithmisches Dekrement** `Λ`**:** Ein Maß für die Dämpfung. 
   `Λ = δ ∙ T_d = ln(ŷ_i / ŷ_{i+1})`
-
+<div class="page-break" style="page-break-before: always;"></div>
 #### Fallunterscheidung
 Je nach Stärke der Dämpfung (`δ`) im Verhältnis zur Eigenfrequenz (`ω₀`) ergeben sich drei Fälle:
 
@@ -212,6 +210,7 @@ Wird ein schwingfähiges, gedämpftes System durch eine äußere periodische Kra
 - **Resonanz-Überhöhung** 
   (Verhältnis der Amplitude bei Resonanz zur statischen Auslenkung): 
   `Resonanz-Überhöhung = ŷ_res / ŷ_stat = ω₀² / (2δ ∙ ω_d)`
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### 4.6 Überlagerung von Schwingungen
 Mehrere Schwingungen, die auf einen Körper wirken, überlagern sich nach dem Superpositionsprinzip (vektorielle Addition der Auslenkungen). Ein wichtiger Spezialfall ist die Überlagerung zweier Schwingungen mit sehr ähnlichen Frequenzen.
