@@ -17,12 +17,12 @@ Bewegungen auf gekrümmten Bahnen sind immer beschleunigte Bewegungen, selbst we
 #### Formeln der Kreisbewegung
 Für den Spezialfall der Kreisbewegung (konstanter Radius `r = ρ`) gelten folgende Zusammenhänge:
 
-| Größe                              | Formel                | Einheit            | Beschreibung                                                    |
-| ---------------------------------- | --------------------- | ------------------ | --------------------------------------------------------------- |
-| **Winkelgeschwindigkeit** `ω`      | `ω = 2π ∙ f = 2π / T` | `1/s` oder `rad/s` | Gibt die Änderung des Winkels pro Zeit an.                      |
-| **Bahngeschwindigkeit** `v`        | `v = ω ∙ r`           | `m/s`              | Geschwindigkeit eines Punktes auf der Kreisbahn.                |
-| **Radialbeschleunigung** `a_r`     | `a_r = v²/r = ω² ∙ r` | `m/s²`             | Zeigt zum Kreismittelpunkt (Zentripetalbeschleunigung).         |
-| **Tangentialbeschleunigung** `a_t` | `a_t = α_φ ∙ r`       | `m/s²`             | Tritt nur bei ungleichmäßiger Kreisbewegung auf (`ω ≠ konst.`). |
+| Größe                                                                                          | Formel                | Einheit             |
+| ---------------------------------------------------------------------------------------------- | --------------------- | ------------------- |
+| **Winkelgeschw.**<br>`ω`<br>Gibt die Änderung des Winkels pro Zeit an.                         | `ω = 2π ∙ f = 2π / T` | `1/s` o.<br>`rad/s` |
+| **Bahngeschw.** <br>`v`<br>Geschw. eines Punktes auf der Kreisbahn.                            | `v = ω ∙ r`           | `m/s`               |
+| **Radialbeschl.**<br>`a_r`<br>Zeigt zum Kreismittelpunkt (Zentripetalbeschl.).                 | `a_r = v²/r = ω² ∙ r` | `m/s²`              |
+| **Tangentialbeschl.** `a_t`<br>Tritt nur bei ungleichmäßiger Kreisbewegung auf (`ω ≠ konst.`). | `a_t = α_φ ∙ r`       | `m/s²`              |
 
 #### Analogie zwischen Translation und Rotation
 Viele Gesetze der geradlinigen Bewegung (Translation) lassen sich direkt auf die Drehbewegung (Rotation) übertragen, indem man die entsprechenden Größen austauscht.
@@ -130,7 +130,9 @@ Analog zur Kraft `F`, die eine translatorische Beschleunigung verursacht, bewirk
 - **Drehimpuls** `L`**:** `L = J ∙ ω`
 - **Beziehung Drehmoment und Drehimpuls:** `M = dL/dt`
 #### Drehimpulserhaltungssatz
-In einem abgeschlossenen System, auf das kein äußeres Drehmoment wirkt (`M_ext = 0`), bleibt der Gesamtdrehimpuls `L` konstant. `Wenn M_ext = 0, dann L = J ∙ ω = konst.`
+In einem abgeschlossenen System, auf das kein äußeres Drehmoment wirkt 
+(`M_ext = 0`), bleibt der Gesamtdrehimpuls `L` konstant. 
+`Wenn M_ext = 0, dann L = J ∙ ω = konst.`
 Dies führt zu der Beziehung `J₁ω₁ = J₂ω₂`. Eine Verringerung des Trägheitsmoments führt demnach zu einer Erhöhung der Winkelgeschwindigkeit.
 <div class="page-break" style="page-break-before: always;"></div>
 
@@ -182,9 +184,10 @@ In realen Systemen führt Reibung zu Energieverlusten, wodurch die Amplitude ein
 - **Differentialgleichung:** `ÿ + 2δẏ + ω₀²y = 0`
     - **Abklingkoeffizient:** `δ = β/(2m)`
     - **Ungedämpfte Eigenkreisfrequenz:** `ω₀ = sqrt(k/m)`
-- **Lösungsgleichung (Elongation):** `y(t) = ŷ₀ ∙ e^(-δt) ∙ sin(ω_d ∙ t + φ₀)`
+- **Lösungsgleichung (Elongation):** 
+  `y(t) = ŷ₀ ∙ e^(-δt) ∙ sin(ω_d ∙ t + φ₀)`
 - **Kreisfrequenz der gedämpften Schwingung:** `ω_d = sqrt(ω₀² - δ²)`
-- **Logarithmisches Dekrement** `**Λ**`**:** Ein Maß für die Dämpfung. 
+- **Logarithmisches Dekrement** `Λ`**:** Ein Maß für die Dämpfung. 
   `Λ = δ ∙ T_d = ln(ŷ_i / ŷ_{i+1})`
 
 #### Fallunterscheidung
@@ -195,15 +198,20 @@ Je nach Stärke der Dämpfung (`δ`) im Verhältnis zur Eigenfrequenz (`ω₀`) 
 3. **Aperiodischer Grenzfall (**`δ² = ω₀²`**):** Das System kehrt am schnellstmöglichen Weg ohne Überschwingen in die Ruhelage zurück.
 
 ### 4.5 Erzwungene Schwingung und Resonanz
-Wird ein schwingfähiges, gedämpftes System durch eine äußere periodische Kraft `F_E(t)` angeregt, spricht man von einer erzwungenen Schwingung. Die äußere Kraft gleicht die Dämpfungsverluste aus und zwingt dem System ihre Frequenz (Erregerfrequenz `ω_E`) auf.
+Wird ein schwingfähiges, gedämpftes System durch eine äußere periodische Kraft `F_E(t)`angeregt, spricht man von einer erzwungenen Schwingung. Die äußere Kraft gleicht die Dämpfungsverluste aus und zwingt dem System ihre Frequenz (Erregerfrequenz `ω_E`) auf.
 
 #### Gleichungen und Formeln
 
 - **Differentialgleichung:** `ÿ + 2δẏ + ω₀²y = (F̂_E/m) ∙ cos(ω_E ∙ t)`
-- **Amplitude im stationären Zustand:** `ŷ(ω_E) = (F̂_E/m) / sqrt((ω₀² - ω_E²)² + (2δω_E)²)`
-- **Phasenverschiebung** (zwischen Erreger und Schwinger): `φ(ω_E) = arctan(2δω_E / (ω₀² - ω_E²))`
-- **Resonanzfrequenz** (Frequenz der maximalen Amplitude): `ω_res = sqrt(ω₀² - 2δ²)`
-- **Resonanz-Überhöhung** (Verhältnis der Amplitude bei Resonanz zur statischen Auslenkung): `Resonanz-Überhöhung = ŷ_res / ŷ_stat = ω₀² / (2δ ∙ ω_d)`
+- **Amplitude im stationären Zustand:** 
+  `ŷ(ω_E) = (F̂_E/m) / sqrt((ω₀² - ω_E²)² + (2δω_E)²)`
+- **Phasenverschiebung** (zwischen Erreger und Schwinger): 
+  `φ(ω_E) = arctan(2δω_E / (ω₀² - ω_E²))`
+- **Resonanzfrequenz** (Frequenz der maximalen Amplitude): 
+  `ω_res = sqrt(ω₀² - 2δ²)`
+- **Resonanz-Überhöhung** 
+  (Verhältnis der Amplitude bei Resonanz zur statischen Auslenkung): 
+  `Resonanz-Überhöhung = ŷ_res / ŷ_stat = ω₀² / (2δ ∙ ω_d)`
 
 ### 4.6 Überlagerung von Schwingungen
 Mehrere Schwingungen, die auf einen Körper wirken, überlagern sich nach dem Superpositionsprinzip (vektorielle Addition der Auslenkungen). Ein wichtiger Spezialfall ist die Überlagerung zweier Schwingungen mit sehr ähnlichen Frequenzen.
@@ -214,4 +222,5 @@ Die Überlagerung zweier harmonischer Schwingungen gleicher Amplitude, deren Fre
 - **Resultierende Schwingung:** `x_R(t) ≈ [2ŷ₀ ∙ cos((Δω/2)t)] ∙ sin(ω̄t)`
     - Der erste Term `[...]` beschreibt eine langsam variierende Amplitude.
     - Der zweite Term `sin(...)` beschreibt eine schnelle Schwingung mit der mittleren Frequenz `ω̄ = (ω₁ + ω₂)/2`.
-- **Schwebungsdauer** `T_S`**:** Die Zeit zwischen zwei Amplitudenminima. `T_S = 2π / Δω` (wobei `Δω = |ω₁ - ω₂|`)
+- **Schwebungsdauer** `T_S`**:** Die Zeit zwischen zwei Amplitudenminima. 
+  `T_S = 2π / Δω` (wobei `Δω = |ω₁ - ω₂|`)
