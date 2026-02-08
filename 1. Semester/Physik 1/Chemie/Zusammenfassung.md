@@ -277,7 +277,7 @@ Die hier behandelten chemischen Prinzipien – von der Stöchiometrie über die 
 
 • **Zusammenhang Masse, Stoffmenge, Molare Masse:** 
 `𝒏 = 𝒎 / 𝑴 | 𝒎 = 𝒏 ∙ 𝑴 | 𝑴 = 𝒏 / 𝒎` 
-`𝑴 = a ∙ X_y -> (y ∙ X) ∙ a`
+`𝑴 = a ∙ X_y -> (y ∙ X g/mol) ∙ a`
     ◦ n: Stoffmenge (in mol)
     ◦ m: Masse (in g)
     ◦ M: Molare Masse (in g/mol)
@@ -354,3 +354,10 @@ Die hier behandelten chemischen Prinzipien – von der Stöchiometrie über die 
 • **Freie Gibbs-Energie**
 `∆𝐺 = -n ∙ F ∙ E_Zelle [kJ]`
     ◦ n: Elektronen (O2 n=4)
+
+<div class="page-break" style="page-break-before: always;"></div>
+### Zwischenmolekulare Kräfte (ZMK):
++London-Dispersionskräfte | Dipol-Dipol-Wechselwirkungen | Wasserstoffbrückenbindungen +++
+
+### Vollständige Verbrennung
+Brennstoff + xO₂ -> xCO₂ + xH₂O
