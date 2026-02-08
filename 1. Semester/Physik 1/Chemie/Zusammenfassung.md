@@ -258,27 +258,33 @@ Die hier behandelten chemischen Prinzipien – von der Stöchiometrie über die 
 **Atomphysik und Quantenmechanik**
 
 • **Energie eines Quants:** `𝑬 = 𝒉 ∙ 𝝂`
-
-    ◦ E: Energie
+    ◦ E: Energie (E = m ∙ c²)
     ◦ h: Planck-Konstante (6,626 x 10⁻³⁴ Js)
     ◦ ν: Frequenz (in Hz oder s⁻¹)
 
 • **De-Broglie-Wellenlänge:** `𝜆 = ℎ / p`
-
     ◦ λ: Wellenlänge
     ◦ h: Planck-Konstante
     ◦ p: Impuls (m ∙ v)
 
+• **Energieniveau einzelene Schale:** `∆E = hv = h ∙ c/𝜆 = h ∙ c ∙ Rh(1/n² - 1/m²) `
+    ◦ λ: Wellenlänge
+    ◦ h: Planck-Konstante
+    ◦ p: Impuls (m ∙ v)
+
+
 **Stöchiometrie und Gase**
 
-• **Zusammenhang Masse, Stoffmenge, Molare Masse:** `𝒏 = 𝒎 / 𝑴`
-
+• **Zusammenhang Masse, Stoffmenge, Molare Masse:** 
+`𝒏 = 𝒎 / 𝑴 | 𝒎 = 𝒏 ∙ 𝑴 | 𝑴 = 𝒏 / 𝒎` 
+`𝑴 = a ∙ X_y -> (y ∙ X) ∙ a`
     ◦ n: Stoffmenge (in mol)
     ◦ m: Masse (in g)
     ◦ M: Molare Masse (in g/mol)
+    ◦ X: Stoff
+    ◦ a: Multiplikator
 
 • **Ideales Gasgesetz:** `𝒑 ∙ 𝑽 = 𝒏 ∙ 𝑹 ∙ 𝑻`
-
     ◦ p: Druck (in Pa)
     ◦ V: Volumen (in m³)
     ◦ n: Stoffmenge (in mol)
@@ -289,7 +295,6 @@ Die hier behandelten chemischen Prinzipien – von der Stöchiometrie über die 
 	(bei 0 °C und 1013 hPa)
 
 • **Molare Konzentration:** `𝒄 = 𝒏 / 𝑽`
-
     ◦ c: Konzentration (in mol/L)
     ◦ n: Stoffmenge (in mol)
     ◦ V: Volumen der Lösung (in L)
@@ -298,40 +303,54 @@ Die hier behandelten chemischen Prinzipien – von der Stöchiometrie über die 
 **Thermodynamik und Gleichgewicht**
 
 • **Gibbs-Helmholtz-Gleichung:** `∆𝑮 = ∆𝑯 − 𝑻 ∙ ∆𝑺`
-
     ◦ ΔG: Änderung der freien Enthalpie (Gibbs-Energie)
     ◦ ΔH: Änderung der Enthalpie
     ◦ T: Absolute Temperatur (in K)
     ◦ ΔS: Änderung der Entropie
 
 • **Zusammenhang freie Enthalpie und Gleichgewichtskonstante:** `∆𝐺⁰ = −𝑅𝑇 ln(K_GG)`
-
     ◦ ΔG⁰: Änderung der freien Standardenthalpie
     ◦ R: Allgemeine Gaskonstante
     ◦ T: Absolute Temperatur (in K)
     ◦ K_GG: Gleichgewichtskonstante
 
-• **Massenwirkungsgesetz für** **aA + bB ⇌ cC + dD****: `K_GG = (c(C)ᶜ · c(D)ᵈ) / (c(A)ᵃ · c(B)ᵇ)`
-
-    ◦ c(X): Gleichgewichtskonzentration des Stoffes X
+• **Massenwirkungsgesetz für** **aA + bB ⇌ cC + dD**: 
+`K_GG = (c(C)ᶜ · c(D)ᵈ) / (c(A)ᵃ · c(B)ᵇ)`
+    ◦ K_GG: Gleichgewichtskonstante
 
 **Säure-Base-Chemie**
 
-• **Ionenprodukt des Wassers:** `𝐾_W = 𝑐(𝐻₃𝑂⁺) ∙ 𝑐(𝑂𝐻⁻) = 10⁻¹⁴ mol²/L²` (bei 25 °C)
+• **Ionenprodukt des Wassers:** 
+`𝐾_W = 𝑐(𝐻₃𝑂⁺) ∙ 𝑐(𝑂𝐻⁻) = 10⁻¹⁴ mol²/L²` (bei 25 °C)
 
-• **pH-Wert Definition:** `𝑝𝐻 = −log(𝑐(𝐻₃𝑂⁺))`
+• **pH-Wert Definition:** 
+`𝑝𝐻 = −log(𝑐(𝐻₃𝑂⁺))`
 
-• **Zusammenhang pH und pOH:** `𝑝𝐻 + 𝑝𝑂𝐻 = 14`
+• **Zusammenhang pH und pOH:** 
+`𝑝𝐻 + 𝑝𝑂𝐻 = 14`
 
-• **pH-Wert starker Säuren:** `𝑝𝐻 = −log(𝑐₀(Säure))`
+• **pH-Wert starker Säuren:** 
+`𝑝𝐻 = −log(𝑐₀(Säure))`
 
     ◦ c₀: Anfangskonzentration der Säure
 
-• **pH-Wert schwacher Säuren:** `𝑝𝐻 = 1/2 ∙ (𝑝𝐾ₛ − log(𝑐₀(Säure)))`
+• **pH-Wert schwacher Säuren:** 
+`𝑝𝐻 = 1/2 ∙ (𝑝𝐾ₛ − log(𝑐₀(Säure)))`
 
     ◦ pKₛ: Negativer dekadischer Logarithmus der Säurekonstante
 
-• **Henderson-Hasselbalch-Gleichung (Puffer):** `𝑝𝐻 = 𝑝𝐾ₛ + log(c(Base) / c(Säure))`
+• **Henderson-Hasselbalch-Gleichung (Puffer):** 
+`𝑝𝐻 = 𝑝𝐾ₛ + log(c(Base) / c(Säure))`
 
+    ◦ 𝑝𝐾ₛ = -log(𝐾ₛ)
     ◦ c(Base): Konzentration der korrespondierenden Base
     ◦ c(Säure): Konzentration der schwachen Säure
+    ◦ äquimolare Mischung pH = p𝐾ₛ
+    ◦ log(1) = 0
+    
+• **Volumenprozent (Vol%):**
+`Vol% = V_Substanz / V_ges ∙ 100%`
+
+• **Freie Gibbs-Energie**
+`∆𝐺 = -n ∙ F ∙ E_Zelle [kJ]`
+    ◦ n: Elektronen (O2 n=4)
