@@ -294,7 +294,7 @@ Die hier behandelten chemischen Prinzipien – von der Stöchiometrie über die 
 • **Molares Volumen (ideales Gas bei Normalbedingungen):** `𝑽𝒎 = 22,4 L/mol` 
 	(bei 0 °C und 1013 hPa)
 
-• **Molare Konzentration:** `𝒄 = 𝒏 / 𝑽`
+• **Molare Konzentration:** `𝒄 = 𝒏 / 𝑽 | 𝒏 = 𝒄 ∙ 𝑽`
     ◦ c: Konzentration (in mol/L)
     ◦ n: Stoffmenge (in mol)
     ◦ V: Volumen der Lösung (in L)
@@ -323,41 +323,48 @@ Die hier behandelten chemischen Prinzipien – von der Stöchiometrie über die 
 • **Ionenprodukt des Wassers:** 
 `𝐾_W = 𝑐(𝐻₃𝑂⁺) ∙ 𝑐(𝑂𝐻⁻) = 10⁻¹⁴ mol²/L²` (bei 25 °C)
 
-• **pH-Wert Definition:** 
-`𝑝𝐻 = −log(𝑐(𝐻₃𝑂⁺))`
+• **pH-Wert Definition:**  `𝑝𝐻 = −log(𝑐(𝐻₃𝑂⁺))`
 
-• **Zusammenhang pH und pOH:** 
-`𝑝𝐻 + 𝑝𝑂𝐻 = 14`
+• **Zusammenhang pH und pOH:** `𝑝𝐻 + 𝑝𝑂𝐻 = 14`
 
-• **pH-Wert starker Säuren:** 
-`𝑝𝐻 = −log(𝑐₀(Säure))`
-
-    ◦ c₀: Anfangskonzentration der Säure
+• **pH-Wert starker Säuren:** `𝑝𝐻 = −log(𝑐₀(Säure))`
+◦ c₀: Anfangskonzentration der Säure
 
 • **pH-Wert schwacher Säuren:** 
 `𝑝𝐻 = 1/2 ∙ (𝑝𝐾ₛ − log(𝑐₀(Säure)))`
-
-    ◦ pKₛ: Negativer dekadischer Logarithmus der Säurekonstante
+◦ pKₛ: Negativer dekadischer Logarithmus der Säurekonstante
 
 • **Henderson-Hasselbalch-Gleichung (Puffer):** 
 `𝑝𝐻 = 𝑝𝐾ₛ + log(c(Base) / c(Säure))`
-
-    ◦ 𝑝𝐾ₛ = -log(𝐾ₛ)
-    ◦ c(Base): Konzentration der korrespondierenden Base
-    ◦ c(Säure): Konzentration der schwachen Säure
-    ◦ äquimolare Mischung pH = p𝐾ₛ
-    ◦ log(1) = 0
+◦ 𝑝𝐾ₛ = -log(𝐾ₛ)  log(1) = 0 
+◦ c(Base): Konzentration der korrespondierenden Base
+◦ c(Säure): Konzentration der schwachen Säure
+◦ äquimolare Mischung pH = p𝐾ₛ
     
 • **Volumenprozent (Vol%):**
 `Vol% = V_Substanz / V_ges ∙ 100%`
 
 • **Freie Gibbs-Energie**
 `∆𝐺 = -n ∙ F ∙ E_Zelle [kJ]`
-    ◦ n: Elektronen (O2 n=4)
+◦ n: Elektronen (O2 n=4)
 
 <div class="page-break" style="page-break-before: always;"></div>
-### Zwischenmolekulare Kräfte (ZMK):
-+London-Dispersionskräfte | Dipol-Dipol-Wechselwirkungen | Wasserstoffbrückenbindungen +++
 
+### Zwischenmolekulare Kräfte (ZMK):
++London-Dispersionskräfte ++Dipol-Dipol-Wechselwirkungen +++Wasserstoffbrückenbindungen
 ### Vollständige Verbrennung
 Brennstoff + xO₂ -> xCO₂ + xH₂O
+### Korrosion
+4Fe + 3O₂ + 2H₂O -> 2Fe₂O₃ ∙ H₂O
+
+------
+Edukte = Ausgangsstoff einer chem. Reaktion
+Produkte = Entstehende Stoffe
+
+Oxidiation [O] : 0 -> -II
+Reduktion [H] : 0 -> +I
+
+2Al³ (Kation positive Ionen) + 3O² (Anion negative Ionen) ->  Al₂O₃ Aluminiumoxid (Kreuzregel!)
+
+0---Säure---|7ph|---Base---14
+Säue gibt Proton (H+), Base bekommt H+
